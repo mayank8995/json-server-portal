@@ -1,0 +1,4018 @@
+{
+  "employeeList": {
+    "employeeList": [
+      {
+        "totalEmployeeCount": 100,
+        "totalNoticePeriodEmployeeCount": 15,
+        "employees": [
+          {
+            "id": 1,
+            "name": "Rahul Sharma",
+            "email": "rahul.sharma@company.com",
+            "phone": "+91-9876543201",
+            "department": "Engineering",
+            "designation": "Senior Software Engineer",
+            "manager": "Chief Technology Officer",
+            "joiningDate": "2018-03-25",
+            "yearsOfExperience": 4,
+            "salary": 117000,
+            "location": "Pune",
+            "workMode": "Hybrid",
+            "projects": [
+              {
+                "projectName": "DataLake v2",
+                "status": "Active",
+                "riskStatus": "On Track",
+                "priorityRanking": "*"
+              }
+            ],
+            "skills": [
+              "Java",
+              "Spring Boot"
+            ],
+            "rating": 4.6,
+            "attendancePercentage": 94.1,
+            "employeeSatisfaction": "High",
+            "onNoticePeriod": false
+          },
+          {
+            "id": 2,
+            "name": "Rahul Mehta",
+            "email": "rahul.mehta@company.com",
+            "phone": "+91-9876543202",
+            "department": "Product",
+            "designation": "Product Analyst",
+            "manager": "Chief Product Officer",
+            "joiningDate": "2020-09-27",
+            "yearsOfExperience": 13,
+            "salary": 232000,
+            "location": "Noida",
+            "workMode": "Hybrid",
+            "projects": [
+              {
+                "projectName": "Project LIC",
+                "status": "Active",
+                "riskStatus": "On Track",
+                "priorityRanking": "*"
+              }
+            ],
+            "skills": [
+              "Roadmapping",
+              "Analytics"
+            ],
+            "rating": 4,
+            "attendancePercentage": 87,
+            "employeeSatisfaction": "Medium",
+            "onNoticePeriod": false
+          },
+          {
+            "id": 3,
+            "name": "Rahul Verma",
+            "email": "rahul.verma@company.com",
+            "phone": "+91-9876543203",
+            "department": "Engineering",
+            "designation": "Tech Lead",
+            "manager": "Chief Technology Officer",
+            "joiningDate": "2021-02-24",
+            "yearsOfExperience": 6,
+            "salary": 139000,
+            "location": "Pune",
+            "workMode": "Onsite",
+            "projects": [
+              {
+                "projectName": "Project Phoenix",
+                "status": "Dead",
+                "riskStatus": "Completed",
+                "priorityRanking": 10
+              }
+            ],
+            "skills": [
+              "Docker",
+              "Kubernetes",
+              "AWS"
+            ],
+            "rating": 4.3,
+            "attendancePercentage": 97.7,
+            "employeeSatisfaction": "High",
+            "onNoticePeriod": false
+          },
+          {
+            "id": 4,
+            "name": "Rahul Kapoor",
+            "email": "rahul.kapoor@company.com",
+            "phone": "+91-9876543204",
+            "department": "Support",
+            "designation": "L2 Support Analyst",
+            "manager": "Chief Support Officer",
+            "joiningDate": "2016-07-06",
+            "yearsOfExperience": 10,
+            "salary": 163000,
+            "location": "Pune",
+            "workMode": "Remote",
+            "projects": [
+              {
+                "projectName": "Project EGov",
+                "status": "Active",
+                "riskStatus": "At Risk",
+                "priorityRanking": "*"
+              }
+            ],
+            "skills": [
+              "CRM Tools",
+              "Excel"
+            ],
+            "rating": 4.5,
+            "attendancePercentage": 95,
+            "employeeSatisfaction": "High",
+            "onNoticePeriod": true
+          },
+          {
+            "id": 5,
+            "name": "Rahul Singh",
+            "email": "rahul.singh@company.com",
+            "phone": "+91-9876543205",
+            "department": "Engineering",
+            "designation": "Tech Lead",
+            "manager": "Rahul Verma",
+            "joiningDate": "2023-07-08",
+            "yearsOfExperience": 8,
+            "salary": 153000,
+            "location": "Bangalore",
+            "workMode": "Hybrid",
+            "projects": [
+              {
+                "projectName": "Project Beta",
+                "status": "Support",
+                "riskStatus": "Completed",
+                "priorityRanking": 6
+              }
+            ],
+            "skills": [
+              "Docker",
+              "Kubernetes",
+              "AWS"
+            ],
+            "rating": 3.9,
+            "attendancePercentage": 97.2,
+            "employeeSatisfaction": "Medium",
+            "onNoticePeriod": true
+          },
+          {
+            "id": 6,
+            "name": "Rahul Gupta",
+            "email": "rahul.gupta@company.com",
+            "phone": "+91-9876543206",
+            "department": "Engineering",
+            "designation": "Senior Software Engineer",
+            "manager": "Rahul Singh",
+            "joiningDate": "2016-08-17",
+            "yearsOfExperience": 5,
+            "salary": 125000,
+            "location": "Bangalore",
+            "workMode": "Hybrid",
+            "projects": [
+              {
+                "projectName": "Project SEBI",
+                "status": "Active",
+                "riskStatus": "On Track",
+                "priorityRanking": "*"
+              },
+              {
+                "projectName": "Project Nexus",
+                "status": "Active",
+                "riskStatus": "At Risk",
+                "priorityRanking": "*"
+              }
+            ],
+            "skills": [
+              "Go",
+              "gRPC"
+            ],
+            "rating": 3.8,
+            "attendancePercentage": 85.4,
+            "employeeSatisfaction": "Medium",
+            "onNoticePeriod": false
+          },
+          {
+            "id": 7,
+            "name": "Rahul Malhotra",
+            "email": "rahul.malhotra@company.com",
+            "phone": "+91-9876543207",
+            "department": "Design",
+            "designation": "Visual Designer",
+            "manager": "Chief Support Officer",
+            "joiningDate": "2023-03-18",
+            "yearsOfExperience": 10,
+            "salary": 173000,
+            "location": "Bangalore",
+            "workMode": "Hybrid",
+            "projects": [
+              {
+                "projectName": "Airtel Xstream Upgrade",
+                "status": "Active",
+                "riskStatus": "At Risk",
+                "priorityRanking": "*"
+              },
+              {
+                "projectName": "DataLake v2",
+                "status": "Active",
+                "riskStatus": "On Track",
+                "priorityRanking": 5
+              }
+            ],
+            "skills": [
+              "Illustrator",
+              "Photoshop"
+            ],
+            "rating": 4.2,
+            "attendancePercentage": 88.4,
+            "employeeSatisfaction": "Medium",
+            "onNoticePeriod": false
+          },
+          {
+            "id": 8,
+            "name": "Rahul Arora",
+            "email": "rahul.arora@company.com",
+            "phone": "+91-9876543208",
+            "department": "Product",
+            "designation": "Associate Product Manager",
+            "manager": "Rahul Mehta",
+            "joiningDate": "2021-07-14",
+            "yearsOfExperience": 6,
+            "salary": 141000,
+            "location": "Kolkata",
+            "workMode": "Hybrid",
+            "projects": [
+              {
+                "projectName": "Airtel Xstream Upgrade",
+                "status": "Active",
+                "riskStatus": "At Risk",
+                "priorityRanking": 2
+              }
+            ],
+            "skills": [
+              "Jira",
+              "Confluence"
+            ],
+            "rating": 3.6,
+            "attendancePercentage": 85.6,
+            "employeeSatisfaction": "Low",
+            "onNoticePeriod": false
+          },
+          {
+            "id": 9,
+            "name": "Rahul Patel",
+            "email": "rahul.patel@company.com",
+            "phone": "+91-9876543209",
+            "department": "Product",
+            "designation": "Associate Product Manager",
+            "manager": "Rahul Mehta",
+            "joiningDate": "2018-10-26",
+            "yearsOfExperience": 7,
+            "salary": 149000,
+            "location": "Pune",
+            "workMode": "Hybrid",
+            "projects": [
+              {
+                "projectName": "Project Omega",
+                "status": "Dead",
+                "riskStatus": "Completed",
+                "priorityRanking": 11
+              },
+              {
+                "projectName": "Project Gamma",
+                "status": "Active",
+                "riskStatus": "On Track",
+                "priorityRanking": 2
+              }
+            ],
+            "skills": [
+              "Figma",
+              "User Research"
+            ],
+            "rating": 5,
+            "attendancePercentage": 96.2,
+            "employeeSatisfaction": "High",
+            "onNoticePeriod": false
+          },
+          {
+            "id": 10,
+            "name": "Rahul Joshi",
+            "email": "rahul.joshi@company.com",
+            "phone": "+91-9876543210",
+            "department": "Engineering",
+            "designation": "Senior Software Engineer",
+            "manager": "Rahul Verma",
+            "joiningDate": "2018-12-14",
+            "yearsOfExperience": 3,
+            "salary": 108000,
+            "location": "Bangalore",
+            "workMode": "Remote",
+            "projects": [
+              {
+                "projectName": "Project Delta",
+                "status": "Support",
+                "riskStatus": "Completed",
+                "priorityRanking": 7
+              },
+              {
+                "projectName": "Project Titan",
+                "status": "Active",
+                "riskStatus": "On Track",
+                "priorityRanking": 3
+              }
+            ],
+            "skills": [
+              "Java",
+              "Microservices"
+            ],
+            "rating": 5,
+            "attendancePercentage": 94.9,
+            "employeeSatisfaction": "High",
+            "onNoticePeriod": false
+          },
+          {
+            "id": 11,
+            "name": "Rahul Jain",
+            "email": "rahul.jain@company.com",
+            "phone": "+91-9876543211",
+            "department": "Engineering",
+            "designation": "Senior Software Engineer",
+            "manager": "Rahul Singh",
+            "joiningDate": "2016-01-03",
+            "yearsOfExperience": 3,
+            "salary": 95000,
+            "location": "Delhi",
+            "workMode": "Onsite",
+            "projects": [
+              {
+                "projectName": "Employee Engagement Portal",
+                "status": "Support",
+                "riskStatus": "Completed",
+                "priorityRanking": 8
+              },
+              {
+                "projectName": "Project Alpha",
+                "status": "Active",
+                "riskStatus": "On Track",
+                "priorityRanking": 1
+              }
+            ],
+            "skills": [
+              "Go",
+              "gRPC"
+            ],
+            "rating": 4.4,
+            "attendancePercentage": 91.4,
+            "employeeSatisfaction": "High",
+            "onNoticePeriod": false
+          },
+          {
+            "id": 12,
+            "name": "Rahul Khanna",
+            "email": "rahul.khanna@company.com",
+            "phone": "+91-9876543212",
+            "department": "Engineering",
+            "designation": "Frontend Developer",
+            "manager": "Rahul Verma",
+            "joiningDate": "2016-10-10",
+            "yearsOfExperience": 10,
+            "salary": 179000,
+            "location": "Bangalore",
+            "workMode": "Hybrid",
+            "projects": [
+              {
+                "projectName": "Project Beta",
+                "status": "Support",
+                "riskStatus": "Completed",
+                "priorityRanking": 6
+              },
+              {
+                "projectName": "Project Insight",
+                "status": "Active",
+                "riskStatus": "On Track",
+                "priorityRanking": 5
+              }
+            ],
+            "skills": [
+              "Node.js",
+              "MongoDB"
+            ],
+            "rating": 5,
+            "attendancePercentage": 91.9,
+            "employeeSatisfaction": "High",
+            "onNoticePeriod": true
+          },
+          {
+            "id": 13,
+            "name": "Rahul Nair",
+            "email": "rahul.nair@company.com",
+            "phone": "+91-9876543213",
+            "department": "Product",
+            "designation": "Product Analyst",
+            "manager": "Rahul Arora",
+            "joiningDate": "2023-09-26",
+            "yearsOfExperience": 10,
+            "salary": 197000,
+            "location": "Delhi",
+            "workMode": "Onsite",
+            "projects": [
+              {
+                "projectName": "Project Nexus",
+                "status": "Active",
+                "riskStatus": "At Risk",
+                "priorityRanking": 4
+              },
+              {
+                "projectName": "Mobile App Rewrite",
+                "status": "Active",
+                "riskStatus": "On Track",
+                "priorityRanking": 4
+              }
+            ],
+            "skills": [
+              "Figma",
+              "User Research"
+            ],
+            "rating": 3.8,
+            "attendancePercentage": 89.1,
+            "employeeSatisfaction": "Medium",
+            "onNoticePeriod": false
+          },
+          {
+            "id": 14,
+            "name": "Rahul Yadav",
+            "email": "rahul.yadav@company.com",
+            "phone": "+91-9876543214",
+            "department": "Engineering",
+            "designation": "Tech Lead",
+            "manager": "Rahul Verma",
+            "joiningDate": "2018-06-21",
+            "yearsOfExperience": 6,
+            "salary": 129000,
+            "location": "Pune",
+            "workMode": "Hybrid",
+            "projects": [
+              {
+                "projectName": "Project Gamma",
+                "status": "Active",
+                "riskStatus": "On Track",
+                "priorityRanking": 2
+              }
+            ],
+            "skills": [
+              "React",
+              "TypeScript"
+            ],
+            "rating": 3.5,
+            "attendancePercentage": 94.2,
+            "employeeSatisfaction": "Low",
+            "onNoticePeriod": true
+          },
+          {
+            "id": 15,
+            "name": "Rahul Agarwal",
+            "email": "rahul.agarwal@company.com",
+            "phone": "+91-9876543215",
+            "department": "Support",
+            "designation": "Technical Support Engineer",
+            "manager": "Rahul Kapoor",
+            "joiningDate": "2022-01-17",
+            "yearsOfExperience": 2,
+            "salary": 83000,
+            "location": "Hyderabad",
+            "workMode": "Hybrid",
+            "projects": [
+              {
+                "projectName": "Mobile App Rewrite",
+                "status": "Active",
+                "riskStatus": "On Track",
+                "priorityRanking": 4
+              }
+            ],
+            "skills": [
+              "SQL",
+              "Kibana"
+            ],
+            "rating": 3.7,
+            "attendancePercentage": 97.2,
+            "employeeSatisfaction": "Low",
+            "onNoticePeriod": true
+          },
+          {
+            "id": 16,
+            "name": "Rahul Kulkarni",
+            "email": "rahul.kulkarni@company.com",
+            "phone": "+91-9876543216",
+            "department": "Support",
+            "designation": "Customer Success Manager",
+            "manager": "Rahul Kapoor",
+            "joiningDate": "2020-09-30",
+            "yearsOfExperience": 4,
+            "salary": 90000,
+            "location": "Bangalore",
+            "workMode": "Hybrid",
+            "projects": [
+              {
+                "projectName": "UPI Fraud Detection",
+                "status": "Active",
+                "riskStatus": "On Track",
+                "priorityRanking": 3
+              }
+            ],
+            "skills": [
+              "Zendesk",
+              "JIRA"
+            ],
+            "rating": 4.1,
+            "attendancePercentage": 96.2,
+            "employeeSatisfaction": "Medium",
+            "onNoticePeriod": false
+          },
+          {
+            "id": 17,
+            "name": "Rahul Bansal",
+            "email": "rahul.bansal@company.com",
+            "phone": "+91-9876543217",
+            "department": "Support",
+            "designation": "L2 Support Analyst",
+            "manager": "Rahul Kapoor",
+            "joiningDate": "2021-01-11",
+            "yearsOfExperience": 13,
+            "salary": 211000,
+            "location": "Bangalore",
+            "workMode": "Hybrid",
+            "projects": [
+              {
+                "projectName": "DataLake v2",
+                "status": "Active",
+                "riskStatus": "On Track",
+                "priorityRanking": 5
+              }
+            ],
+            "skills": [
+              "Zendesk",
+              "JIRA"
+            ],
+            "rating": 3.7,
+            "attendancePercentage": 87.4,
+            "employeeSatisfaction": "Low",
+            "onNoticePeriod": false
+          },
+          {
+            "id": 18,
+            "name": "Rahul Khan",
+            "email": "rahul.khan@company.com",
+            "phone": "+91-9876543218",
+            "department": "Support",
+            "designation": "L2 Support Analyst",
+            "manager": "Rahul Kapoor",
+            "joiningDate": "2016-03-01",
+            "yearsOfExperience": 14,
+            "salary": 216000,
+            "location": "Bangalore",
+            "workMode": "Onsite",
+            "projects": [
+              {
+                "projectName": "Mobile App Rewrite",
+                "status": "Active",
+                "riskStatus": "On Track",
+                "priorityRanking": 4
+              },
+              {
+                "projectName": "Employee Engagement Portal",
+                "status": "Support",
+                "riskStatus": "Completed",
+                "priorityRanking": 8
+              }
+            ],
+            "skills": [
+              "Zendesk",
+              "JIRA"
+            ],
+            "rating": 5,
+            "attendancePercentage": 97,
+            "employeeSatisfaction": "High",
+            "onNoticePeriod": true
+          },
+          {
+            "id": 19,
+            "name": "Rahul Mishra",
+            "email": "rahul.mishra@company.com",
+            "phone": "+91-9876543219",
+            "department": "Engineering",
+            "designation": "Tech Lead",
+            "manager": "Rahul Khanna",
+            "joiningDate": "2020-05-18",
+            "yearsOfExperience": 7,
+            "salary": 154000,
+            "location": "Bangalore",
+            "workMode": "Hybrid",
+            "projects": [
+              {
+                "projectName": "Mobile App Rewrite",
+                "status": "Active",
+                "riskStatus": "On Track",
+                "priorityRanking": 4
+              },
+              {
+                "projectName": "Project Titan",
+                "status": "Active",
+                "riskStatus": "On Track",
+                "priorityRanking": 3
+              }
+            ],
+            "skills": [
+              "React",
+              "TypeScript"
+            ],
+            "rating": 3.9,
+            "attendancePercentage": 95.2,
+            "employeeSatisfaction": "Medium",
+            "onNoticePeriod": false
+          },
+          {
+            "id": 20,
+            "name": "Rahul Tiwari",
+            "email": "rahul.tiwari@company.com",
+            "phone": "+91-9876543220",
+            "department": "Engineering",
+            "designation": "Senior Software Engineer",
+            "manager": "Rahul Mishra",
+            "joiningDate": "2019-07-08",
+            "yearsOfExperience": 4,
+            "salary": 119000,
+            "location": "Pune",
+            "workMode": "Remote",
+            "projects": [
+              {
+                "projectName": "Project Gamma",
+                "status": "Active",
+                "riskStatus": "On Track",
+                "priorityRanking": 2
+              }
+            ],
+            "skills": [
+              "React",
+              "TypeScript"
+            ],
+            "rating": 3.6,
+            "attendancePercentage": 92.6,
+            "employeeSatisfaction": "Low",
+            "onNoticePeriod": false
+          },
+          {
+            "id": 21,
+            "name": "Rahul Reddy",
+            "email": "rahul.reddy@company.com",
+            "phone": "+91-9876543221",
+            "department": "Data",
+            "designation": "Data Analyst",
+            "manager": "Chief Support Officer",
+            "joiningDate": "2018-08-21",
+            "yearsOfExperience": 2,
+            "salary": 103000,
+            "location": "Bangalore",
+            "workMode": "Hybrid",
+            "projects": [
+              {
+                "projectName": "Project Gamma",
+                "status": "Active",
+                "riskStatus": "On Track",
+                "priorityRanking": 2
+              }
+            ],
+            "skills": [
+              "Python",
+              "TensorFlow"
+            ],
+            "rating": 4.1,
+            "attendancePercentage": 97.2,
+            "employeeSatisfaction": "Medium",
+            "onNoticePeriod": false
+          },
+          {
+            "id": 22,
+            "name": "Rahul Rao",
+            "email": "rahul.rao@company.com",
+            "phone": "+91-9876543222",
+            "department": "Product",
+            "designation": "Associate Product Manager",
+            "manager": "Rahul Nair",
+            "joiningDate": "2019-07-10",
+            "yearsOfExperience": 7,
+            "salary": 159000,
+            "location": "Delhi",
+            "workMode": "Hybrid",
+            "projects": [
+              {
+                "projectName": "Project Titan",
+                "status": "Active",
+                "riskStatus": "On Track",
+                "priorityRanking": 3
+              },
+              {
+                "projectName": "Project Alpha",
+                "status": "Active",
+                "riskStatus": "On Track",
+                "priorityRanking": 1
+              }
+            ],
+            "skills": [
+              "SQL",
+              "Data Analysis"
+            ],
+            "rating": 3.9,
+            "attendancePercentage": 90.1,
+            "employeeSatisfaction": "Medium",
+            "onNoticePeriod": false
+          },
+          {
+            "id": 23,
+            "name": "Rahul Iyer",
+            "email": "rahul.iyer@company.com",
+            "phone": "+91-9876543223",
+            "department": "Engineering",
+            "designation": "Frontend Developer",
+            "manager": "Rahul Singh",
+            "joiningDate": "2018-12-22",
+            "yearsOfExperience": 10,
+            "salary": 177000,
+            "location": "Bangalore",
+            "workMode": "Hybrid",
+            "projects": [
+              {
+                "projectName": "Project Phoenix",
+                "status": "Dead",
+                "riskStatus": "Completed",
+                "priorityRanking": 10
+              },
+              {
+                "projectName": "Project Titan",
+                "status": "Active",
+                "riskStatus": "On Track",
+                "priorityRanking": 3
+              }
+            ],
+            "skills": [
+              "Node.js",
+              "MongoDB"
+            ],
+            "rating": 3.7,
+            "attendancePercentage": 89.5,
+            "employeeSatisfaction": "Low",
+            "onNoticePeriod": false
+          },
+          {
+            "id": 24,
+            "name": "Rahul Pillai",
+            "email": "rahul.pillai@company.com",
+            "phone": "+91-9876543224",
+            "department": "Engineering",
+            "designation": "Frontend Developer",
+            "manager": "Rahul Khanna",
+            "joiningDate": "2023-05-02",
+            "yearsOfExperience": 9,
+            "salary": 181000,
+            "location": "Pune",
+            "workMode": "Onsite",
+            "projects": [
+              {
+                "projectName": "Project Insight",
+                "status": "Active",
+                "riskStatus": "On Track",
+                "priorityRanking": 5
+              }
+            ],
+            "skills": [
+              "Python",
+              "Django"
+            ],
+            "rating": 4.3,
+            "attendancePercentage": 93.7,
+            "employeeSatisfaction": "High",
+            "onNoticePeriod": false
+          },
+          {
+            "id": 25,
+            "name": "Rahul Murthy",
+            "email": "rahul.murthy@company.com",
+            "phone": "+91-9876543225",
+            "department": "Engineering",
+            "designation": "Software Engineer",
+            "manager": "Rahul Mishra",
+            "joiningDate": "2018-05-12",
+            "yearsOfExperience": 2,
+            "salary": 88000,
+            "location": "Bangalore",
+            "workMode": "Hybrid",
+            "projects": [
+              {
+                "projectName": "ERP Migration",
+                "status": "Support",
+                "riskStatus": "At Risk",
+                "priorityRanking": 9
+              },
+              {
+                "projectName": "DataLake v2",
+                "status": "Active",
+                "riskStatus": "On Track",
+                "priorityRanking": 5
+              }
+            ],
+            "skills": [
+              "Go",
+              "gRPC"
+            ],
+            "rating": 4.6,
+            "attendancePercentage": 87.6,
+            "employeeSatisfaction": "High",
+            "onNoticePeriod": false
+          },
+          {
+            "id": 26,
+            "name": "Rahul Naidu",
+            "email": "rahul.naidu@company.com",
+            "phone": "+91-9876543226",
+            "department": "Design",
+            "designation": "UI/UX Designer",
+            "manager": "Rahul Malhotra",
+            "joiningDate": "2016-06-29",
+            "yearsOfExperience": 1,
+            "salary": 66000,
+            "location": "Noida",
+            "workMode": "Onsite",
+            "projects": [
+              {
+                "projectName": "Airtel Xstream Upgrade",
+                "status": "Active",
+                "riskStatus": "At Risk",
+                "priorityRanking": 2
+              },
+              {
+                "projectName": "ERP Migration",
+                "status": "Support",
+                "riskStatus": "At Risk",
+                "priorityRanking": 9
+              }
+            ],
+            "skills": [
+              "Figma",
+              "Adobe XD"
+            ],
+            "rating": 3.5,
+            "attendancePercentage": 95,
+            "employeeSatisfaction": "Low",
+            "onNoticePeriod": false
+          },
+          {
+            "id": 27,
+            "name": "Rahul Bose",
+            "email": "rahul.bose@company.com",
+            "phone": "+91-9876543227",
+            "department": "Engineering",
+            "designation": "Software Engineer",
+            "manager": "Rahul Khanna",
+            "joiningDate": "2022-07-13",
+            "yearsOfExperience": 2,
+            "salary": 80000,
+            "location": "Pune",
+            "workMode": "Onsite",
+            "projects": [
+              {
+                "projectName": "Project Gamma",
+                "status": "Active",
+                "riskStatus": "On Track",
+                "priorityRanking": 2
+              },
+              {
+                "projectName": "DataLake v2",
+                "status": "Active",
+                "riskStatus": "On Track",
+                "priorityRanking": 5
+              }
+            ],
+            "skills": [
+              "React",
+              "Node.js",
+              "AWS"
+            ],
+            "rating": 4.3,
+            "attendancePercentage": 90.6,
+            "employeeSatisfaction": "High",
+            "onNoticePeriod": false
+          },
+          {
+            "id": 28,
+            "name": "Rahul Das",
+            "email": "rahul.das@company.com",
+            "phone": "+91-9876543228",
+            "department": "Engineering",
+            "designation": "Frontend Developer",
+            "manager": "Rahul Singh",
+            "joiningDate": "2022-04-12",
+            "yearsOfExperience": 11,
+            "salary": 192000,
+            "location": "Noida",
+            "workMode": "Hybrid",
+            "projects": [
+              {
+                "projectName": "Project Beta",
+                "status": "Support",
+                "riskStatus": "Completed",
+                "priorityRanking": 6
+              }
+            ],
+            "skills": [
+              "Java",
+              "Spring Boot"
+            ],
+            "rating": 4.8,
+            "attendancePercentage": 90.3,
+            "employeeSatisfaction": "High",
+            "onNoticePeriod": false
+          },
+          {
+            "id": 29,
+            "name": "Rahul Ghosh",
+            "email": "rahul.ghosh@company.com",
+            "phone": "+91-9876543229",
+            "department": "Support",
+            "designation": "Technical Support Engineer",
+            "manager": "Rahul Bansal",
+            "joiningDate": "2020-08-13",
+            "yearsOfExperience": 1,
+            "salary": 60000,
+            "location": "Noida",
+            "workMode": "Hybrid",
+            "projects": [
+              {
+                "projectName": "Project Nexus",
+                "status": "Active",
+                "riskStatus": "At Risk",
+                "priorityRanking": 4
+              }
+            ],
+            "skills": [
+              "SQL",
+              "Kibana"
+            ],
+            "rating": 4.7,
+            "attendancePercentage": 96.2,
+            "employeeSatisfaction": "High",
+            "onNoticePeriod": true
+          },
+          {
+            "id": 30,
+            "name": "Rahul Sen",
+            "email": "rahul.sen@company.com",
+            "phone": "+91-9876543230",
+            "department": "Engineering",
+            "designation": "Software Engineer",
+            "manager": "Rahul Yadav",
+            "joiningDate": "2021-02-28",
+            "yearsOfExperience": 1,
+            "salary": 74000,
+            "location": "Bangalore",
+            "workMode": "Onsite",
+            "projects": [
+              {
+                "projectName": "Project Delta",
+                "status": "Support",
+                "riskStatus": "Completed",
+                "priorityRanking": 7
+              }
+            ],
+            "skills": [
+              "Java",
+              "Microservices"
+            ],
+            "rating": 4,
+            "attendancePercentage": 95.7,
+            "employeeSatisfaction": "Medium",
+            "onNoticePeriod": false
+          },
+          {
+            "id": 31,
+            "name": "Rahul Chaudhary",
+            "email": "rahul.chaudhary@company.com",
+            "phone": "+91-9876543231",
+            "department": "Engineering",
+            "designation": "Senior Software Engineer",
+            "manager": "Rahul Iyer",
+            "joiningDate": "2023-03-12",
+            "yearsOfExperience": 5,
+            "salary": 133000,
+            "location": "Delhi",
+            "workMode": "Hybrid",
+            "projects": [
+              {
+                "projectName": "Project Nexus",
+                "status": "Active",
+                "riskStatus": "At Risk",
+                "priorityRanking": 4
+              }
+            ],
+            "skills": [
+              "Node.js",
+              "MongoDB"
+            ],
+            "rating": 4.3,
+            "attendancePercentage": 93.8,
+            "employeeSatisfaction": "High",
+            "onNoticePeriod": false
+          },
+          {
+            "id": 32,
+            "name": "Rahul Sinha",
+            "email": "rahul.sinha@company.com",
+            "phone": "+91-9876543232",
+            "department": "Support",
+            "designation": "Customer Success Manager",
+            "manager": "Rahul Bansal",
+            "joiningDate": "2016-06-05",
+            "yearsOfExperience": 5,
+            "salary": 110000,
+            "location": "Pune",
+            "workMode": "Onsite",
+            "projects": [
+              {
+                "projectName": "UPI Fraud Detection",
+                "status": "Active",
+                "riskStatus": "On Track",
+                "priorityRanking": 3
+              }
+            ],
+            "skills": [
+              "SQL",
+              "Kibana"
+            ],
+            "rating": 3.7,
+            "attendancePercentage": 90.6,
+            "employeeSatisfaction": "Low",
+            "onNoticePeriod": true
+          },
+          {
+            "id": 33,
+            "name": "Rahul Pandey",
+            "email": "rahul.pandey@company.com",
+            "phone": "+91-9876543233",
+            "department": "Support",
+            "designation": "Customer Success Manager",
+            "manager": "Rahul Bansal",
+            "joiningDate": "2021-10-30",
+            "yearsOfExperience": 4,
+            "salary": 94000,
+            "location": "Bangalore",
+            "workMode": "Hybrid",
+            "projects": [
+              {
+                "projectName": "Project Titan",
+                "status": "Active",
+                "riskStatus": "On Track",
+                "priorityRanking": 3
+              },
+              {
+                "projectName": "Project Omega",
+                "status": "Dead",
+                "riskStatus": "Completed",
+                "priorityRanking": 11
+              }
+            ],
+            "skills": [
+              "CRM Tools",
+              "Excel"
+            ],
+            "rating": 4.9,
+            "attendancePercentage": 92,
+            "employeeSatisfaction": "High",
+            "onNoticePeriod": false
+          },
+          {
+            "id": 34,
+            "name": "Rahul Dubey",
+            "email": "rahul.dubey@company.com",
+            "phone": "+91-9876543234",
+            "department": "Design",
+            "designation": "Visual Designer",
+            "manager": "Rahul Malhotra",
+            "joiningDate": "2019-05-15",
+            "yearsOfExperience": 10,
+            "salary": 176000,
+            "location": "Noida",
+            "workMode": "Hybrid",
+            "projects": [
+              {
+                "projectName": "Project Insight",
+                "status": "Active",
+                "riskStatus": "On Track",
+                "priorityRanking": 5
+              },
+              {
+                "projectName": "Project Nexus",
+                "status": "Active",
+                "riskStatus": "At Risk",
+                "priorityRanking": 4
+              }
+            ],
+            "skills": [
+              "Illustrator",
+              "Photoshop"
+            ],
+            "rating": 4.3,
+            "attendancePercentage": 93.7,
+            "employeeSatisfaction": "High",
+            "onNoticePeriod": false
+          },
+          {
+            "id": 35,
+            "name": "Rahul Saxena",
+            "email": "rahul.saxena@company.com",
+            "phone": "+91-9876543235",
+            "department": "Engineering",
+            "designation": "Tech Lead",
+            "manager": "Rahul Pillai",
+            "joiningDate": "2022-02-22",
+            "yearsOfExperience": 7,
+            "salary": 146000,
+            "location": "Pune",
+            "workMode": "Hybrid",
+            "projects": [
+              {
+                "projectName": "DataLake v2",
+                "status": "Active",
+                "riskStatus": "On Track",
+                "priorityRanking": 5
+              },
+              {
+                "projectName": "Employee Engagement Portal",
+                "status": "Support",
+                "riskStatus": "Completed",
+                "priorityRanking": 8
+              }
+            ],
+            "skills": [
+              "React",
+              "Node.js",
+              "AWS"
+            ],
+            "rating": 4.8,
+            "attendancePercentage": 89,
+            "employeeSatisfaction": "High",
+            "onNoticePeriod": false
+          },
+          {
+            "id": 36,
+            "name": "Rahul Srivastava",
+            "email": "rahul.srivastava@company.com",
+            "phone": "+91-9876543236",
+            "department": "Engineering",
+            "designation": "Senior Software Engineer",
+            "manager": "Rahul Singh",
+            "joiningDate": "2017-11-26",
+            "yearsOfExperience": 4,
+            "salary": 114000,
+            "location": "Pune",
+            "workMode": "Onsite",
+            "projects": [
+              {
+                "projectName": "Project Phoenix",
+                "status": "Dead",
+                "riskStatus": "Completed",
+                "priorityRanking": 10
+              }
+            ],
+            "skills": [
+              "Go",
+              "gRPC"
+            ],
+            "rating": 4.5,
+            "attendancePercentage": 88.7,
+            "employeeSatisfaction": "High",
+            "onNoticePeriod": true
+          },
+          {
+            "id": 37,
+            "name": "Rahul Awasthi",
+            "email": "rahul.awasthi@company.com",
+            "phone": "+91-9876543237",
+            "department": "Engineering",
+            "designation": "Senior Software Engineer",
+            "manager": "Rahul Pillai",
+            "joiningDate": "2021-04-30",
+            "yearsOfExperience": 4,
+            "salary": 118000,
+            "location": "Bangalore",
+            "workMode": "Hybrid",
+            "projects": [
+              {
+                "projectName": "UPI Fraud Detection",
+                "status": "Active",
+                "riskStatus": "On Track",
+                "priorityRanking": 3
+              }
+            ],
+            "skills": [
+              "React",
+              "Node.js",
+              "AWS"
+            ],
+            "rating": 4.4,
+            "attendancePercentage": 95,
+            "employeeSatisfaction": "High",
+            "onNoticePeriod": false
+          },
+          {
+            "id": 38,
+            "name": "Rahul Tripathi",
+            "email": "rahul.tripathi@company.com",
+            "phone": "+91-9876543238",
+            "department": "Engineering",
+            "designation": "Senior Software Engineer",
+            "manager": "Rahul Das",
+            "joiningDate": "2017-03-12",
+            "yearsOfExperience": 4,
+            "salary": 120000,
+            "location": "Noida",
+            "workMode": "Hybrid",
+            "projects": [
+              {
+                "projectName": "Employee Engagement Portal",
+                "status": "Support",
+                "riskStatus": "Completed",
+                "priorityRanking": 8
+              }
+            ],
+            "skills": [
+              "React",
+              "Node.js",
+              "AWS"
+            ],
+            "rating": 4.7,
+            "attendancePercentage": 87.8,
+            "employeeSatisfaction": "High",
+            "onNoticePeriod": false
+          },
+          {
+            "id": 39,
+            "name": "Rahul Bajpai",
+            "email": "rahul.bajpai@company.com",
+            "phone": "+91-9876543239",
+            "department": "Design",
+            "designation": "UI/UX Designer",
+            "manager": "Rahul Dubey",
+            "joiningDate": "2021-12-15",
+            "yearsOfExperience": 2,
+            "salary": 84000,
+            "location": "Bangalore",
+            "workMode": "Hybrid",
+            "projects": [
+              {
+                "projectName": "Project Beta",
+                "status": "Support",
+                "riskStatus": "Completed",
+                "priorityRanking": 6
+              },
+              {
+                "projectName": "Legacy CRM",
+                "status": "Dead",
+                "riskStatus": "Completed",
+                "priorityRanking": 12
+              }
+            ],
+            "skills": [
+              "Zeplin",
+              "Principle"
+            ],
+            "rating": 5,
+            "attendancePercentage": 92.7,
+            "employeeSatisfaction": "High",
+            "onNoticePeriod": false
+          },
+          {
+            "id": 40,
+            "name": "Rahul Dixit",
+            "email": "rahul.dixit@company.com",
+            "phone": "+91-9876543240",
+            "department": "Support",
+            "designation": "Support Lead",
+            "manager": "Rahul Bansal",
+            "joiningDate": "2019-02-09",
+            "yearsOfExperience": 8,
+            "salary": 144000,
+            "location": "Noida",
+            "workMode": "Onsite",
+            "projects": [
+              {
+                "projectName": "Project Titan",
+                "status": "Active",
+                "riskStatus": "On Track",
+                "priorityRanking": 3
+              },
+              {
+                "projectName": "Legacy CRM",
+                "status": "Dead",
+                "riskStatus": "Completed",
+                "priorityRanking": 12
+              }
+            ],
+            "skills": [
+              "CRM Tools",
+              "Excel"
+            ],
+            "rating": 4.6,
+            "attendancePercentage": 91.8,
+            "employeeSatisfaction": "High",
+            "onNoticePeriod": false
+          },
+          {
+            "id": 41,
+            "name": "Priya Sharma",
+            "email": "priya.sharma@company.com",
+            "phone": "+91-9876543241",
+            "department": "Engineering",
+            "designation": "Senior Software Engineer",
+            "manager": "Rahul Yadav",
+            "joiningDate": "2017-07-20",
+            "yearsOfExperience": 5,
+            "salary": 120000,
+            "location": "Hyderabad",
+            "workMode": "Remote",
+            "projects": [
+              {
+                "projectName": "Airtel Xstream Upgrade",
+                "status": "Active",
+                "riskStatus": "At Risk",
+                "priorityRanking": 2
+              }
+            ],
+            "skills": [
+              "Docker",
+              "Kubernetes",
+              "AWS"
+            ],
+            "rating": 3.7,
+            "attendancePercentage": 90,
+            "employeeSatisfaction": "Low",
+            "onNoticePeriod": false
+          },
+          {
+            "id": 42,
+            "name": "Priya Mehta",
+            "email": "priya.mehta@company.com",
+            "phone": "+91-9876543242",
+            "department": "Engineering",
+            "designation": "Frontend Developer",
+            "manager": "Rahul Pillai",
+            "joiningDate": "2020-09-16",
+            "yearsOfExperience": 9,
+            "salary": 164000,
+            "location": "Hyderabad",
+            "workMode": "Hybrid",
+            "projects": [
+              {
+                "projectName": "Project Alpha",
+                "status": "Active",
+                "riskStatus": "On Track",
+                "priorityRanking": 1
+              },
+              {
+                "projectName": "Project Beta",
+                "status": "Support",
+                "riskStatus": "Completed",
+                "priorityRanking": 6
+              }
+            ],
+            "skills": [
+              "Java",
+              "Microservices"
+            ],
+            "rating": 4.1,
+            "attendancePercentage": 95,
+            "employeeSatisfaction": "Medium",
+            "onNoticePeriod": false
+          },
+          {
+            "id": 43,
+            "name": "Priya Verma",
+            "email": "priya.verma@company.com",
+            "phone": "+91-9876543243",
+            "department": "Engineering",
+            "designation": "Tech Lead",
+            "manager": "Rahul Pillai",
+            "joiningDate": "2022-10-06",
+            "yearsOfExperience": 7,
+            "salary": 148000,
+            "location": "Pune",
+            "workMode": "Remote",
+            "projects": [
+              {
+                "projectName": "Project Alpha",
+                "status": "Active",
+                "riskStatus": "On Track",
+                "priorityRanking": 1
+              },
+              {
+                "projectName": "Project Delta",
+                "status": "Support",
+                "riskStatus": "Completed",
+                "priorityRanking": 7
+              }
+            ],
+            "skills": [
+              "React",
+              "Redux"
+            ],
+            "rating": 4.8,
+            "attendancePercentage": 91.3,
+            "employeeSatisfaction": "High",
+            "onNoticePeriod": false
+          },
+          {
+            "id": 44,
+            "name": "Priya Kapoor",
+            "email": "priya.kapoor@company.com",
+            "phone": "+91-9876543244",
+            "department": "Engineering",
+            "designation": "Frontend Developer",
+            "manager": "Priya Mehta",
+            "joiningDate": "2017-06-06",
+            "yearsOfExperience": 11,
+            "salary": 200000,
+            "location": "Noida",
+            "workMode": "Onsite",
+            "projects": [
+              {
+                "projectName": "Project Titan",
+                "status": "Active",
+                "riskStatus": "On Track",
+                "priorityRanking": 3
+              }
+            ],
+            "skills": [
+              "React",
+              "Redux"
+            ],
+            "rating": 5,
+            "attendancePercentage": 91.9,
+            "employeeSatisfaction": "High",
+            "onNoticePeriod": false
+          },
+          {
+            "id": 45,
+            "name": "Priya Singh",
+            "email": "priya.singh@company.com",
+            "phone": "+91-9876543245",
+            "department": "QA & Testing",
+            "designation": "Senior QA Engineer",
+            "manager": "Chief Support Officer",
+            "joiningDate": "2019-09-02",
+            "yearsOfExperience": 3,
+            "salary": 98000,
+            "location": "Bangalore",
+            "workMode": "Hybrid",
+            "projects": [
+              {
+                "projectName": "Airtel Xstream Upgrade",
+                "status": "Active",
+                "riskStatus": "At Risk",
+                "priorityRanking": 2
+              },
+              {
+                "projectName": "Project Insight",
+                "status": "Active",
+                "riskStatus": "On Track",
+                "priorityRanking": 5
+              }
+            ],
+            "skills": [
+              "Postman",
+              "API Testing"
+            ],
+            "rating": 3.8,
+            "attendancePercentage": 89.2,
+            "employeeSatisfaction": "Medium",
+            "onNoticePeriod": false
+          },
+          {
+            "id": 46,
+            "name": "Priya Gupta",
+            "email": "priya.gupta@company.com",
+            "phone": "+91-9876543246",
+            "department": "Support",
+            "designation": "Support Lead",
+            "manager": "Rahul Kapoor",
+            "joiningDate": "2019-12-04",
+            "yearsOfExperience": 8,
+            "salary": 137000,
+            "location": "Noida",
+            "workMode": "Hybrid",
+            "projects": [
+              {
+                "projectName": "Project Delta",
+                "status": "Support",
+                "riskStatus": "Completed",
+                "priorityRanking": 7
+              }
+            ],
+            "skills": [
+              "Zendesk",
+              "JIRA"
+            ],
+            "rating": 3.8,
+            "attendancePercentage": 85.9,
+            "employeeSatisfaction": "Medium",
+            "onNoticePeriod": false
+          },
+          {
+            "id": 47,
+            "name": "Priya Malhotra",
+            "email": "priya.malhotra@company.com",
+            "phone": "+91-9876543247",
+            "department": "Support",
+            "designation": "L2 Support Analyst",
+            "manager": "Rahul Khan",
+            "joiningDate": "2017-04-13",
+            "yearsOfExperience": 10,
+            "salary": 168000,
+            "location": "Bangalore",
+            "workMode": "Hybrid",
+            "projects": [
+              {
+                "projectName": "Project Nexus",
+                "status": "Active",
+                "riskStatus": "At Risk",
+                "priorityRanking": 4
+              }
+            ],
+            "skills": [
+              "SQL",
+              "Kibana"
+            ],
+            "rating": 4.3,
+            "attendancePercentage": 87.8,
+            "employeeSatisfaction": "High",
+            "onNoticePeriod": false
+          },
+          {
+            "id": 48,
+            "name": "Priya Arora",
+            "email": "priya.arora@company.com",
+            "phone": "+91-9876543248",
+            "department": "Support",
+            "designation": "Customer Success Manager",
+            "manager": "Rahul Dixit",
+            "joiningDate": "2019-07-01",
+            "yearsOfExperience": 3,
+            "salary": 88000,
+            "location": "Bangalore",
+            "workMode": "Hybrid",
+            "projects": [
+              {
+                "projectName": "Project Titan",
+                "status": "Active",
+                "riskStatus": "On Track",
+                "priorityRanking": 3
+              }
+            ],
+            "skills": [
+              "CRM Tools",
+              "Excel"
+            ],
+            "rating": 4.4,
+            "attendancePercentage": 96.8,
+            "employeeSatisfaction": "High",
+            "onNoticePeriod": false
+          },
+          {
+            "id": 49,
+            "name": "Priya Patel",
+            "email": "priya.patel@company.com",
+            "phone": "+91-9876543249",
+            "department": "Product",
+            "designation": "Product Analyst",
+            "manager": "Rahul Mehta",
+            "joiningDate": "2023-09-03",
+            "yearsOfExperience": 14,
+            "salary": 252000,
+            "location": "Bangalore",
+            "workMode": "Remote",
+            "projects": [
+              {
+                "projectName": "Airtel Xstream Upgrade",
+                "status": "Active",
+                "riskStatus": "At Risk",
+                "priorityRanking": 2
+              },
+              {
+                "projectName": "Project Omega",
+                "status": "Dead",
+                "riskStatus": "Completed",
+                "priorityRanking": 11
+              }
+            ],
+            "skills": [
+              "Jira",
+              "Confluence"
+            ],
+            "rating": 4.4,
+            "attendancePercentage": 86.6,
+            "employeeSatisfaction": "High",
+            "onNoticePeriod": false
+          },
+          {
+            "id": 50,
+            "name": "Priya Joshi",
+            "email": "priya.joshi@company.com",
+            "phone": "+91-9876543250",
+            "department": "Engineering",
+            "designation": "Frontend Developer",
+            "manager": "Priya Kapoor",
+            "joiningDate": "2021-06-30",
+            "yearsOfExperience": 9,
+            "salary": 178000,
+            "location": "Bangalore",
+            "workMode": "Hybrid",
+            "projects": [
+              {
+                "projectName": "Airtel Xstream Upgrade",
+                "status": "Active",
+                "riskStatus": "At Risk",
+                "priorityRanking": 2
+              }
+            ],
+            "skills": [
+              "Docker",
+              "Kubernetes",
+              "AWS"
+            ],
+            "rating": 3.7,
+            "attendancePercentage": 97.5,
+            "employeeSatisfaction": "Low",
+            "onNoticePeriod": false
+          },
+          {
+            "id": 51,
+            "name": "Priya Jain",
+            "email": "priya.jain@company.com",
+            "phone": "+91-9876543251",
+            "department": "Engineering",
+            "designation": "Frontend Developer",
+            "manager": "Rahul Mishra",
+            "joiningDate": "2021-06-03",
+            "yearsOfExperience": 9,
+            "salary": 182000,
+            "location": "Pune",
+            "workMode": "Onsite",
+            "projects": [
+              {
+                "projectName": "Employee Engagement Portal",
+                "status": "Support",
+                "riskStatus": "Completed",
+                "priorityRanking": 8
+              },
+              {
+                "projectName": "Airtel Xstream Upgrade",
+                "status": "Active",
+                "riskStatus": "At Risk",
+                "priorityRanking": 2
+              }
+            ],
+            "skills": [
+              "Python",
+              "Django"
+            ],
+            "rating": 4.2,
+            "attendancePercentage": 95.7,
+            "employeeSatisfaction": "Medium",
+            "onNoticePeriod": false
+          },
+          {
+            "id": 52,
+            "name": "Priya Khanna",
+            "email": "priya.khanna@company.com",
+            "phone": "+91-9876543252",
+            "department": "Design",
+            "designation": "Graphic Designer",
+            "manager": "Rahul Dubey",
+            "joiningDate": "2022-11-04",
+            "yearsOfExperience": 5,
+            "salary": 121000,
+            "location": "Bangalore",
+            "workMode": "Hybrid",
+            "projects": [
+              {
+                "projectName": "Mobile App Rewrite",
+                "status": "Active",
+                "riskStatus": "On Track",
+                "priorityRanking": 4
+              }
+            ],
+            "skills": [
+              "Zeplin",
+              "Principle"
+            ],
+            "rating": 4.5,
+            "attendancePercentage": 89.4,
+            "employeeSatisfaction": "High",
+            "onNoticePeriod": false
+          },
+          {
+            "id": 53,
+            "name": "Priya Nair",
+            "email": "priya.nair@company.com",
+            "phone": "+91-9876543253",
+            "department": "Engineering",
+            "designation": "Backend Developer",
+            "manager": "Rahul Yadav",
+            "joiningDate": "2023-11-12",
+            "yearsOfExperience": 13,
+            "salary": 228000,
+            "location": "Hyderabad",
+            "workMode": "Onsite",
+            "projects": [
+              {
+                "projectName": "Employee Engagement Portal",
+                "status": "Support",
+                "riskStatus": "Completed",
+                "priorityRanking": 8
+              }
+            ],
+            "skills": [
+              "Python",
+              "Django"
+            ],
+            "rating": 4.8,
+            "attendancePercentage": 92.2,
+            "employeeSatisfaction": "High",
+            "onNoticePeriod": false
+          },
+          {
+            "id": 54,
+            "name": "Priya Yadav",
+            "email": "priya.yadav@company.com",
+            "phone": "+91-9876543254",
+            "department": "Support",
+            "designation": "Support Lead",
+            "manager": "Rahul Bansal",
+            "joiningDate": "2021-07-03",
+            "yearsOfExperience": 8,
+            "salary": 146000,
+            "location": "Noida",
+            "workMode": "Remote",
+            "projects": [
+              {
+                "projectName": "Employee Engagement Portal",
+                "status": "Support",
+                "riskStatus": "Completed",
+                "priorityRanking": 8
+              },
+              {
+                "projectName": "Project Insight",
+                "status": "Active",
+                "riskStatus": "On Track",
+                "priorityRanking": 5
+              }
+            ],
+            "skills": [
+              "SQL",
+              "Kibana"
+            ],
+            "rating": 4.2,
+            "attendancePercentage": 85.2,
+            "employeeSatisfaction": "Medium",
+            "onNoticePeriod": false
+          },
+          {
+            "id": 55,
+            "name": "Priya Agarwal",
+            "email": "priya.agarwal@company.com",
+            "phone": "+91-9876543255",
+            "department": "QA & Testing",
+            "designation": "Automation Tester",
+            "manager": "Chief Support Officer",
+            "joiningDate": "2022-03-04",
+            "yearsOfExperience": 6,
+            "salary": 131000,
+            "location": "Pune",
+            "workMode": "Hybrid",
+            "projects": [
+              {
+                "projectName": "ERP Migration",
+                "status": "Support",
+                "riskStatus": "At Risk",
+                "priorityRanking": 9
+              },
+              {
+                "projectName": "Project Nexus",
+                "status": "Active",
+                "riskStatus": "At Risk",
+                "priorityRanking": 4
+              }
+            ],
+            "skills": [
+              "Postman",
+              "API Testing"
+            ],
+            "rating": 4,
+            "attendancePercentage": 94.1,
+            "employeeSatisfaction": "Medium",
+            "onNoticePeriod": true
+          },
+          {
+            "id": 56,
+            "name": "Priya Kulkarni",
+            "email": "priya.kulkarni@company.com",
+            "phone": "+91-9876543256",
+            "department": "Engineering",
+            "designation": "Senior Software Engineer",
+            "manager": "Rahul Mishra",
+            "joiningDate": "2023-09-27",
+            "yearsOfExperience": 4,
+            "salary": 119000,
+            "location": "Bangalore",
+            "workMode": "Remote",
+            "projects": [
+              {
+                "projectName": "Project Nexus",
+                "status": "Active",
+                "riskStatus": "At Risk",
+                "priorityRanking": 4
+              },
+              {
+                "projectName": "Airtel Xstream Upgrade",
+                "status": "Active",
+                "riskStatus": "At Risk",
+                "priorityRanking": 2
+              }
+            ],
+            "skills": [
+              "Docker",
+              "Kubernetes",
+              "AWS"
+            ],
+            "rating": 3.8,
+            "attendancePercentage": 87.8,
+            "employeeSatisfaction": "Medium",
+            "onNoticePeriod": false
+          },
+          {
+            "id": 57,
+            "name": "Priya Bansal",
+            "email": "priya.bansal@company.com",
+            "phone": "+91-9876543257",
+            "department": "Engineering",
+            "designation": "Senior Software Engineer",
+            "manager": "Rahul Saxena",
+            "joiningDate": "2021-12-27",
+            "yearsOfExperience": 4,
+            "salary": 105000,
+            "location": "Bangalore",
+            "workMode": "Hybrid",
+            "projects": [
+              {
+                "projectName": "Project Insight",
+                "status": "Active",
+                "riskStatus": "On Track",
+                "priorityRanking": 5
+              },
+              {
+                "projectName": "Project Omega",
+                "status": "Dead",
+                "riskStatus": "Completed",
+                "priorityRanking": 11
+              }
+            ],
+            "skills": [
+              "Docker",
+              "Kubernetes",
+              "AWS"
+            ],
+            "rating": 3.7,
+            "attendancePercentage": 85.6,
+            "employeeSatisfaction": "Low",
+            "onNoticePeriod": false
+          },
+          {
+            "id": 58,
+            "name": "Priya Khan",
+            "email": "priya.khan@company.com",
+            "phone": "+91-9876543258",
+            "department": "Support",
+            "designation": "Support Lead",
+            "manager": "Rahul Khan",
+            "joiningDate": "2021-04-06",
+            "yearsOfExperience": 8,
+            "salary": 138000,
+            "location": "Mumbai",
+            "workMode": "Remote",
+            "projects": [
+              {
+                "projectName": "Project Nexus",
+                "status": "Active",
+                "riskStatus": "At Risk",
+                "priorityRanking": 4
+              },
+              {
+                "projectName": "Airtel Xstream Upgrade",
+                "status": "Active",
+                "riskStatus": "At Risk",
+                "priorityRanking": 2
+              }
+            ],
+            "skills": [
+              "Zendesk",
+              "JIRA"
+            ],
+            "rating": 4.2,
+            "attendancePercentage": 89.4,
+            "employeeSatisfaction": "Medium",
+            "onNoticePeriod": false
+          },
+          {
+            "id": 59,
+            "name": "Priya Mishra",
+            "email": "priya.mishra@company.com",
+            "phone": "+91-9876543259",
+            "department": "Engineering",
+            "designation": "Tech Lead",
+            "manager": "Rahul Singh",
+            "joiningDate": "2017-09-13",
+            "yearsOfExperience": 8,
+            "salary": 161000,
+            "location": "Pune",
+            "workMode": "Remote",
+            "projects": [
+              {
+                "projectName": "Project Nexus",
+                "status": "Active",
+                "riskStatus": "At Risk",
+                "priorityRanking": 4
+              }
+            ],
+            "skills": [
+              "Node.js",
+              "MongoDB"
+            ],
+            "rating": 3.7,
+            "attendancePercentage": 92.3,
+            "employeeSatisfaction": "Low",
+            "onNoticePeriod": false
+          },
+          {
+            "id": 60,
+            "name": "Priya Tiwari",
+            "email": "priya.tiwari@company.com",
+            "phone": "+91-9876543260",
+            "department": "Product",
+            "designation": "Associate Product Manager",
+            "manager": "Rahul Patel",
+            "joiningDate": "2020-12-18",
+            "yearsOfExperience": 7,
+            "salary": 163000,
+            "location": "Chennai",
+            "workMode": "Hybrid",
+            "projects": [
+              {
+                "projectName": "Project Nexus",
+                "status": "Active",
+                "riskStatus": "At Risk",
+                "priorityRanking": 4
+              }
+            ],
+            "skills": [
+              "Jira",
+              "Confluence"
+            ],
+            "rating": 3.9,
+            "attendancePercentage": 92.7,
+            "employeeSatisfaction": "Medium",
+            "onNoticePeriod": false
+          },
+          {
+            "id": 61,
+            "name": "Priya Reddy",
+            "email": "priya.reddy@company.com",
+            "phone": "+91-9876543261",
+            "department": "Design",
+            "designation": "Graphic Designer",
+            "manager": "Rahul Dubey",
+            "joiningDate": "2018-09-09",
+            "yearsOfExperience": 4,
+            "salary": 93000,
+            "location": "Hyderabad",
+            "workMode": "Hybrid",
+            "projects": [
+              {
+                "projectName": "Mobile App Rewrite",
+                "status": "Active",
+                "riskStatus": "On Track",
+                "priorityRanking": 4
+              },
+              {
+                "projectName": "Project Insight",
+                "status": "Active",
+                "riskStatus": "On Track",
+                "priorityRanking": 5
+              }
+            ],
+            "skills": [
+              "Sketch",
+              "InVision"
+            ],
+            "rating": 3.8,
+            "attendancePercentage": 86,
+            "employeeSatisfaction": "Medium",
+            "onNoticePeriod": false
+          },
+          {
+            "id": 62,
+            "name": "Priya Rao",
+            "email": "priya.rao@company.com",
+            "phone": "+91-9876543262",
+            "department": "Engineering",
+            "designation": "Senior Software Engineer",
+            "manager": "Rahul Pillai",
+            "joiningDate": "2023-09-16",
+            "yearsOfExperience": 5,
+            "salary": 134000,
+            "location": "Noida",
+            "workMode": "Hybrid",
+            "projects": [
+              {
+                "projectName": "Project Nexus",
+                "status": "Active",
+                "riskStatus": "At Risk",
+                "priorityRanking": 4
+              },
+              {
+                "projectName": "ERP Migration",
+                "status": "Support",
+                "riskStatus": "At Risk",
+                "priorityRanking": 9
+              }
+            ],
+            "skills": [
+              "Python",
+              "Django"
+            ],
+            "rating": 3.9,
+            "attendancePercentage": 88.4,
+            "employeeSatisfaction": "Medium",
+            "onNoticePeriod": false
+          },
+          {
+            "id": 63,
+            "name": "Priya Iyer",
+            "email": "priya.iyer@company.com",
+            "phone": "+91-9876543263",
+            "department": "Engineering",
+            "designation": "Senior Software Engineer",
+            "manager": "Priya Mehta",
+            "joiningDate": "2017-11-10",
+            "yearsOfExperience": 3,
+            "salary": 110000,
+            "location": "Chennai",
+            "workMode": "Hybrid",
+            "projects": [
+              {
+                "projectName": "Project Nexus",
+                "status": "Active",
+                "riskStatus": "At Risk",
+                "priorityRanking": 4
+              },
+              {
+                "projectName": "Employee Engagement Portal",
+                "status": "Support",
+                "riskStatus": "Completed",
+                "priorityRanking": 8
+              }
+            ],
+            "skills": [
+              "Python",
+              "Django"
+            ],
+            "rating": 4.7,
+            "attendancePercentage": 92.7,
+            "employeeSatisfaction": "High",
+            "onNoticePeriod": false
+          },
+          {
+            "id": 64,
+            "name": "Priya Pillai",
+            "email": "priya.pillai@company.com",
+            "phone": "+91-9876543264",
+            "department": "QA & Testing",
+            "designation": "QA Lead",
+            "manager": "Priya Agarwal",
+            "joiningDate": "2021-07-15",
+            "yearsOfExperience": 12,
+            "salary": 208000,
+            "location": "Delhi",
+            "workMode": "Remote",
+            "projects": [
+              {
+                "projectName": "Project Alpha",
+                "status": "Active",
+                "riskStatus": "On Track",
+                "priorityRanking": 1
+              },
+              {
+                "projectName": "Project Gamma",
+                "status": "Active",
+                "riskStatus": "On Track",
+                "priorityRanking": 2
+              }
+            ],
+            "skills": [
+              "Postman",
+              "API Testing"
+            ],
+            "rating": 4.2,
+            "attendancePercentage": 92.8,
+            "employeeSatisfaction": "Medium",
+            "onNoticePeriod": false
+          },
+          {
+            "id": 65,
+            "name": "Priya Murthy",
+            "email": "priya.murthy@company.com",
+            "phone": "+91-9876543265",
+            "department": "Engineering",
+            "designation": "Frontend Developer",
+            "manager": "Priya Mishra",
+            "joiningDate": "2023-07-16",
+            "yearsOfExperience": 11,
+            "salary": 193000,
+            "location": "Pune",
+            "workMode": "Hybrid",
+            "projects": [
+              {
+                "projectName": "ERP Migration",
+                "status": "Support",
+                "riskStatus": "At Risk",
+                "priorityRanking": 9
+              },
+              {
+                "projectName": "Project Titan",
+                "status": "Active",
+                "riskStatus": "On Track",
+                "priorityRanking": 3
+              }
+            ],
+            "skills": [
+              "Angular",
+              "RxJS"
+            ],
+            "rating": 4.7,
+            "attendancePercentage": 92.5,
+            "employeeSatisfaction": "High",
+            "onNoticePeriod": false
+          },
+          {
+            "id": 66,
+            "name": "Priya Naidu",
+            "email": "priya.naidu@company.com",
+            "phone": "+91-9876543266",
+            "department": "HR",
+            "designation": "Recruiter",
+            "manager": "CEO",
+            "joiningDate": "2021-04-09",
+            "yearsOfExperience": 7,
+            "salary": 137000,
+            "location": "Chennai",
+            "workMode": "Onsite",
+            "projects": [
+              {
+                "projectName": "Project Omega",
+                "status": "Dead",
+                "riskStatus": "Completed",
+                "priorityRanking": 11
+              }
+            ],
+            "skills": [
+              "Talent Acquisition",
+              "Excel"
+            ],
+            "rating": 4,
+            "attendancePercentage": 89.3,
+            "employeeSatisfaction": "Medium",
+            "onNoticePeriod": false
+          },
+          {
+            "id": 67,
+            "name": "Priya Bose",
+            "email": "priya.bose@company.com",
+            "phone": "+91-9876543267",
+            "department": "Engineering",
+            "designation": "Tech Lead",
+            "manager": "Priya Verma",
+            "joiningDate": "2022-03-03",
+            "yearsOfExperience": 8,
+            "salary": 159000,
+            "location": "Noida",
+            "workMode": "Hybrid",
+            "projects": [
+              {
+                "projectName": "UPI Fraud Detection",
+                "status": "Active",
+                "riskStatus": "On Track",
+                "priorityRanking": 3
+              }
+            ],
+            "skills": [
+              "Python",
+              "Django"
+            ],
+            "rating": 3.6,
+            "attendancePercentage": 86.1,
+            "employeeSatisfaction": "Low",
+            "onNoticePeriod": false
+          },
+          {
+            "id": 68,
+            "name": "Priya Das",
+            "email": "priya.das@company.com",
+            "phone": "+91-9876543268",
+            "department": "Support",
+            "designation": "L2 Support Analyst",
+            "manager": "Priya Khan",
+            "joiningDate": "2020-08-19",
+            "yearsOfExperience": 14,
+            "salary": 224000,
+            "location": "Noida",
+            "workMode": "Remote",
+            "projects": [
+              {
+                "projectName": "Project Delta",
+                "status": "Support",
+                "riskStatus": "Completed",
+                "priorityRanking": 7
+              }
+            ],
+            "skills": [
+              "Zendesk",
+              "JIRA"
+            ],
+            "rating": 3.6,
+            "attendancePercentage": 91.7,
+            "employeeSatisfaction": "Low",
+            "onNoticePeriod": false
+          },
+          {
+            "id": 69,
+            "name": "Priya Ghosh",
+            "email": "priya.ghosh@company.com",
+            "phone": "+91-9876543269",
+            "department": "Engineering",
+            "designation": "Senior Software Engineer",
+            "manager": "Rahul Iyer",
+            "joiningDate": "2017-05-12",
+            "yearsOfExperience": 3,
+            "salary": 99000,
+            "location": "Hyderabad",
+            "workMode": "Remote",
+            "projects": [
+              {
+                "projectName": "Project Alpha",
+                "status": "Active",
+                "riskStatus": "On Track",
+                "priorityRanking": 1
+              },
+              {
+                "projectName": "ERP Migration",
+                "status": "Support",
+                "riskStatus": "At Risk",
+                "priorityRanking": 9
+              }
+            ],
+            "skills": [
+              "Python",
+              "Django"
+            ],
+            "rating": 3.5,
+            "attendancePercentage": 93.2,
+            "employeeSatisfaction": "Low",
+            "onNoticePeriod": false
+          },
+          {
+            "id": 70,
+            "name": "Priya Sen",
+            "email": "priya.sen@company.com",
+            "phone": "+91-9876543270",
+            "department": "Engineering",
+            "designation": "Senior Software Engineer",
+            "manager": "Rahul Saxena",
+            "joiningDate": "2017-09-22",
+            "yearsOfExperience": 4,
+            "salary": 120000,
+            "location": "Pune",
+            "workMode": "Hybrid",
+            "projects": [
+              {
+                "projectName": "Mobile App Rewrite",
+                "status": "Active",
+                "riskStatus": "On Track",
+                "priorityRanking": 4
+              },
+              {
+                "projectName": "Employee Engagement Portal",
+                "status": "Support",
+                "riskStatus": "Completed",
+                "priorityRanking": 8
+              }
+            ],
+            "skills": [
+              "Node.js",
+              "MongoDB"
+            ],
+            "rating": 4.2,
+            "attendancePercentage": 94.3,
+            "employeeSatisfaction": "Medium",
+            "onNoticePeriod": true
+          },
+          {
+            "id": 71,
+            "name": "Priya Chaudhary",
+            "email": "priya.chaudhary@company.com",
+            "phone": "+91-9876543271",
+            "department": "Engineering",
+            "designation": "Frontend Developer",
+            "manager": "Rahul Saxena",
+            "joiningDate": "2021-09-12",
+            "yearsOfExperience": 9,
+            "salary": 165000,
+            "location": "Hyderabad",
+            "workMode": "Onsite",
+            "projects": [
+              {
+                "projectName": "Project Omega",
+                "status": "Dead",
+                "riskStatus": "Completed",
+                "priorityRanking": 11
+              },
+              {
+                "projectName": "DataLake v2",
+                "status": "Active",
+                "riskStatus": "On Track",
+                "priorityRanking": 5
+              }
+            ],
+            "skills": [
+              "React",
+              "Node.js",
+              "AWS"
+            ],
+            "rating": 4.6,
+            "attendancePercentage": 86.8,
+            "employeeSatisfaction": "High",
+            "onNoticePeriod": false
+          },
+          {
+            "id": 72,
+            "name": "Priya Sinha",
+            "email": "priya.sinha@company.com",
+            "phone": "+91-9876543272",
+            "department": "Support",
+            "designation": "Customer Success Manager",
+            "manager": "Priya Khan",
+            "joiningDate": "2022-08-01",
+            "yearsOfExperience": 5,
+            "salary": 105000,
+            "location": "Hyderabad",
+            "workMode": "Hybrid",
+            "projects": [
+              {
+                "projectName": "Legacy CRM",
+                "status": "Dead",
+                "riskStatus": "Completed",
+                "priorityRanking": 12
+              },
+              {
+                "projectName": "Project Beta",
+                "status": "Support",
+                "riskStatus": "Completed",
+                "priorityRanking": 6
+              }
+            ],
+            "skills": [
+              "Zendesk",
+              "JIRA"
+            ],
+            "rating": 4.4,
+            "attendancePercentage": 93.6,
+            "employeeSatisfaction": "High",
+            "onNoticePeriod": false
+          },
+          {
+            "id": 73,
+            "name": "Priya Pandey",
+            "email": "priya.pandey@company.com",
+            "phone": "+91-9876543273",
+            "department": "Product",
+            "designation": "Product Analyst",
+            "manager": "Rahul Arora",
+            "joiningDate": "2018-02-11",
+            "yearsOfExperience": 9,
+            "salary": 186000,
+            "location": "Pune",
+            "workMode": "Hybrid",
+            "projects": [
+              {
+                "projectName": "Project Gamma",
+                "status": "Active",
+                "riskStatus": "On Track",
+                "priorityRanking": 2
+              },
+              {
+                "projectName": "Project Beta",
+                "status": "Support",
+                "riskStatus": "Completed",
+                "priorityRanking": 6
+              }
+            ],
+            "skills": [
+              "Figma",
+              "User Research"
+            ],
+            "rating": 5,
+            "attendancePercentage": 88.1,
+            "employeeSatisfaction": "High",
+            "onNoticePeriod": false
+          },
+          {
+            "id": 74,
+            "name": "Priya Dubey",
+            "email": "priya.dubey@company.com",
+            "phone": "+91-9876543274",
+            "department": "Support",
+            "designation": "L2 Support Analyst",
+            "manager": "Rahul Khan",
+            "joiningDate": "2023-04-24",
+            "yearsOfExperience": 12,
+            "salary": 185000,
+            "location": "Hyderabad",
+            "workMode": "Remote",
+            "projects": [
+              {
+                "projectName": "Project Nexus",
+                "status": "Active",
+                "riskStatus": "At Risk",
+                "priorityRanking": 4
+              },
+              {
+                "projectName": "Airtel Xstream Upgrade",
+                "status": "Active",
+                "riskStatus": "At Risk",
+                "priorityRanking": 2
+              }
+            ],
+            "skills": [
+              "Linux",
+              "Bash"
+            ],
+            "rating": 5,
+            "attendancePercentage": 91.4,
+            "employeeSatisfaction": "High",
+            "onNoticePeriod": false
+          },
+          {
+            "id": 75,
+            "name": "Priya Saxena",
+            "email": "priya.saxena@company.com",
+            "phone": "+91-9876543275",
+            "department": "Support",
+            "designation": "Technical Support Engineer",
+            "manager": "Priya Malhotra",
+            "joiningDate": "2023-05-05",
+            "yearsOfExperience": 2,
+            "salary": 73000,
+            "location": "Bangalore",
+            "workMode": "Hybrid",
+            "projects": [
+              {
+                "projectName": "Project Titan",
+                "status": "Active",
+                "riskStatus": "On Track",
+                "priorityRanking": 3
+              },
+              {
+                "projectName": "Airtel Xstream Upgrade",
+                "status": "Active",
+                "riskStatus": "At Risk",
+                "priorityRanking": 2
+              }
+            ],
+            "skills": [
+              "Linux",
+              "Bash"
+            ],
+            "rating": 5,
+            "attendancePercentage": 86,
+            "employeeSatisfaction": "High",
+            "onNoticePeriod": false
+          },
+          {
+            "id": 76,
+            "name": "Priya Srivastava",
+            "email": "priya.srivastava@company.com",
+            "phone": "+91-9876543276",
+            "department": "Engineering",
+            "designation": "Frontend Developer",
+            "manager": "Rahul Das",
+            "joiningDate": "2021-06-21",
+            "yearsOfExperience": 11,
+            "salary": 189000,
+            "location": "Hyderabad",
+            "workMode": "Hybrid",
+            "projects": [
+              {
+                "projectName": "Employee Engagement Portal",
+                "status": "Support",
+                "riskStatus": "Completed",
+                "priorityRanking": 8
+              },
+              {
+                "projectName": "Legacy CRM",
+                "status": "Dead",
+                "riskStatus": "Completed",
+                "priorityRanking": 12
+              }
+            ],
+            "skills": [
+              "Go",
+              "gRPC"
+            ],
+            "rating": 4.8,
+            "attendancePercentage": 85.5,
+            "employeeSatisfaction": "High",
+            "onNoticePeriod": true
+          },
+          {
+            "id": 77,
+            "name": "Priya Awasthi",
+            "email": "priya.awasthi@company.com",
+            "phone": "+91-9876543277",
+            "department": "Engineering",
+            "designation": "Software Engineer",
+            "manager": "Priya Kapoor",
+            "joiningDate": "2016-04-28",
+            "yearsOfExperience": 2,
+            "salary": 89000,
+            "location": "Hyderabad",
+            "workMode": "Remote",
+            "projects": [
+              {
+                "projectName": "Airtel Xstream Upgrade",
+                "status": "Active",
+                "riskStatus": "At Risk",
+                "priorityRanking": 2
+              },
+              {
+                "projectName": "Project Titan",
+                "status": "Active",
+                "riskStatus": "On Track",
+                "priorityRanking": 3
+              }
+            ],
+            "skills": [
+              "Node.js",
+              "MongoDB"
+            ],
+            "rating": 3.6,
+            "attendancePercentage": 95.3,
+            "employeeSatisfaction": "Low",
+            "onNoticePeriod": false
+          },
+          {
+            "id": 78,
+            "name": "Priya Tripathi",
+            "email": "priya.tripathi@company.com",
+            "phone": "+91-9876543278",
+            "department": "Engineering",
+            "designation": "Tech Lead",
+            "manager": "Priya Mishra",
+            "joiningDate": "2017-12-18",
+            "yearsOfExperience": 7,
+            "salary": 147000,
+            "location": "Noida",
+            "workMode": "Hybrid",
+            "projects": [
+              {
+                "projectName": "Employee Engagement Portal",
+                "status": "Support",
+                "riskStatus": "Completed",
+                "priorityRanking": 8
+              }
+            ],
+            "skills": [
+              "Angular",
+              "RxJS"
+            ],
+            "rating": 3.6,
+            "attendancePercentage": 96.3,
+            "employeeSatisfaction": "Low",
+            "onNoticePeriod": false
+          },
+          {
+            "id": 79,
+            "name": "Priya Bajpai",
+            "email": "priya.bajpai@company.com",
+            "phone": "+91-9876543279",
+            "department": "Engineering",
+            "designation": "Senior Software Engineer",
+            "manager": "Rahul Khanna",
+            "joiningDate": "2021-03-20",
+            "yearsOfExperience": 5,
+            "salary": 120000,
+            "location": "Hyderabad",
+            "workMode": "Hybrid",
+            "projects": [
+              {
+                "projectName": "Legacy CRM",
+                "status": "Dead",
+                "riskStatus": "Completed",
+                "priorityRanking": 12
+              },
+              {
+                "projectName": "Project Phoenix",
+                "status": "Dead",
+                "riskStatus": "Completed",
+                "priorityRanking": 10
+              }
+            ],
+            "skills": [
+              "Java",
+              "Microservices"
+            ],
+            "rating": 4.9,
+            "attendancePercentage": 93.8,
+            "employeeSatisfaction": "High",
+            "onNoticePeriod": false
+          },
+          {
+            "id": 80,
+            "name": "Priya Dixit",
+            "email": "priya.dixit@company.com",
+            "phone": "+91-9876543280",
+            "department": "Engineering",
+            "designation": "Tech Lead",
+            "manager": "Priya Chaudhary",
+            "joiningDate": "2020-04-24",
+            "yearsOfExperience": 7,
+            "salary": 151000,
+            "location": "Pune",
+            "workMode": "Hybrid",
+            "projects": [
+              {
+                "projectName": "Project Phoenix",
+                "status": "Dead",
+                "riskStatus": "Completed",
+                "priorityRanking": 10
+              },
+              {
+                "projectName": "Legacy CRM",
+                "status": "Dead",
+                "riskStatus": "Completed",
+                "priorityRanking": 12
+              }
+            ],
+            "skills": [
+              "Python",
+              "Django"
+            ],
+            "rating": 4.8,
+            "attendancePercentage": 86.4,
+            "employeeSatisfaction": "High",
+            "onNoticePeriod": false
+          },
+          {
+            "id": 81,
+            "name": "Amit Sharma",
+            "email": "amit.sharma@company.com",
+            "phone": "+91-9876543281",
+            "department": "Engineering",
+            "designation": "Backend Developer",
+            "manager": "Priya Mishra",
+            "joiningDate": "2023-09-10",
+            "yearsOfExperience": 14,
+            "salary": 243000,
+            "location": "Hyderabad",
+            "workMode": "Remote",
+            "projects": [
+              {
+                "projectName": "Employee Engagement Portal",
+                "status": "Support",
+                "riskStatus": "Completed",
+                "priorityRanking": 8
+              },
+              {
+                "projectName": "Project Phoenix",
+                "status": "Dead",
+                "riskStatus": "Completed",
+                "priorityRanking": 10
+              }
+            ],
+            "skills": [
+              "React",
+              "Redux"
+            ],
+            "rating": 4.7,
+            "attendancePercentage": 97.7,
+            "employeeSatisfaction": "High",
+            "onNoticePeriod": false
+          },
+          {
+            "id": 82,
+            "name": "Amit Mehta",
+            "email": "amit.mehta@company.com",
+            "phone": "+91-9876543282",
+            "department": "Support",
+            "designation": "Customer Success Manager",
+            "manager": "Rahul Kapoor",
+            "joiningDate": "2023-05-24",
+            "yearsOfExperience": 4,
+            "salary": 91000,
+            "location": "Noida",
+            "workMode": "Remote",
+            "projects": [
+              {
+                "projectName": "DataLake v2",
+                "status": "Active",
+                "riskStatus": "On Track",
+                "priorityRanking": 5
+              },
+              {
+                "projectName": "Project Alpha",
+                "status": "Active",
+                "riskStatus": "On Track",
+                "priorityRanking": 1
+              }
+            ],
+            "skills": [
+              "SQL",
+              "Kibana"
+            ],
+            "rating": 4.5,
+            "attendancePercentage": 86.8,
+            "employeeSatisfaction": "High",
+            "onNoticePeriod": true
+          },
+          {
+            "id": 83,
+            "name": "Amit Verma",
+            "email": "amit.verma@company.com",
+            "phone": "+91-9876543283",
+            "department": "Product",
+            "designation": "Product Analyst",
+            "manager": "Priya Patel",
+            "joiningDate": "2020-08-28",
+            "yearsOfExperience": 12,
+            "salary": 227000,
+            "location": "Bangalore",
+            "workMode": "Hybrid",
+            "projects": [
+              {
+                "projectName": "Project Beta",
+                "status": "Support",
+                "riskStatus": "Completed",
+                "priorityRanking": 6
+              },
+              {
+                "projectName": "Project Insight",
+                "status": "Active",
+                "riskStatus": "On Track",
+                "priorityRanking": 5
+              }
+            ],
+            "skills": [
+              "Jira",
+              "Confluence"
+            ],
+            "rating": 3.8,
+            "attendancePercentage": 86.7,
+            "employeeSatisfaction": "Medium",
+            "onNoticePeriod": false
+          },
+          {
+            "id": 84,
+            "name": "Amit Kapoor",
+            "email": "amit.kapoor@company.com",
+            "phone": "+91-9876543284",
+            "department": "Design",
+            "designation": "Product Designer",
+            "manager": "Rahul Dubey",
+            "joiningDate": "2017-04-16",
+            "yearsOfExperience": 8,
+            "salary": 148000,
+            "location": "Noida",
+            "workMode": "Hybrid",
+            "projects": [
+              {
+                "projectName": "Project Titan",
+                "status": "Active",
+                "riskStatus": "On Track",
+                "priorityRanking": 3
+              },
+              {
+                "projectName": "UPI Fraud Detection",
+                "status": "Active",
+                "riskStatus": "On Track",
+                "priorityRanking": 3
+              }
+            ],
+            "skills": [
+              "Illustrator",
+              "Photoshop"
+            ],
+            "rating": 4.2,
+            "attendancePercentage": 86,
+            "employeeSatisfaction": "Medium",
+            "onNoticePeriod": false
+          },
+          {
+            "id": 85,
+            "name": "Amit Singh",
+            "email": "amit.singh@company.com",
+            "phone": "+91-9876543285",
+            "department": "Engineering",
+            "designation": "Senior Software Engineer",
+            "manager": "Rahul Yadav",
+            "joiningDate": "2023-07-16",
+            "yearsOfExperience": 5,
+            "salary": 127000,
+            "location": "Bangalore",
+            "workMode": "Hybrid",
+            "projects": [
+              {
+                "projectName": "Mobile App Rewrite",
+                "status": "Active",
+                "riskStatus": "On Track",
+                "priorityRanking": 4
+              }
+            ],
+            "skills": [
+              "Go",
+              "gRPC"
+            ],
+            "rating": 3.9,
+            "attendancePercentage": 90,
+            "employeeSatisfaction": "Medium",
+            "onNoticePeriod": false
+          },
+          {
+            "id": 86,
+            "name": "Amit Gupta",
+            "email": "amit.gupta@company.com",
+            "phone": "+91-9876543286",
+            "department": "Engineering",
+            "designation": "Frontend Developer",
+            "manager": "Priya Tripathi",
+            "joiningDate": "2016-09-15",
+            "yearsOfExperience": 9,
+            "salary": 173000,
+            "location": "Mumbai",
+            "workMode": "Hybrid",
+            "projects": [
+              {
+                "projectName": "Project Nexus",
+                "status": "Active",
+                "riskStatus": "At Risk",
+                "priorityRanking": 4
+              },
+              {
+                "projectName": "Project Titan",
+                "status": "Active",
+                "riskStatus": "On Track",
+                "priorityRanking": 3
+              }
+            ],
+            "skills": [
+              "Docker",
+              "Kubernetes",
+              "AWS"
+            ],
+            "rating": 4.5,
+            "attendancePercentage": 91,
+            "employeeSatisfaction": "High",
+            "onNoticePeriod": false
+          },
+          {
+            "id": 87,
+            "name": "Amit Malhotra",
+            "email": "amit.malhotra@company.com",
+            "phone": "+91-9876543287",
+            "department": "Engineering",
+            "designation": "Software Engineer",
+            "manager": "Priya Kapoor",
+            "joiningDate": "2018-08-19",
+            "yearsOfExperience": 1,
+            "salary": 82000,
+            "location": "Kolkata",
+            "workMode": "Hybrid",
+            "projects": [
+              {
+                "projectName": "Project Insight",
+                "status": "Active",
+                "riskStatus": "On Track",
+                "priorityRanking": 5
+              },
+              {
+                "projectName": "DataLake v2",
+                "status": "Active",
+                "riskStatus": "On Track",
+                "priorityRanking": 5
+              }
+            ],
+            "skills": [
+              "Python",
+              "Django"
+            ],
+            "rating": 4.8,
+            "attendancePercentage": 86.8,
+            "employeeSatisfaction": "High",
+            "onNoticePeriod": true
+          },
+          {
+            "id": 88,
+            "name": "Amit Arora",
+            "email": "amit.arora@company.com",
+            "phone": "+91-9876543288",
+            "department": "Engineering",
+            "designation": "Software Engineer",
+            "manager": "Priya Nair",
+            "joiningDate": "2019-02-19",
+            "yearsOfExperience": 2,
+            "salary": 94000,
+            "location": "Pune",
+            "workMode": "Onsite",
+            "projects": [
+              {
+                "projectName": "Legacy CRM",
+                "status": "Dead",
+                "riskStatus": "Completed",
+                "priorityRanking": 12
+              }
+            ],
+            "skills": [
+              "Java",
+              "Microservices"
+            ],
+            "rating": 3.5,
+            "attendancePercentage": 89.8,
+            "employeeSatisfaction": "Low",
+            "onNoticePeriod": false
+          },
+          {
+            "id": 89,
+            "name": "Amit Patel",
+            "email": "amit.patel@company.com",
+            "phone": "+91-9876543289",
+            "department": "Engineering",
+            "designation": "Frontend Developer",
+            "manager": "Priya Nair",
+            "joiningDate": "2020-01-09",
+            "yearsOfExperience": 11,
+            "salary": 191000,
+            "location": "Pune",
+            "workMode": "Onsite",
+            "projects": [
+              {
+                "projectName": "Project Delta",
+                "status": "Support",
+                "riskStatus": "Completed",
+                "priorityRanking": 7
+              }
+            ],
+            "skills": [
+              "Docker",
+              "Kubernetes",
+              "AWS"
+            ],
+            "rating": 3.6,
+            "attendancePercentage": 88.6,
+            "employeeSatisfaction": "Low",
+            "onNoticePeriod": false
+          },
+          {
+            "id": 90,
+            "name": "Amit Joshi",
+            "email": "amit.joshi@company.com",
+            "phone": "+91-9876543290",
+            "department": "QA & Testing",
+            "designation": "QA Lead",
+            "manager": "Priya Agarwal",
+            "joiningDate": "2017-05-30",
+            "yearsOfExperience": 10,
+            "salary": 188000,
+            "location": "Bangalore",
+            "workMode": "Hybrid",
+            "projects": [
+              {
+                "projectName": "Employee Engagement Portal",
+                "status": "Support",
+                "riskStatus": "Completed",
+                "priorityRanking": 8
+              }
+            ],
+            "skills": [
+              "Selenium",
+              "Cypress"
+            ],
+            "rating": 4.7,
+            "attendancePercentage": 87.7,
+            "employeeSatisfaction": "High",
+            "onNoticePeriod": false
+          },
+          {
+            "id": 91,
+            "name": "Amit Jain",
+            "email": "amit.jain@company.com",
+            "phone": "+91-9876543291",
+            "department": "Engineering",
+            "designation": "Senior Software Engineer",
+            "manager": "Rahul Yadav",
+            "joiningDate": "2017-08-15",
+            "yearsOfExperience": 3,
+            "salary": 97000,
+            "location": "Bangalore",
+            "workMode": "Onsite",
+            "projects": [
+              {
+                "projectName": "Project Insight",
+                "status": "Active",
+                "riskStatus": "On Track",
+                "priorityRanking": 5
+              }
+            ],
+            "skills": [
+              "Angular",
+              "RxJS"
+            ],
+            "rating": 5,
+            "attendancePercentage": 92,
+            "employeeSatisfaction": "High",
+            "onNoticePeriod": false
+          },
+          {
+            "id": 92,
+            "name": "Amit Khanna",
+            "email": "amit.khanna@company.com",
+            "phone": "+91-9876543292",
+            "department": "Engineering",
+            "designation": "Backend Developer",
+            "manager": "Rahul Yadav",
+            "joiningDate": "2018-12-22",
+            "yearsOfExperience": 13,
+            "salary": 228000,
+            "location": "Pune",
+            "workMode": "Hybrid",
+            "projects": [
+              {
+                "projectName": "Mobile App Rewrite",
+                "status": "Active",
+                "riskStatus": "On Track",
+                "priorityRanking": 4
+              }
+            ],
+            "skills": [
+              "Java",
+              "Spring Boot"
+            ],
+            "rating": 3.6,
+            "attendancePercentage": 94.6,
+            "employeeSatisfaction": "Low",
+            "onNoticePeriod": false
+          },
+          {
+            "id": 93,
+            "name": "Amit Nair",
+            "email": "amit.nair@company.com",
+            "phone": "+91-9876543293",
+            "department": "Engineering",
+            "designation": "Tech Lead",
+            "manager": "Priya Mehta",
+            "joiningDate": "2018-06-26",
+            "yearsOfExperience": 6,
+            "salary": 144000,
+            "location": "Pune",
+            "workMode": "Hybrid",
+            "projects": [
+              {
+                "projectName": "Project Alpha",
+                "status": "Active",
+                "riskStatus": "On Track",
+                "priorityRanking": 1
+              },
+              {
+                "projectName": "Mobile App Rewrite",
+                "status": "Active",
+                "riskStatus": "On Track",
+                "priorityRanking": 4
+              }
+            ],
+            "skills": [
+              "Go",
+              "gRPC"
+            ],
+            "rating": 4.9,
+            "attendancePercentage": 85.6,
+            "employeeSatisfaction": "High",
+            "onNoticePeriod": false
+          },
+          {
+            "id": 94,
+            "name": "Amit Yadav",
+            "email": "amit.yadav@company.com",
+            "phone": "+91-9876543294",
+            "department": "HR",
+            "designation": "L&D Specialist",
+            "manager": "Priya Naidu",
+            "joiningDate": "2023-12-27",
+            "yearsOfExperience": 14,
+            "salary": 221000,
+            "location": "Hyderabad",
+            "workMode": "Hybrid",
+            "projects": [
+              {
+                "projectName": "Project Titan",
+                "status": "Active",
+                "riskStatus": "On Track",
+                "priorityRanking": 3
+              }
+            ],
+            "skills": [
+              "HRMS",
+              "Compliance"
+            ],
+            "rating": 4.9,
+            "attendancePercentage": 86,
+            "employeeSatisfaction": "High",
+            "onNoticePeriod": false
+          },
+          {
+            "id": 95,
+            "name": "Amit Agarwal",
+            "email": "amit.agarwal@company.com",
+            "phone": "+91-9876543295",
+            "department": "Engineering",
+            "designation": "Frontend Developer",
+            "manager": "Priya Jain",
+            "joiningDate": "2022-09-12",
+            "yearsOfExperience": 10,
+            "salary": 195000,
+            "location": "Pune",
+            "workMode": "Hybrid",
+            "projects": [
+              {
+                "projectName": "Project Nexus",
+                "status": "Active",
+                "riskStatus": "At Risk",
+                "priorityRanking": 4
+              }
+            ],
+            "skills": [
+              "Angular",
+              "RxJS"
+            ],
+            "rating": 4.3,
+            "attendancePercentage": 90.9,
+            "employeeSatisfaction": "High",
+            "onNoticePeriod": true
+          },
+          {
+            "id": 96,
+            "name": "Amit Kulkarni",
+            "email": "amit.kulkarni@company.com",
+            "phone": "+91-9876543296",
+            "department": "Support",
+            "designation": "L2 Support Analyst",
+            "manager": "Rahul Bansal",
+            "joiningDate": "2020-08-21",
+            "yearsOfExperience": 11,
+            "salary": 186000,
+            "location": "Hyderabad",
+            "workMode": "Onsite",
+            "projects": [
+              {
+                "projectName": "Airtel Xstream Upgrade",
+                "status": "Active",
+                "riskStatus": "At Risk",
+                "priorityRanking": 2
+              },
+              {
+                "projectName": "Project Beta",
+                "status": "Support",
+                "riskStatus": "Completed",
+                "priorityRanking": 6
+              }
+            ],
+            "skills": [
+              "SQL",
+              "Kibana"
+            ],
+            "rating": 4,
+            "attendancePercentage": 90.9,
+            "employeeSatisfaction": "Medium",
+            "onNoticePeriod": false
+          },
+          {
+            "id": 97,
+            "name": "Amit Bansal",
+            "email": "amit.bansal@company.com",
+            "phone": "+91-9876543297",
+            "department": "QA & Testing",
+            "designation": "Automation Tester",
+            "manager": "Amit Joshi",
+            "joiningDate": "2017-01-08",
+            "yearsOfExperience": 6,
+            "salary": 125000,
+            "location": "Noida",
+            "workMode": "Hybrid",
+            "projects": [
+              {
+                "projectName": "Project Insight",
+                "status": "Active",
+                "riskStatus": "On Track",
+                "priorityRanking": 5
+              },
+              {
+                "projectName": "ERP Migration",
+                "status": "Support",
+                "riskStatus": "At Risk",
+                "priorityRanking": 9
+              }
+            ],
+            "skills": [
+              "Appium",
+              "TestNG"
+            ],
+            "rating": 4.7,
+            "attendancePercentage": 86.2,
+            "employeeSatisfaction": "High",
+            "onNoticePeriod": false
+          },
+          {
+            "id": 98,
+            "name": "Amit Khan",
+            "email": "amit.khan@company.com",
+            "phone": "+91-9876543298",
+            "department": "Engineering",
+            "designation": "Frontend Developer",
+            "manager": "Amit Agarwal",
+            "joiningDate": "2019-12-19",
+            "yearsOfExperience": 9,
+            "salary": 177000,
+            "location": "Hyderabad",
+            "workMode": "Hybrid",
+            "projects": [
+              {
+                "projectName": "Project Phoenix",
+                "status": "Dead",
+                "riskStatus": "Completed",
+                "priorityRanking": 10
+              }
+            ],
+            "skills": [
+              "Go",
+              "gRPC"
+            ],
+            "rating": 4.8,
+            "attendancePercentage": 97.2,
+            "employeeSatisfaction": "High",
+            "onNoticePeriod": false
+          },
+          {
+            "id": 99,
+            "name": "Amit Mishra",
+            "email": "amit.mishra@company.com",
+            "phone": "+91-9876543299",
+            "department": "Product",
+            "designation": "Associate Product Manager",
+            "manager": "Amit Verma",
+            "joiningDate": "2023-05-13",
+            "yearsOfExperience": 6,
+            "salary": 148000,
+            "location": "Pune",
+            "workMode": "Hybrid",
+            "projects": [
+              {
+                "projectName": "Project Nexus",
+                "status": "Active",
+                "riskStatus": "At Risk",
+                "priorityRanking": 4
+              },
+              {
+                "projectName": "UPI Fraud Detection",
+                "status": "Active",
+                "riskStatus": "On Track",
+                "priorityRanking": 3
+              }
+            ],
+            "skills": [
+              "Roadmapping",
+              "Analytics"
+            ],
+            "rating": 4.2,
+            "attendancePercentage": 96,
+            "employeeSatisfaction": "Medium",
+            "onNoticePeriod": false
+          },
+          {
+            "id": 100,
+            "name": "Amit Tiwari",
+            "email": "amit.tiwari@company.com",
+            "phone": "+91-9876543300",
+            "department": "Engineering",
+            "designation": "Senior Software Engineer",
+            "manager": "Priya Srivastava",
+            "joiningDate": "2022-12-21",
+            "yearsOfExperience": 4,
+            "salary": 104000,
+            "location": "Chennai",
+            "workMode": "Onsite",
+            "projects": [
+              {
+                "projectName": "Project Alpha",
+                "status": "Active",
+                "riskStatus": "On Track",
+                "priorityRanking": 1
+              },
+              {
+                "projectName": "Project Titan",
+                "status": "Active",
+                "riskStatus": "On Track",
+                "priorityRanking": 3
+              }
+            ],
+            "skills": [
+              "React",
+              "Redux"
+            ],
+            "rating": 4.4,
+            "attendancePercentage": 93.4,
+            "employeeSatisfaction": "High",
+            "onNoticePeriod": false
+          }
+        ],
+        "attritionInsights": {
+          "thisMonth": 142,
+          "lastMonth": 167,
+          "employeesOnNoticePeriod": 15,
+          "yearlyAttritionRate": 12.8,
+          "trend": [
+            {
+              "month": "Dec 23",
+              "rate": 14.1
+            },
+            {
+              "month": "Jan 24",
+              "rate": 13.7
+            },
+            {
+              "month": "Feb 24",
+              "rate": 13.2
+            },
+            {
+              "month": "Mar 24",
+              "rate": 12.9
+            },
+            {
+              "month": "Apr 24",
+              "rate": 13
+            },
+            {
+              "month": "May 24",
+              "rate": 12.8
+            }
+          ]
+        }
+      }
+    ]
+  },
+  "analytics": {
+    "summary": {
+      "totalEmployees": 125430,
+      "activeProjects": 438,
+      "revenueThisQuarterCr": 1245,
+      "profitMargin": 23.4,
+      "utilizationRate": 87.6,
+      "attritionRate": 12.8
+    },
+    "headcountByLocation": [
+      {
+        "city": "Bangalore",
+        "state": "Karnataka",
+        "employeeCount": 35000,
+        "activeProjects": 112,
+        "averageUtilization": 91
+      },
+      {
+        "city": "Hyderabad",
+        "state": "Telangana",
+        "employeeCount": 28000,
+        "activeProjects": 84,
+        "averageUtilization": 89
+      },
+      {
+        "city": "Pune",
+        "state": "Maharashtra",
+        "employeeCount": 22000,
+        "activeProjects": 67,
+        "averageUtilization": 85
+      },
+      {
+        "city": "Noida",
+        "state": "Uttar Pradesh",
+        "employeeCount": 18000,
+        "activeProjects": 53,
+        "averageUtilization": 81
+      },
+      {
+        "city": "Chennai",
+        "state": "Tamil Nadu",
+        "employeeCount": 15000,
+        "activeProjects": 44,
+        "averageUtilization": 88
+      },
+      {
+        "city": "Mumbai",
+        "state": "Maharashtra",
+        "employeeCount": 8500,
+        "activeProjects": 32,
+        "averageUtilization": 86
+      },
+      {
+        "city": "Delhi",
+        "state": "Delhi",
+        "employeeCount": 5430,
+        "activeProjects": 21,
+        "averageUtilization": 83
+      },
+      {
+        "city": "Kolkata",
+        "state": "West Bengal",
+        "employeeCount": 3000,
+        "activeProjects": 15,
+        "averageUtilization": 80
+      }
+    ],
+    "revenueTrend": [
+      {
+        "month": "Dec 23",
+        "revenueCr": 870
+      },
+      {
+        "month": "Jan 24",
+        "revenueCr": 910
+      },
+      {
+        "month": "Feb 24",
+        "revenueCr": 960
+      },
+      {
+        "month": "Mar 24",
+        "revenueCr": 1030
+      },
+      {
+        "month": "Apr 24",
+        "revenueCr": 1120
+      },
+      {
+        "month": "May 24",
+        "revenueCr": 1245
+      }
+    ],
+    "projectStatusDistribution": {
+      "totalProjects": 438,
+      "onTrack": 187,
+      "atRisk": 110,
+      "delayed": 74,
+      "completed": 67
+    },
+    "departmentHeadcount": [
+      {
+        "department": "Engineering",
+        "count": 55
+      },
+      {
+        "department": "Product",
+        "count": 10
+      },
+      {
+        "department": "QA & Testing",
+        "count": 5
+      },
+      {
+        "department": "Support",
+        "count": 20
+      },
+      {
+        "department": "Design",
+        "count": 7
+      },
+      {
+        "department": "Data",
+        "count": 1
+      },
+      {
+        "department": "HR",
+        "count": 2
+      }
+    ],
+    "utilizationTrend": [
+      {
+        "month": "Dec 23",
+        "utilization": 81.2
+      },
+      {
+        "month": "Jan 24",
+        "utilization": 82.5
+      },
+      {
+        "month": "Feb 24",
+        "utilization": 83
+      },
+      {
+        "month": "Mar 24",
+        "utilization": 84.4
+      },
+      {
+        "month": "Apr 24",
+        "utilization": 84.5
+      },
+      {
+        "month": "May 24",
+        "utilization": 87.6
+      }
+    ],
+    "attritionInsights": {
+      "thisMonth": 142,
+      "lastMonth": 167,
+      "employeesOnNoticePeriod": 15,
+      "yearlyAttritionRate": 12.8,
+      "trend": [
+        {
+          "month": "Dec 23",
+          "rate": 14.1
+        },
+        {
+          "month": "Jan 24",
+          "rate": 13.7
+        },
+        {
+          "month": "Feb 24",
+          "rate": 13.2
+        },
+        {
+          "month": "Mar 24",
+          "rate": 12.9
+        },
+        {
+          "month": "Apr 24",
+          "rate": 13
+        },
+        {
+          "month": "May 24",
+          "rate": 12.8
+        }
+      ]
+    },
+    "topClients": [
+      {
+        "client": "Reliance Jio",
+        "industry": "Telecom",
+        "revenueCr": 250,
+        "contributionPercentage": 20.1
+      },
+      {
+        "client": "Bharti Airtel",
+        "industry": "Telecom",
+        "revenueCr": 195,
+        "contributionPercentage": 15.7
+      },
+      {
+        "client": "HDFC Bank",
+        "industry": "Banking",
+        "revenueCr": 142,
+        "contributionPercentage": 11.4
+      },
+      {
+        "client": "Tata Motors",
+        "industry": "Automobile",
+        "revenueCr": 98,
+        "contributionPercentage": 7.9
+      },
+      {
+        "client": "LIC India",
+        "industry": "Insurance",
+        "revenueCr": 85,
+        "contributionPercentage": 6.8
+      }
+    ],
+    "skillsInDemand": [
+      {
+        "skill": "AWS",
+        "employeeCount": 13
+      },
+      {
+        "skill": "React",
+        "employeeCount": 12
+      },
+      {
+        "skill": "Node.js",
+        "employeeCount": 11
+      },
+      {
+        "skill": "Python",
+        "employeeCount": 10
+      },
+      {
+        "skill": "Django",
+        "employeeCount": 9
+      }
+    ],
+    "alerts": [
+      {
+        "id": 1,
+        "severity": "warning",
+        "message": "Airtel Xstream Upgrade project is behind schedule by 12 days",
+        "timestamp": "2h ago"
+      },
+      {
+        "id": 2,
+        "severity": "success",
+        "message": "UPI Fraud Detection project completed 90% milestone",
+        "timestamp": "5h ago"
+      },
+      {
+        "id": 3,
+        "severity": "info",
+        "message": "450 new employees onboarded this month",
+        "timestamp": "1d ago"
+      },
+      {
+        "id": 4,
+        "severity": "warning",
+        "message": "Utilization rate in Chennai office is below 70%",
+        "timestamp": "2d ago"
+      }
+    ]
+  },
+  "performanceCards": {
+    "topPerformers": {
+      "title": "Top Performers",
+      "icon": "⭐",
+      "count": 18,
+      "percentage": 18,
+      "trend": "up",
+      "trendValue": 3.2,
+      "description": "Employees with rating ≥ 4.5",
+      "employees": [
+        {
+          "id": 11,
+          "name": "Saurabh Jain",
+          "department": "Engineering",
+          "designation": "Tech Lead",
+          "rating": 4.9,
+          "attendancePercentage": 95.2
+        },
+        {
+          "id": 2,
+          "name": "Priya Mehta",
+          "department": "Product",
+          "designation": "Product Manager",
+          "rating": 4.8,
+          "attendancePercentage": 90.1
+        },
+        {
+          "id": 13,
+          "name": "Rohit Khanna",
+          "department": "Product",
+          "designation": "Senior Product Manager",
+          "rating": 4.8,
+          "attendancePercentage": 97.1
+        },
+        {
+          "id": 17,
+          "name": "Shreya Kulkarni",
+          "department": "Data",
+          "designation": "Data Scientist",
+          "rating": 4.7,
+          "attendancePercentage": 95.8
+        },
+        {
+          "id": 7,
+          "name": "Karan Malhotra",
+          "department": "Engineering",
+          "designation": "DevOps Engineer",
+          "rating": 4.6,
+          "attendancePercentage": 93.1
+        },
+        {
+          "id": 1,
+          "name": "Rahul Sharma",
+          "department": "Engineering",
+          "designation": "Senior Software Engineer",
+          "rating": 4.5,
+          "attendancePercentage": 94.3
+        },
+        {
+          "id": 24,
+          "name": "Rahul Pillai",
+          "department": "Engineering",
+          "designation": "Frontend Developer",
+          "joiningDate": "2023-05-02",
+          "rating": 4.3,
+          "attendancePercentage": 93.7
+        }
+      ]
+    },
+    "promotedThisYear": {
+      "title": "Promoted This Year",
+      "icon": "📈",
+      "count": 12,
+      "percentage": 12,
+      "trend": "up",
+      "trendValue": 2.1,
+      "description": "Promoted between Jan 2024 – May 2024",
+      "employees": [
+        {
+          "id": 1,
+          "name": "Rahul Sharma",
+          "department": "Engineering",
+          "previousDesignation": "Software Engineer",
+          "currentDesignation": "Senior Software Engineer",
+          "promotedOn": "2024-01-15"
+        },
+        {
+          "id": 7,
+          "name": "Karan Malhotra",
+          "department": "Engineering",
+          "previousDesignation": "Software Engineer",
+          "currentDesignation": "DevOps Engineer",
+          "promotedOn": "2024-02-10"
+        },
+        {
+          "id": 10,
+          "name": "Meera Joshi",
+          "department": "Data",
+          "previousDesignation": "Junior Data Analyst",
+          "currentDesignation": "Data Analyst",
+          "promotedOn": "2024-02-28"
+        },
+        {
+          "id": 17,
+          "name": "Shreya Kulkarni",
+          "department": "Data",
+          "previousDesignation": "Data Analyst",
+          "currentDesignation": "Data Scientist",
+          "promotedOn": "2024-03-05"
+        },
+        {
+          "id": 6,
+          "name": "Neha Gupta",
+          "department": "QA",
+          "previousDesignation": "QA Analyst",
+          "currentDesignation": "QA Engineer",
+          "promotedOn": "2024-03-20"
+        },
+        {
+          "id": 13,
+          "name": "Rohit Khanna",
+          "department": "Product",
+          "previousDesignation": "Product Manager",
+          "currentDesignation": "Senior Product Manager",
+          "promotedOn": "2024-04-01"
+        },
+        {
+          "id": 8,
+          "name": "Riya Arora",
+          "department": "HR",
+          "previousDesignation": "HR Business Partner",
+          "currentDesignation": "HR Manager",
+          "promotedOn": "2024-04-15"
+        },
+        {
+          "id": 18,
+          "name": "Mohit Bansal",
+          "department": "Finance",
+          "previousDesignation": "Finance Analyst",
+          "currentDesignation": "Finance Manager",
+          "promotedOn": "2024-04-22"
+        },
+        {
+          "id": 11,
+          "name": "Saurabh Jain",
+          "department": "Engineering",
+          "previousDesignation": "Senior Software Engineer",
+          "currentDesignation": "Tech Lead",
+          "promotedOn": "2024-05-01"
+        },
+        {
+          "id": 14,
+          "name": "Anjali Nair",
+          "department": "QA",
+          "previousDesignation": "QA Engineer",
+          "currentDesignation": "Automation Tester",
+          "promotedOn": "2024-05-10"
+        },
+        {
+          "id": 19,
+          "name": "Aisha Khan",
+          "department": "Engineering",
+          "previousDesignation": "Junior Frontend Developer",
+          "currentDesignation": "Frontend Developer",
+          "promotedOn": "2024-05-15"
+        },
+        {
+          "id": 2,
+          "name": "Priya Mehta",
+          "department": "Product",
+          "previousDesignation": "Associate Product Manager",
+          "currentDesignation": "Product Manager",
+          "promotedOn": "2024-05-20"
+        }
+      ]
+    },
+    "meetingKPIs": {
+      "title": "Meeting KPIs",
+      "icon": "🎯",
+      "count": 74,
+      "percentage": 74,
+      "trend": "up",
+      "trendValue": 5.4,
+      "description": "Employees with rating ≥ 4.0 and attendance ≥ 90%",
+      "breakdown": {
+        "exceeding": {
+          "label": "Exceeding KPIs",
+          "count": 18,
+          "percentage": 18,
+          "ratingRange": "≥ 4.5"
+        },
+        "meeting": {
+          "label": "Meeting KPIs",
+          "count": 56,
+          "percentage": 56,
+          "ratingRange": "4.0 – 4.4"
+        },
+        "notMeeting": {
+          "label": "Not Meeting KPIs",
+          "count": 26,
+          "percentage": 26,
+          "ratingRange": "< 4.0"
+        }
+      },
+      "trend_history": [
+        {
+          "month": "Dec 23",
+          "percentage": 68
+        },
+        {
+          "month": "Jan 24",
+          "percentage": 69.5
+        },
+        {
+          "month": "Feb 24",
+          "percentage": 70.2
+        },
+        {
+          "month": "Mar 24",
+          "percentage": 71.8
+        },
+        {
+          "month": "Apr 24",
+          "percentage": 72.4
+        },
+        {
+          "month": "May 24",
+          "percentage": 74
+        }
+      ]
+    },
+    "requiringReview": {
+      "title": "Requiring Review",
+      "icon": "⚠️",
+      "count": 11,
+      "percentage": 11,
+      "trend": "down",
+      "trendValue": 1.8,
+      "description": "Employees with rating < 4.0 or attendance < 88% or on notice period",
+      "reasons": {
+        "lowRating": {
+          "label": "Low Rating (< 4.0)",
+          "count": 4
+        },
+        "lowAttendance": {
+          "label": "Low Attendance (< 88%)",
+          "count": 3
+        },
+        "onNoticePeriod": {
+          "label": "On Notice Period",
+          "count": 15
+        },
+        "lowSatisfaction": {
+          "label": "Low Job Satisfaction",
+          "count": 1
+        }
+      },
+      "employees": [
+        {
+          "id": 5,
+          "name": "Vikram Singh",
+          "department": "Engineering",
+          "designation": "Backend Developer",
+          "rating": 3.8,
+          "attendancePercentage": 95.7,
+          "employeeSatisfaction": "Low",
+          "onNoticePeriod": true,
+          "reviewReason": [
+            "Low Rating",
+            "On Notice Period",
+            "Low Satisfaction"
+          ]
+        },
+        {
+          "id": 16,
+          "name": "Nitin Agarwal",
+          "department": "Engineering",
+          "designation": "Software Engineer",
+          "rating": 3.8,
+          "attendancePercentage": 88.7,
+          "employeeSatisfaction": "Medium",
+          "onNoticePeriod": false,
+          "reviewReason": [
+            "Low Rating"
+          ]
+        },
+        {
+          "id": 9,
+          "name": "Arjun Patel",
+          "department": "Engineering",
+          "designation": "Software Engineer",
+          "rating": 3.9,
+          "attendancePercentage": 89.4,
+          "employeeSatisfaction": "Medium",
+          "onNoticePeriod": false,
+          "reviewReason": [
+            "Low Rating"
+          ]
+        },
+        {
+          "id": 20,
+          "name": "Tarun Mishra",
+          "department": "Support",
+          "designation": "Technical Support Engineer",
+          "rating": 3.9,
+          "attendancePercentage": 89.8,
+          "employeeSatisfaction": "Medium",
+          "onNoticePeriod": true,
+          "reviewReason": [
+            "Low Rating",
+            "On Notice Period"
+          ]
+        },
+        {
+          "id": 4,
+          "name": "Sneha Kapoor",
+          "department": "Design",
+          "designation": "UI/UX Designer",
+          "rating": 4.2,
+          "attendancePercentage": 88.2,
+          "employeeSatisfaction": "Medium",
+          "onNoticePeriod": false,
+          "reviewReason": [
+            "Low Attendance"
+          ]
+        },
+        {
+          "id": 15,
+          "name": "Deepak Yadav",
+          "department": "Engineering",
+          "designation": "Backend Developer",
+          "rating": 4.4,
+          "attendancePercentage": 94.1,
+          "employeeSatisfaction": "High",
+          "onNoticePeriod": true,
+          "reviewReason": [
+            "On Notice Period"
+          ]
+        }
+      ]
+    }
+  },
+  "profile": {
+    "name": "Mayank Gupta",
+    "phone": "9910867894",
+    "email": "mayankgupta8995@gmail.com",
+    "department": "Engineering",
+    "designation": "Sr. Software Engineer",
+    "empId": "B/2345",
+    "jdate": "2026-06-08",
+    "wmode": "Hybrid",
+    "location": "Karnataka",
+    "image": null,
+    "id": "dP1jdJ2pQ1U"
+  },
+  "$schema": "./node_modules/json-server/schema.json"
+}
