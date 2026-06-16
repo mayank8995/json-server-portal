@@ -4,7 +4,7 @@ const server = jsonServer.create()
 const router = jsonServer.router('db.json')
 const middlewares = jsonServer.defaults()
 // Define allowed production origins
-const allowedOrigins = ['https://your-production-app.com'];
+const allowedOrigins = ['https://advance-dashboard.onrender.com'];
 
 const corsOptions = {
   origin: (origin, callback) => {
@@ -19,7 +19,7 @@ const corsOptions = {
   },
   credentials: true,
   methods: 'GET,HEAD,PUT,PATCH,POST,DELETE,OPTIONS',
-  allowedHeaders: 'Content-Type,Authorization,X-Requested-With,Accept'
+  allowedHeaders: 'Content-Type,Authorization,X-Requested-With,Accept,Access-Control-Allow-Origin'
 };
 
 // Apply standard defaults (logger, static, read-only if configured)
