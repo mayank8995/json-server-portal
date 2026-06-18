@@ -4003,16 +4003,19 @@
   },
   "profile": {
     "name": "Mayank Gupta",
-    "phone": "9910867894",
-    "email": "mayankgupta8995@gmail.com",
+    "phone": "9910999999",
+    "email": "mayank@ganga.com",
     "department": "Engineering",
-    "designation": "Sr. Software Engineer",
-    "empId": "B/2345",
-    "jdate": "2026-06-08",
+    "designation": "Sr.Software Engineer",
+    "empId": "B/4567",
+    "jdate": "2026-06-18",
     "wmode": "Hybrid",
-    "location": "Karnataka",
-    "image": null,
-    "id": "dP1jdJ2pQ1U"
+    "location": "Bengaluru",
+    "image": null
+  },
+  "login": {
+    "email": "fsdfs@sds.com",
+    "password": "234234234"
   },
   "$schema": "./node_modules/json-server/schema.json"
 }
