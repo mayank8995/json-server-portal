@@ -4014,8 +4014,7 @@
     "image": null
   },
   "login": {
-    "email": "fsdfs@sds.com",
-    "password": "234234234"
+
   },
   "$schema": "./node_modules/json-server/schema.json"
 }
