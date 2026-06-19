@@ -4003,18 +4003,30 @@
   },
   "profile": {
     "name": "Mayank Gupta",
-    "phone": "9910999999",
-    "email": "mayank@ganga.com",
+    "phone": "9910860789",
+    "email": "test@example.com",
     "department": "Engineering",
-    "designation": "Sr.Software Engineer",
-    "empId": "B/4567",
-    "jdate": "2026-06-18",
+    "designation": "Sr. Software Engineer",
+    "empId": "B/2345",
+    "jdate": "2026-06-13",
     "wmode": "Hybrid",
-    "location": "Bengaluru",
+    "location": "Bellandur Bengaluru",
     "image": null
   },
   "login": {
-
+    "email": "fdgdf@dfsdf.com",
+    "password": "453453453"
   },
+  "users": [
+    {
+      "id": "1781898575956",
+      "name": "test",
+      "email": "test@example.com",
+      "password": "123456",
+      "designation": "Sr. Software Engineer",
+      "department": "Engineering",
+      "empId": "B/2345"
+    }
+  ],
   "$schema": "./node_modules/json-server/schema.json"
 }
