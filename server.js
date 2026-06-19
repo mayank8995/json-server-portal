@@ -27,6 +27,12 @@ app.get('/performanceCards', (req, res) => {
   res.status(200).json(performanceCards);
 });
 
+app.get('/profile', (req, res) => {
+  const db = router.db; 
+  const performanceCards = db.get('profile').value();
+  res.status(200).json(performanceCards);
+});
+
 app.post('/login', (req, res) => {
   const { email, password } = req.body;
   const db = router.db;
@@ -36,9 +42,10 @@ app.post('/login', (req, res) => {
     return res.status(401).json({ message: 'Invalid credentials' });
   }
 
-  res.json({
+  res.status(200).json({
     token: `fake-jwt-${user.id}-${Date.now()}`,
     user: { id: user.id, email: user.email, name: user.name },
+    message: 'Logged in successfully'
   });
 });
 
@@ -58,13 +65,13 @@ app.post('/profile', (req, res) => {
     image
   };
   db.set('profile', newProfile).write();
-  res.status(201).json(db.get('profile').value());
+  res.status(201).json({message: 'Profile added successfully', "profile":{...db.get('profile').value()}});
 });
 
 app.patch('/profile', (req, res) => {
   const db = router.db;
   db.get('profile').assign(req.body).write();
-  res.status(201).json(db.get('profile').value());
+  res.status(201).json({message: 'Profile edited successfully', "profile":{...db.get('profile').value()}});
 });
 
 
@@ -93,6 +100,7 @@ app.post('/signup', (req, res) => {
   res.status(201).json({
     token: `fake-jwt-${newUser.id}-${Date.now()}`,
     user: { id: newUser.id, name: newUser.name, email: newUser.email },
+    message: 'Sign up successful'
   });
 });
 
@@ -107,8 +115,8 @@ const corsOptions = {
   //     callback(new Error('Blocked by CORS policy'));
   //   }
   // },
-  // origin:'https://advance-dashboard.onrender.com',
-  origin:'http://localhost:5173',
+  origin:'https://advance-dashboard.onrender.com',
+  // origin:'http://localhost:5173',
   credentials: true,
   methods: 'GET,HEAD,PUT,PATCH,POST,DELETE,OPTIONS',
   allowedHeaders: 'Content-Type,Authorization,X-Requested-With,Accept,Access-Control-Allow-Origin'
