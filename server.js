@@ -29,8 +29,8 @@ app.get('/performanceCards', (req, res) => {
 
 app.get('/profile', (req, res) => {
   const db = router.db; 
-  const performanceCards = db.get('profile').value();
-  res.status(200).json(performanceCards);
+  const profile = db.get('profile').value();
+  res.status(200).json(profile);
 });
 
 app.post('/login', (req, res) => {
@@ -65,13 +65,13 @@ app.post('/profile', (req, res) => {
     image
   };
   db.set('profile', newProfile).write();
-  res.status(201).json({message: 'Profile added successfully', "profile":{...db.get('profile').value()}});
+  res.status(201).json({message: 'Profile added successfully'});
 });
 
 app.patch('/profile', (req, res) => {
   const db = router.db;
   db.get('profile').assign(req.body).write();
-  res.status(201).json({message: 'Profile edited successfully', "profile":{...db.get('profile').value()}});
+  res.status(201).json({message: 'Profile edited successfully'});
 });
 
 
