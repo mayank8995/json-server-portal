@@ -4002,7 +4002,7 @@
     }
   },
   "profile": {
-    "name": "Mayank Gupta",
+    "name": "Mayank",
     "phone": "9910860789",
     "email": "test@example.com",
     "department": "Engineering",
@@ -4022,7 +4022,7 @@
       "id": "1781898575956",
       "name": "test",
       "email": "test@example.com",
-      "password": "123456",
+      "password": "987654",
       "designation": "Sr. Software Engineer",
       "department": "Engineering",
       "empId": "B/2345"
