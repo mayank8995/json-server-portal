@@ -1,136 +1,33 @@
-const jsonServer = require('json-server');
-const express = require('express');
-const cors = require('cors');
+const express = require("express");
+const cors = require("cors");
 
 const app = express();
-const router = jsonServer.router('db.json'); 
-const middlewares = jsonServer.defaults();
+app.use(express.json());
 
+const appRoutes = require("./src/routes/appRoutes");
 
-app.use(middlewares);
-app.use(express.json()); // To parse JSON bodies
-
-
-app.get('/employeeList', (req, res) => {
-  const db = router.db; 
-  const employeeList = db.get('employeeList').value();
-  res.status(200).json(employeeList);
-});
-app.get('/analytics', (req, res) => {
-  const db = router.db; 
-  const analytics = db.get('analytics').value();
-  res.status(200).json(analytics);
-});
-app.get('/performanceCards', (req, res) => {
-  const db = router.db; 
-  const performanceCards = db.get('performanceCards').value();
-  res.status(200).json(performanceCards);
-});
-
-app.get('/profile', (req, res) => {
-  const db = router.db; 
-  const profile = db.get('profile').value();
-  res.status(200).json(profile);
-});
-
-app.post('/login', (req, res) => {
-  const { email, password } = req.body;
-  const db = router.db;
-  const user = db.get('users').find({ email, password }).value();
-
-  if (!user) {
-    return res.status(401).json({ message: 'Invalid credentials' });
-  }
-
-  res.status(200).json({
-    token: `fake-jwt-${user.id}-${Date.now()}`,
-    user: { id: user.id, email: user.email, name: user.name },
-    message: 'Logged in successfully'
-  });
-});
-
-app.post('/profile', (req, res) => {
-  const db = router.db;
-  const { name, phone, email, department,designation,empId,jdate,wmode,location,image } = req.body;
-  const newProfile = {
-    name, 
-    phone, 
-    email, 
-    department,
-    designation,
-    empId,
-    jdate,
-    wmode,
-    location,
-    image
-  };
-  db.set('profile', newProfile).write();
-  res.status(201).json({message: 'Profile added successfully'});
-});
-
-app.patch('/profile', (req, res) => {
-  const db = router.db;
-  db.get('profile').assign(req.body).write();
-  res.status(201).json({message: 'Profile edited successfully'});
-});
-
-
-app.post('/signup', (req, res) => {
-  const { name, email, password ,designation, department, empId} = req.body;
-  const db = router.db;
-
-  const existingUser = db.get('users').find({ email }).value();
-  if (existingUser) {
-    return res.status(409).json({ message: 'Email already registered' });
-  }
-
-  const newUser = {
-    id: Date.now().toString(),
-    name,
-    email,
-    password, 
-    designation,
-    department,
-    empId
-  };
-
-  
-  db.get('users').push(newUser).write();
-
-  res.status(201).json({
-    token: `fake-jwt-${newUser.id}-${Date.now()}`,
-    user: { id: newUser.id, name: newUser.name, email: newUser.email },
-    message: 'Sign up successful'
-  });
-});
 
 const corsOptions = {
-  // origin: (origin, callback) => {
-  //   // Allow requests with no origin (like mobile apps or curl)
-  //   if (!origin) return callback(null, true);
-    
-  //   if (allowedOrigins.indexOf(origin) !== -1 || process.env.NODE_ENV !== 'production') {
-  //     callback(null, true);
-  //   } else {
-  //     callback(new Error('Blocked by CORS policy'));
-  //   }
-  // },
-  origin:'https://advance-dashboard.onrender.com',
-  // origin:'http://localhost:5173',
+  // origin: "https://advance-dashboard.onrender.com",
+  origin: "http://localhost:5173",
   credentials: true,
-  methods: 'GET,HEAD,PUT,PATCH,POST,DELETE,OPTIONS',
-  allowedHeaders: 'Content-Type,Authorization,X-Requested-With,Accept,Access-Control-Allow-Origin'
+  methods: ["GET", "HEAD", "PUT", "PATCH", "POST", "DELETE", "OPTIONS"],
+  allowedHeaders: [
+    "Content-Type",
+    "Authorization",
+    "X-Requested-With",
+    "Accept",
+    "Access-Control-Allow-Origin",
+  ],
 };
-// Enable robust CORS handling
+
 app.use(cors(corsOptions));
+app.options("*", cors(corsOptions));
 
-// Explicitly handle preflight OPTIONS requests across all routes
-app.options('*', cors(corsOptions));
+app.use("/", appRoutes);
 
-// 3. Bind the automated json-server router to an endpoint
-// This auto-generates CRUD for whatever is inside db.json
-app.use(router); 
+const PORT = process.env.PORT || 3000;
 
-app.listen(3000, () => {
-  console.log('Hybrid Backend is running on port 3000');
+app.listen(PORT, () => {
+  console.log(`Hybrid Backend is running on port ${PORT}`);
 });
