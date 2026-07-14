@@ -5971,69 +5971,36 @@
   },
   "analytics": {
     "summary": {
-      "totalEmployees": 125430,
-      "activeProjects": 438,
+      "totalEmployees": 200,
+      "activeProjects": 100,
       "revenueThisQuarterCr": 1245,
       "profitMargin": 23.4,
-      "utilizationRate": 87.6,
       "attritionRate": 12.8
     },
     "headcountByLocation": [
       {
         "city": "Bangalore",
-        "state": "Karnataka",
-        "employeeCount": 35000,
-        "activeProjects": 112,
-        "averageUtilization": 91
+        "employeeCount": 60
       },
       {
         "city": "Hyderabad",
-        "state": "Telangana",
-        "employeeCount": 28000,
-        "activeProjects": 84,
-        "averageUtilization": 89
+        "employeeCount": 25
       },
       {
         "city": "Pune",
-        "state": "Maharashtra",
-        "employeeCount": 22000,
-        "activeProjects": 67,
-        "averageUtilization": 85
+        "employeeCount": 40
       },
       {
         "city": "Noida",
-        "state": "Uttar Pradesh",
-        "employeeCount": 18000,
-        "activeProjects": 53,
-        "averageUtilization": 81
+        "employeeCount": 25
       },
       {
         "city": "Chennai",
-        "state": "Tamil Nadu",
-        "employeeCount": 15000,
-        "activeProjects": 44,
-        "averageUtilization": 88
-      },
-      {
-        "city": "Mumbai",
-        "state": "Maharashtra",
-        "employeeCount": 8500,
-        "activeProjects": 32,
-        "averageUtilization": 86
+        "employeeCount": 30
       },
       {
         "city": "Delhi",
-        "state": "Delhi",
-        "employeeCount": 5430,
-        "activeProjects": 21,
-        "averageUtilization": 83
-      },
-      {
-        "city": "Kolkata",
-        "state": "West Bengal",
-        "employeeCount": 3000,
-        "activeProjects": 15,
-        "averageUtilization": 80
+        "employeeCount": 20
       }
     ],
     "revenueTrend": [
@@ -6063,11 +6030,11 @@
       }
     ],
     "projectStatusDistribution": {
-      "totalProjects": 438,
-      "onTrack": 187,
-      "atRisk": 110,
-      "delayed": 74,
-      "completed": 67
+      "totalProjects": 100,
+      "onTrack": 70,
+      "atRisk": 10,
+      "delayed": 5,
+      "completed": 15
     },
     "departmentHeadcount": [
       {
