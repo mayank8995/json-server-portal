@@ -15,9 +15,7 @@ const getPaginatedEmployees = (req, res) => {
     const response = service.paginatedEmployeeList(req);
     res.status(200).json(response);
   } catch (error) {
-    res
-      .status(400)
-      .json({ success: false, message: 'Error is fetching Employee list' });
+    res.status(400).json({ success: false, message: error.message });
   }
 };
 const getFilters = (req, res) => {

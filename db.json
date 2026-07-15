@@ -26,7 +26,10 @@
                 "priorityRanking": 1
               }
             ],
-            "skills": ["Java", "Spring Boot"],
+            "skills": [
+              "Java",
+              "Spring Boot"
+            ],
             "rating": 4.6,
             "attendancePercentage": 94.1,
             "employeeSatisfaction": "High",
@@ -53,7 +56,10 @@
                 "priorityRanking": 1
               }
             ],
-            "skills": ["Roadmapping", "Analytics"],
+            "skills": [
+              "Roadmapping",
+              "Analytics"
+            ],
             "rating": 4,
             "attendancePercentage": 87,
             "employeeSatisfaction": "Medium",
@@ -80,7 +86,11 @@
                 "priorityRanking": 10
               }
             ],
-            "skills": ["Docker", "Kubernetes", "AWS"],
+            "skills": [
+              "Docker",
+              "Kubernetes",
+              "AWS"
+            ],
             "rating": 4.3,
             "attendancePercentage": 97.7,
             "employeeSatisfaction": "High",
@@ -102,12 +112,21 @@
             "projects": [
               {
                 "projectName": "Project EGov",
+                "status": "Dead",
+                "riskStatus": "At Risk",
+                "priorityRanking": 1000000
+              },
+              {
+                "projectName": "Project EGov",
                 "status": "Active",
                 "riskStatus": "At Risk",
                 "priorityRanking": 1
               }
             ],
-            "skills": ["CRM Tools", "Excel"],
+            "skills": [
+              "CRM Tools",
+              "Excel"
+            ],
             "rating": 4.5,
             "attendancePercentage": 95,
             "employeeSatisfaction": "High",
@@ -134,7 +153,11 @@
                 "priorityRanking": 6
               }
             ],
-            "skills": ["Docker", "Kubernetes", "AWS"],
+            "skills": [
+              "Docker",
+              "Kubernetes",
+              "AWS"
+            ],
             "rating": 3.9,
             "attendancePercentage": 97.2,
             "employeeSatisfaction": "Medium",
@@ -167,7 +190,10 @@
                 "priorityRanking": 1
               }
             ],
-            "skills": ["Go", "gRPC"],
+            "skills": [
+              "Go",
+              "gRPC"
+            ],
             "rating": 3.8,
             "attendancePercentage": 85.4,
             "employeeSatisfaction": "Medium",
@@ -200,7 +226,10 @@
                 "priorityRanking": 5
               }
             ],
-            "skills": ["Illustrator", "Photoshop"],
+            "skills": [
+              "Illustrator",
+              "Photoshop"
+            ],
             "rating": 4.2,
             "attendancePercentage": 88.4,
             "employeeSatisfaction": "Medium",
@@ -227,7 +256,10 @@
                 "priorityRanking": 2
               }
             ],
-            "skills": ["Jira", "Confluence"],
+            "skills": [
+              "Jira",
+              "Confluence"
+            ],
             "rating": 3.6,
             "attendancePercentage": 85.6,
             "employeeSatisfaction": "Low",
@@ -260,7 +292,10 @@
                 "priorityRanking": 2
               }
             ],
-            "skills": ["Figma", "User Research"],
+            "skills": [
+              "Figma",
+              "User Research"
+            ],
             "rating": 5,
             "attendancePercentage": 96.2,
             "employeeSatisfaction": "High",
@@ -293,7 +328,10 @@
                 "priorityRanking": 3
               }
             ],
-            "skills": ["Java", "Microservices"],
+            "skills": [
+              "Java",
+              "Microservices"
+            ],
             "rating": 5,
             "attendancePercentage": 94.9,
             "employeeSatisfaction": "High",
@@ -326,7 +364,10 @@
                 "priorityRanking": 1
               }
             ],
-            "skills": ["Go", "gRPC"],
+            "skills": [
+              "Go",
+              "gRPC"
+            ],
             "rating": 4.4,
             "attendancePercentage": 91.4,
             "employeeSatisfaction": "High",
@@ -359,7 +400,10 @@
                 "priorityRanking": 5
               }
             ],
-            "skills": ["Node.js", "MongoDB"],
+            "skills": [
+              "Node.js",
+              "MongoDB"
+            ],
             "rating": 5,
             "attendancePercentage": 91.9,
             "employeeSatisfaction": "High",
@@ -392,7 +436,10 @@
                 "priorityRanking": 4
               }
             ],
-            "skills": ["Figma", "User Research"],
+            "skills": [
+              "Figma",
+              "User Research"
+            ],
             "rating": 3.8,
             "attendancePercentage": 89.1,
             "employeeSatisfaction": "Medium",
@@ -419,7 +466,10 @@
                 "priorityRanking": 2
               }
             ],
-            "skills": ["React", "TypeScript"],
+            "skills": [
+              "React",
+              "TypeScript"
+            ],
             "rating": 3.5,
             "attendancePercentage": 94.2,
             "employeeSatisfaction": "Low",
@@ -446,7 +496,10 @@
                 "priorityRanking": 4
               }
             ],
-            "skills": ["SQL", "Kibana"],
+            "skills": [
+              "SQL",
+              "Kibana"
+            ],
             "rating": 3.7,
             "attendancePercentage": 97.2,
             "employeeSatisfaction": "Low",
@@ -473,7 +526,10 @@
                 "priorityRanking": 3
               }
             ],
-            "skills": ["Zendesk", "JIRA"],
+            "skills": [
+              "Zendesk",
+              "JIRA"
+            ],
             "rating": 4.1,
             "attendancePercentage": 96.2,
             "employeeSatisfaction": "Medium",
@@ -500,7 +556,10 @@
                 "priorityRanking": 5
               }
             ],
-            "skills": ["Zendesk", "JIRA"],
+            "skills": [
+              "Zendesk",
+              "JIRA"
+            ],
             "rating": 3.7,
             "attendancePercentage": 87.4,
             "employeeSatisfaction": "Low",
@@ -533,7 +592,10 @@
                 "priorityRanking": 8
               }
             ],
-            "skills": ["Zendesk", "JIRA"],
+            "skills": [
+              "Zendesk",
+              "JIRA"
+            ],
             "rating": 5,
             "attendancePercentage": 97,
             "employeeSatisfaction": "High",
@@ -566,7 +628,10 @@
                 "priorityRanking": 3
               }
             ],
-            "skills": ["React", "TypeScript"],
+            "skills": [
+              "React",
+              "TypeScript"
+            ],
             "rating": 3.9,
             "attendancePercentage": 95.2,
             "employeeSatisfaction": "Medium",
@@ -593,7 +658,10 @@
                 "priorityRanking": 2
               }
             ],
-            "skills": ["React", "TypeScript"],
+            "skills": [
+              "React",
+              "TypeScript"
+            ],
             "rating": 3.6,
             "attendancePercentage": 92.6,
             "employeeSatisfaction": "Low",
@@ -620,7 +688,10 @@
                 "priorityRanking": 2
               }
             ],
-            "skills": ["Python", "TensorFlow"],
+            "skills": [
+              "Python",
+              "TensorFlow"
+            ],
             "rating": 4.1,
             "attendancePercentage": 97.2,
             "employeeSatisfaction": "Medium",
@@ -653,7 +724,10 @@
                 "priorityRanking": 1
               }
             ],
-            "skills": ["SQL", "Data Analysis"],
+            "skills": [
+              "SQL",
+              "Data Analysis"
+            ],
             "rating": 3.9,
             "attendancePercentage": 90.1,
             "employeeSatisfaction": "Medium",
@@ -686,7 +760,10 @@
                 "priorityRanking": 3
               }
             ],
-            "skills": ["Node.js", "MongoDB"],
+            "skills": [
+              "Node.js",
+              "MongoDB"
+            ],
             "rating": 3.7,
             "attendancePercentage": 89.5,
             "employeeSatisfaction": "Low",
@@ -713,7 +790,10 @@
                 "priorityRanking": 5
               }
             ],
-            "skills": ["Python", "Django"],
+            "skills": [
+              "Python",
+              "Django"
+            ],
             "rating": 4.3,
             "attendancePercentage": 93.7,
             "employeeSatisfaction": "High",
@@ -746,7 +826,10 @@
                 "priorityRanking": 5
               }
             ],
-            "skills": ["Go", "gRPC"],
+            "skills": [
+              "Go",
+              "gRPC"
+            ],
             "rating": 4.6,
             "attendancePercentage": 87.6,
             "employeeSatisfaction": "High",
@@ -779,7 +862,10 @@
                 "priorityRanking": 9
               }
             ],
-            "skills": ["Figma", "Adobe XD"],
+            "skills": [
+              "Figma",
+              "Adobe XD"
+            ],
             "rating": 3.5,
             "attendancePercentage": 95,
             "employeeSatisfaction": "Low",
@@ -812,7 +898,11 @@
                 "priorityRanking": 5
               }
             ],
-            "skills": ["React", "Node.js", "AWS"],
+            "skills": [
+              "React",
+              "Node.js",
+              "AWS"
+            ],
             "rating": 4.3,
             "attendancePercentage": 90.6,
             "employeeSatisfaction": "High",
@@ -839,7 +929,10 @@
                 "priorityRanking": 6
               }
             ],
-            "skills": ["Java", "Spring Boot"],
+            "skills": [
+              "Java",
+              "Spring Boot"
+            ],
             "rating": 4.8,
             "attendancePercentage": 90.3,
             "employeeSatisfaction": "High",
@@ -866,7 +959,10 @@
                 "priorityRanking": 4
               }
             ],
-            "skills": ["SQL", "Kibana"],
+            "skills": [
+              "SQL",
+              "Kibana"
+            ],
             "rating": 4.7,
             "attendancePercentage": 96.2,
             "employeeSatisfaction": "High",
@@ -893,7 +989,10 @@
                 "priorityRanking": 7
               }
             ],
-            "skills": ["Java", "Microservices"],
+            "skills": [
+              "Java",
+              "Microservices"
+            ],
             "rating": 4,
             "attendancePercentage": 95.7,
             "employeeSatisfaction": "Medium",
@@ -920,7 +1019,10 @@
                 "priorityRanking": 4
               }
             ],
-            "skills": ["Node.js", "MongoDB"],
+            "skills": [
+              "Node.js",
+              "MongoDB"
+            ],
             "rating": 4.3,
             "attendancePercentage": 93.8,
             "employeeSatisfaction": "High",
@@ -947,7 +1049,10 @@
                 "priorityRanking": 3
               }
             ],
-            "skills": ["SQL", "Kibana"],
+            "skills": [
+              "SQL",
+              "Kibana"
+            ],
             "rating": 3.7,
             "attendancePercentage": 90.6,
             "employeeSatisfaction": "Low",
@@ -980,7 +1085,10 @@
                 "priorityRanking": 11
               }
             ],
-            "skills": ["CRM Tools", "Excel"],
+            "skills": [
+              "CRM Tools",
+              "Excel"
+            ],
             "rating": 4.9,
             "attendancePercentage": 92,
             "employeeSatisfaction": "High",
@@ -1013,7 +1121,10 @@
                 "priorityRanking": 4
               }
             ],
-            "skills": ["Illustrator", "Photoshop"],
+            "skills": [
+              "Illustrator",
+              "Photoshop"
+            ],
             "rating": 4.3,
             "attendancePercentage": 93.7,
             "employeeSatisfaction": "High",
@@ -1046,7 +1157,11 @@
                 "priorityRanking": 8
               }
             ],
-            "skills": ["React", "Node.js", "AWS"],
+            "skills": [
+              "React",
+              "Node.js",
+              "AWS"
+            ],
             "rating": 4.8,
             "attendancePercentage": 89,
             "employeeSatisfaction": "High",
@@ -1073,7 +1188,10 @@
                 "priorityRanking": 10
               }
             ],
-            "skills": ["Go", "gRPC"],
+            "skills": [
+              "Go",
+              "gRPC"
+            ],
             "rating": 4.5,
             "attendancePercentage": 88.7,
             "employeeSatisfaction": "High",
@@ -1100,7 +1218,11 @@
                 "priorityRanking": 3
               }
             ],
-            "skills": ["React", "Node.js", "AWS"],
+            "skills": [
+              "React",
+              "Node.js",
+              "AWS"
+            ],
             "rating": 4.4,
             "attendancePercentage": 95,
             "employeeSatisfaction": "High",
@@ -1127,7 +1249,11 @@
                 "priorityRanking": 8
               }
             ],
-            "skills": ["React", "Node.js", "AWS"],
+            "skills": [
+              "React",
+              "Node.js",
+              "AWS"
+            ],
             "rating": 4.7,
             "attendancePercentage": 87.8,
             "employeeSatisfaction": "High",
@@ -1160,7 +1286,10 @@
                 "priorityRanking": 12
               }
             ],
-            "skills": ["Zeplin", "Principle"],
+            "skills": [
+              "Zeplin",
+              "Principle"
+            ],
             "rating": 5,
             "attendancePercentage": 92.7,
             "employeeSatisfaction": "High",
@@ -1193,7 +1322,10 @@
                 "priorityRanking": 12
               }
             ],
-            "skills": ["CRM Tools", "Excel"],
+            "skills": [
+              "CRM Tools",
+              "Excel"
+            ],
             "rating": 4.6,
             "attendancePercentage": 91.8,
             "employeeSatisfaction": "High",
@@ -1220,7 +1352,11 @@
                 "priorityRanking": 2
               }
             ],
-            "skills": ["Docker", "Kubernetes", "AWS"],
+            "skills": [
+              "Docker",
+              "Kubernetes",
+              "AWS"
+            ],
             "rating": 3.7,
             "attendancePercentage": 90,
             "employeeSatisfaction": "Low",
@@ -1253,7 +1389,10 @@
                 "priorityRanking": 6
               }
             ],
-            "skills": ["Java", "Microservices"],
+            "skills": [
+              "Java",
+              "Microservices"
+            ],
             "rating": 4.1,
             "attendancePercentage": 95,
             "employeeSatisfaction": "Medium",
@@ -1286,7 +1425,10 @@
                 "priorityRanking": 7
               }
             ],
-            "skills": ["React", "Redux"],
+            "skills": [
+              "React",
+              "Redux"
+            ],
             "rating": 4.8,
             "attendancePercentage": 91.3,
             "employeeSatisfaction": "High",
@@ -1313,7 +1455,10 @@
                 "priorityRanking": 3
               }
             ],
-            "skills": ["React", "Redux"],
+            "skills": [
+              "React",
+              "Redux"
+            ],
             "rating": 5,
             "attendancePercentage": 91.9,
             "employeeSatisfaction": "High",
@@ -1346,7 +1491,10 @@
                 "priorityRanking": 5
               }
             ],
-            "skills": ["Postman", "API Testing"],
+            "skills": [
+              "Postman",
+              "API Testing"
+            ],
             "rating": 3.8,
             "attendancePercentage": 89.2,
             "employeeSatisfaction": "Medium",
@@ -1373,7 +1521,10 @@
                 "priorityRanking": 7
               }
             ],
-            "skills": ["Zendesk", "JIRA"],
+            "skills": [
+              "Zendesk",
+              "JIRA"
+            ],
             "rating": 3.8,
             "attendancePercentage": 85.9,
             "employeeSatisfaction": "Medium",
@@ -1400,7 +1551,10 @@
                 "priorityRanking": 4
               }
             ],
-            "skills": ["SQL", "Kibana"],
+            "skills": [
+              "SQL",
+              "Kibana"
+            ],
             "rating": 4.3,
             "attendancePercentage": 87.8,
             "employeeSatisfaction": "High",
@@ -1427,7 +1581,10 @@
                 "priorityRanking": 3
               }
             ],
-            "skills": ["CRM Tools", "Excel"],
+            "skills": [
+              "CRM Tools",
+              "Excel"
+            ],
             "rating": 4.4,
             "attendancePercentage": 96.8,
             "employeeSatisfaction": "High",
@@ -1460,7 +1617,10 @@
                 "priorityRanking": 11
               }
             ],
-            "skills": ["Jira", "Confluence"],
+            "skills": [
+              "Jira",
+              "Confluence"
+            ],
             "rating": 4.4,
             "attendancePercentage": 86.6,
             "employeeSatisfaction": "High",
@@ -1487,7 +1647,11 @@
                 "priorityRanking": 2
               }
             ],
-            "skills": ["Docker", "Kubernetes", "AWS"],
+            "skills": [
+              "Docker",
+              "Kubernetes",
+              "AWS"
+            ],
             "rating": 3.7,
             "attendancePercentage": 97.5,
             "employeeSatisfaction": "Low",
@@ -1520,7 +1684,10 @@
                 "priorityRanking": 2
               }
             ],
-            "skills": ["Python", "Django"],
+            "skills": [
+              "Python",
+              "Django"
+            ],
             "rating": 4.2,
             "attendancePercentage": 95.7,
             "employeeSatisfaction": "Medium",
@@ -1547,7 +1714,10 @@
                 "priorityRanking": 4
               }
             ],
-            "skills": ["Zeplin", "Principle"],
+            "skills": [
+              "Zeplin",
+              "Principle"
+            ],
             "rating": 4.5,
             "attendancePercentage": 89.4,
             "employeeSatisfaction": "High",
@@ -1574,7 +1744,10 @@
                 "priorityRanking": 8
               }
             ],
-            "skills": ["Python", "Django"],
+            "skills": [
+              "Python",
+              "Django"
+            ],
             "rating": 4.8,
             "attendancePercentage": 92.2,
             "employeeSatisfaction": "High",
@@ -1607,7 +1780,10 @@
                 "priorityRanking": 5
               }
             ],
-            "skills": ["SQL", "Kibana"],
+            "skills": [
+              "SQL",
+              "Kibana"
+            ],
             "rating": 4.2,
             "attendancePercentage": 85.2,
             "employeeSatisfaction": "Medium",
@@ -1640,7 +1816,10 @@
                 "priorityRanking": 4
               }
             ],
-            "skills": ["Postman", "API Testing"],
+            "skills": [
+              "Postman",
+              "API Testing"
+            ],
             "rating": 4,
             "attendancePercentage": 94.1,
             "employeeSatisfaction": "Medium",
@@ -1673,7 +1852,11 @@
                 "priorityRanking": 2
               }
             ],
-            "skills": ["Docker", "Kubernetes", "AWS"],
+            "skills": [
+              "Docker",
+              "Kubernetes",
+              "AWS"
+            ],
             "rating": 3.8,
             "attendancePercentage": 87.8,
             "employeeSatisfaction": "Medium",
@@ -1706,7 +1889,11 @@
                 "priorityRanking": 11
               }
             ],
-            "skills": ["Docker", "Kubernetes", "AWS"],
+            "skills": [
+              "Docker",
+              "Kubernetes",
+              "AWS"
+            ],
             "rating": 3.7,
             "attendancePercentage": 85.6,
             "employeeSatisfaction": "Low",
@@ -1739,7 +1926,10 @@
                 "priorityRanking": 2
               }
             ],
-            "skills": ["Zendesk", "JIRA"],
+            "skills": [
+              "Zendesk",
+              "JIRA"
+            ],
             "rating": 4.2,
             "attendancePercentage": 89.4,
             "employeeSatisfaction": "Medium",
@@ -1766,7 +1956,10 @@
                 "priorityRanking": 4
               }
             ],
-            "skills": ["Node.js", "MongoDB"],
+            "skills": [
+              "Node.js",
+              "MongoDB"
+            ],
             "rating": 3.7,
             "attendancePercentage": 92.3,
             "employeeSatisfaction": "Low",
@@ -1793,7 +1986,10 @@
                 "priorityRanking": 4
               }
             ],
-            "skills": ["Jira", "Confluence"],
+            "skills": [
+              "Jira",
+              "Confluence"
+            ],
             "rating": 3.9,
             "attendancePercentage": 92.7,
             "employeeSatisfaction": "Medium",
@@ -1826,7 +2022,10 @@
                 "priorityRanking": 5
               }
             ],
-            "skills": ["Sketch", "InVision"],
+            "skills": [
+              "Sketch",
+              "InVision"
+            ],
             "rating": 3.8,
             "attendancePercentage": 86,
             "employeeSatisfaction": "Medium",
@@ -1859,7 +2058,10 @@
                 "priorityRanking": 9
               }
             ],
-            "skills": ["Python", "Django"],
+            "skills": [
+              "Python",
+              "Django"
+            ],
             "rating": 3.9,
             "attendancePercentage": 88.4,
             "employeeSatisfaction": "Medium",
@@ -1892,7 +2094,10 @@
                 "priorityRanking": 8
               }
             ],
-            "skills": ["Python", "Django"],
+            "skills": [
+              "Python",
+              "Django"
+            ],
             "rating": 4.7,
             "attendancePercentage": 92.7,
             "employeeSatisfaction": "High",
@@ -1925,7 +2130,10 @@
                 "priorityRanking": 2
               }
             ],
-            "skills": ["Postman", "API Testing"],
+            "skills": [
+              "Postman",
+              "API Testing"
+            ],
             "rating": 4.2,
             "attendancePercentage": 92.8,
             "employeeSatisfaction": "Medium",
@@ -1958,7 +2166,10 @@
                 "priorityRanking": 3
               }
             ],
-            "skills": ["Angular", "RxJS"],
+            "skills": [
+              "Angular",
+              "RxJS"
+            ],
             "rating": 4.7,
             "attendancePercentage": 92.5,
             "employeeSatisfaction": "High",
@@ -1985,7 +2196,10 @@
                 "priorityRanking": 11
               }
             ],
-            "skills": ["Talent Acquisition", "Excel"],
+            "skills": [
+              "Talent Acquisition",
+              "Excel"
+            ],
             "rating": 4,
             "attendancePercentage": 89.3,
             "employeeSatisfaction": "Medium",
@@ -2012,7 +2226,10 @@
                 "priorityRanking": 3
               }
             ],
-            "skills": ["Python", "Django"],
+            "skills": [
+              "Python",
+              "Django"
+            ],
             "rating": 3.6,
             "attendancePercentage": 86.1,
             "employeeSatisfaction": "Low",
@@ -2039,7 +2256,10 @@
                 "priorityRanking": 7
               }
             ],
-            "skills": ["Zendesk", "JIRA"],
+            "skills": [
+              "Zendesk",
+              "JIRA"
+            ],
             "rating": 3.6,
             "attendancePercentage": 91.7,
             "employeeSatisfaction": "Low",
@@ -2072,7 +2292,10 @@
                 "priorityRanking": 9
               }
             ],
-            "skills": ["Python", "Django"],
+            "skills": [
+              "Python",
+              "Django"
+            ],
             "rating": 3.5,
             "attendancePercentage": 93.2,
             "employeeSatisfaction": "Low",
@@ -2105,7 +2328,10 @@
                 "priorityRanking": 8
               }
             ],
-            "skills": ["Node.js", "MongoDB"],
+            "skills": [
+              "Node.js",
+              "MongoDB"
+            ],
             "rating": 4.2,
             "attendancePercentage": 94.3,
             "employeeSatisfaction": "Medium",
@@ -2138,7 +2364,11 @@
                 "priorityRanking": 5
               }
             ],
-            "skills": ["React", "Node.js", "AWS"],
+            "skills": [
+              "React",
+              "Node.js",
+              "AWS"
+            ],
             "rating": 4.6,
             "attendancePercentage": 86.8,
             "employeeSatisfaction": "High",
@@ -2171,7 +2401,10 @@
                 "priorityRanking": 6
               }
             ],
-            "skills": ["Zendesk", "JIRA"],
+            "skills": [
+              "Zendesk",
+              "JIRA"
+            ],
             "rating": 4.4,
             "attendancePercentage": 93.6,
             "employeeSatisfaction": "High",
@@ -2204,7 +2437,10 @@
                 "priorityRanking": 6
               }
             ],
-            "skills": ["Figma", "User Research"],
+            "skills": [
+              "Figma",
+              "User Research"
+            ],
             "rating": 5,
             "attendancePercentage": 88.1,
             "employeeSatisfaction": "High",
@@ -2237,7 +2473,10 @@
                 "priorityRanking": 2
               }
             ],
-            "skills": ["Linux", "Bash"],
+            "skills": [
+              "Linux",
+              "Bash"
+            ],
             "rating": 5,
             "attendancePercentage": 91.4,
             "employeeSatisfaction": "High",
@@ -2270,7 +2509,10 @@
                 "priorityRanking": 2
               }
             ],
-            "skills": ["Linux", "Bash"],
+            "skills": [
+              "Linux",
+              "Bash"
+            ],
             "rating": 5,
             "attendancePercentage": 86,
             "employeeSatisfaction": "High",
@@ -2303,7 +2545,10 @@
                 "priorityRanking": 12
               }
             ],
-            "skills": ["Go", "gRPC"],
+            "skills": [
+              "Go",
+              "gRPC"
+            ],
             "rating": 4.8,
             "attendancePercentage": 85.5,
             "employeeSatisfaction": "High",
@@ -2336,7 +2581,10 @@
                 "priorityRanking": 3
               }
             ],
-            "skills": ["Node.js", "MongoDB"],
+            "skills": [
+              "Node.js",
+              "MongoDB"
+            ],
             "rating": 3.6,
             "attendancePercentage": 95.3,
             "employeeSatisfaction": "Low",
@@ -2363,7 +2611,10 @@
                 "priorityRanking": 8
               }
             ],
-            "skills": ["Angular", "RxJS"],
+            "skills": [
+              "Angular",
+              "RxJS"
+            ],
             "rating": 3.6,
             "attendancePercentage": 96.3,
             "employeeSatisfaction": "Low",
@@ -2396,7 +2647,10 @@
                 "priorityRanking": 10
               }
             ],
-            "skills": ["Java", "Microservices"],
+            "skills": [
+              "Java",
+              "Microservices"
+            ],
             "rating": 4.9,
             "attendancePercentage": 93.8,
             "employeeSatisfaction": "High",
@@ -2429,7 +2683,10 @@
                 "priorityRanking": 12
               }
             ],
-            "skills": ["Python", "Django"],
+            "skills": [
+              "Python",
+              "Django"
+            ],
             "rating": 4.8,
             "attendancePercentage": 86.4,
             "employeeSatisfaction": "High",
@@ -2462,7 +2719,10 @@
                 "priorityRanking": 10
               }
             ],
-            "skills": ["React", "Redux"],
+            "skills": [
+              "React",
+              "Redux"
+            ],
             "rating": 4.7,
             "attendancePercentage": 97.7,
             "employeeSatisfaction": "High",
@@ -2495,7 +2755,10 @@
                 "priorityRanking": 1
               }
             ],
-            "skills": ["SQL", "Kibana"],
+            "skills": [
+              "SQL",
+              "Kibana"
+            ],
             "rating": 4.5,
             "attendancePercentage": 86.8,
             "employeeSatisfaction": "High",
@@ -2528,7 +2791,10 @@
                 "priorityRanking": 5
               }
             ],
-            "skills": ["Jira", "Confluence"],
+            "skills": [
+              "Jira",
+              "Confluence"
+            ],
             "rating": 3.8,
             "attendancePercentage": 86.7,
             "employeeSatisfaction": "Medium",
@@ -2561,7 +2827,10 @@
                 "priorityRanking": 3
               }
             ],
-            "skills": ["Illustrator", "Photoshop"],
+            "skills": [
+              "Illustrator",
+              "Photoshop"
+            ],
             "rating": 4.2,
             "attendancePercentage": 86,
             "employeeSatisfaction": "Medium",
@@ -2588,7 +2857,10 @@
                 "priorityRanking": 4
               }
             ],
-            "skills": ["Go", "gRPC"],
+            "skills": [
+              "Go",
+              "gRPC"
+            ],
             "rating": 3.9,
             "attendancePercentage": 90,
             "employeeSatisfaction": "Medium",
@@ -2621,7 +2893,11 @@
                 "priorityRanking": 3
               }
             ],
-            "skills": ["Docker", "Kubernetes", "AWS"],
+            "skills": [
+              "Docker",
+              "Kubernetes",
+              "AWS"
+            ],
             "rating": 4.5,
             "attendancePercentage": 91,
             "employeeSatisfaction": "High",
@@ -2654,7 +2930,10 @@
                 "priorityRanking": 5
               }
             ],
-            "skills": ["Python", "Django"],
+            "skills": [
+              "Python",
+              "Django"
+            ],
             "rating": 4.8,
             "attendancePercentage": 86.8,
             "employeeSatisfaction": "High",
@@ -2681,7 +2960,10 @@
                 "priorityRanking": 12
               }
             ],
-            "skills": ["Java", "Microservices"],
+            "skills": [
+              "Java",
+              "Microservices"
+            ],
             "rating": 3.5,
             "attendancePercentage": 89.8,
             "employeeSatisfaction": "Low",
@@ -2708,7 +2990,11 @@
                 "priorityRanking": 7
               }
             ],
-            "skills": ["Docker", "Kubernetes", "AWS"],
+            "skills": [
+              "Docker",
+              "Kubernetes",
+              "AWS"
+            ],
             "rating": 3.6,
             "attendancePercentage": 88.6,
             "employeeSatisfaction": "Low",
@@ -2735,7 +3021,10 @@
                 "priorityRanking": 8
               }
             ],
-            "skills": ["Selenium", "Cypress"],
+            "skills": [
+              "Selenium",
+              "Cypress"
+            ],
             "rating": 4.7,
             "attendancePercentage": 87.7,
             "employeeSatisfaction": "High",
@@ -2762,7 +3051,10 @@
                 "priorityRanking": 5
               }
             ],
-            "skills": ["Angular", "RxJS"],
+            "skills": [
+              "Angular",
+              "RxJS"
+            ],
             "rating": 5,
             "attendancePercentage": 92,
             "employeeSatisfaction": "High",
@@ -2789,7 +3081,10 @@
                 "priorityRanking": 4
               }
             ],
-            "skills": ["Java", "Spring Boot"],
+            "skills": [
+              "Java",
+              "Spring Boot"
+            ],
             "rating": 3.6,
             "attendancePercentage": 94.6,
             "employeeSatisfaction": "Low",
@@ -2822,7 +3117,10 @@
                 "priorityRanking": 4
               }
             ],
-            "skills": ["Go", "gRPC"],
+            "skills": [
+              "Go",
+              "gRPC"
+            ],
             "rating": 4.9,
             "attendancePercentage": 85.6,
             "employeeSatisfaction": "High",
@@ -2849,7 +3147,10 @@
                 "priorityRanking": 3
               }
             ],
-            "skills": ["HRMS", "Compliance"],
+            "skills": [
+              "HRMS",
+              "Compliance"
+            ],
             "rating": 4.9,
             "attendancePercentage": 86,
             "employeeSatisfaction": "High",
@@ -2876,7 +3177,10 @@
                 "priorityRanking": 4
               }
             ],
-            "skills": ["Angular", "RxJS"],
+            "skills": [
+              "Angular",
+              "RxJS"
+            ],
             "rating": 4.3,
             "attendancePercentage": 90.9,
             "employeeSatisfaction": "High",
@@ -2909,7 +3213,10 @@
                 "priorityRanking": 6
               }
             ],
-            "skills": ["SQL", "Kibana"],
+            "skills": [
+              "SQL",
+              "Kibana"
+            ],
             "rating": 4,
             "attendancePercentage": 90.9,
             "employeeSatisfaction": "Medium",
@@ -2942,7 +3249,10 @@
                 "priorityRanking": 9
               }
             ],
-            "skills": ["Appium", "TestNG"],
+            "skills": [
+              "Appium",
+              "TestNG"
+            ],
             "rating": 4.7,
             "attendancePercentage": 86.2,
             "employeeSatisfaction": "High",
@@ -2969,7 +3279,10 @@
                 "priorityRanking": 10
               }
             ],
-            "skills": ["Go", "gRPC"],
+            "skills": [
+              "Go",
+              "gRPC"
+            ],
             "rating": 4.8,
             "attendancePercentage": 97.2,
             "employeeSatisfaction": "High",
@@ -3002,7 +3315,10 @@
                 "priorityRanking": 3
               }
             ],
-            "skills": ["Roadmapping", "Analytics"],
+            "skills": [
+              "Roadmapping",
+              "Analytics"
+            ],
             "rating": 4.2,
             "attendancePercentage": 96,
             "employeeSatisfaction": "Medium",
@@ -3035,7 +3351,10 @@
                 "priorityRanking": 3
               }
             ],
-            "skills": ["React", "Redux"],
+            "skills": [
+              "React",
+              "Redux"
+            ],
             "rating": 4.4,
             "attendancePercentage": 93.4,
             "employeeSatisfaction": "High",
@@ -3062,7 +3381,10 @@
                 "priorityRanking": 9
               }
             ],
-            "skills": ["React", "TypeScript"],
+            "skills": [
+              "React",
+              "TypeScript"
+            ],
             "rating": 3.7,
             "attendancePercentage": 94.6,
             "employeeSatisfaction": "Low",
@@ -3089,7 +3411,10 @@
                 "priorityRanking": 10
               }
             ],
-            "skills": ["Selenium", "Cypress"],
+            "skills": [
+              "Selenium",
+              "Cypress"
+            ],
             "rating": 4.4,
             "attendancePercentage": 95.5,
             "employeeSatisfaction": "High",
@@ -3116,7 +3441,10 @@
                 "priorityRanking": 2
               }
             ],
-            "skills": ["Zendesk", "JIRA"],
+            "skills": [
+              "Zendesk",
+              "JIRA"
+            ],
             "rating": 4.2,
             "attendancePercentage": 86.6,
             "employeeSatisfaction": "Medium",
@@ -3143,7 +3471,10 @@
                 "priorityRanking": 8
               }
             ],
-            "skills": ["Talent Acquisition", "Excel"],
+            "skills": [
+              "Talent Acquisition",
+              "Excel"
+            ],
             "rating": 4.8,
             "attendancePercentage": 87.1,
             "employeeSatisfaction": "Medium",
@@ -3170,7 +3501,10 @@
                 "priorityRanking": 6
               }
             ],
-            "skills": ["Postman", "API Testing"],
+            "skills": [
+              "Postman",
+              "API Testing"
+            ],
             "rating": 3.8,
             "attendancePercentage": 85.4,
             "employeeSatisfaction": "Medium",
@@ -3197,7 +3531,10 @@
                 "priorityRanking": 10
               }
             ],
-            "skills": ["Roadmapping", "Analytics"],
+            "skills": [
+              "Roadmapping",
+              "Analytics"
+            ],
             "rating": 4.1,
             "attendancePercentage": 87.9,
             "employeeSatisfaction": "High",
@@ -3224,7 +3561,10 @@
                 "priorityRanking": 11
               }
             ],
-            "skills": ["Python", "TensorFlow"],
+            "skills": [
+              "Python",
+              "TensorFlow"
+            ],
             "rating": 4.6,
             "attendancePercentage": 93.9,
             "employeeSatisfaction": "Low",
@@ -3251,7 +3591,10 @@
                 "priorityRanking": 1
               }
             ],
-            "skills": ["Figma", "User Research"],
+            "skills": [
+              "Figma",
+              "User Research"
+            ],
             "rating": 4.3,
             "attendancePercentage": 87.6,
             "employeeSatisfaction": "Medium",
@@ -3278,7 +3621,10 @@
                 "priorityRanking": 1
               }
             ],
-            "skills": ["Figma", "User Research"],
+            "skills": [
+              "Figma",
+              "User Research"
+            ],
             "rating": 4.6,
             "attendancePercentage": 95.6,
             "employeeSatisfaction": "Low",
@@ -3305,7 +3651,10 @@
                 "priorityRanking": 1
               }
             ],
-            "skills": ["Selenium", "Cypress"],
+            "skills": [
+              "Selenium",
+              "Cypress"
+            ],
             "rating": 4.5,
             "attendancePercentage": 90.7,
             "employeeSatisfaction": "Low",
@@ -3332,7 +3681,10 @@
                 "priorityRanking": 1
               }
             ],
-            "skills": ["Appium", "TestNG"],
+            "skills": [
+              "Appium",
+              "TestNG"
+            ],
             "rating": 3.6,
             "attendancePercentage": 88.1,
             "employeeSatisfaction": "Low",
@@ -3359,7 +3711,10 @@
                 "priorityRanking": 6
               }
             ],
-            "skills": ["Illustrator", "Photoshop"],
+            "skills": [
+              "Illustrator",
+              "Photoshop"
+            ],
             "rating": 3.6,
             "attendancePercentage": 93.5,
             "employeeSatisfaction": "Low",
@@ -3386,7 +3741,10 @@
                 "priorityRanking": 1
               }
             ],
-            "skills": ["Zendesk", "JIRA"],
+            "skills": [
+              "Zendesk",
+              "JIRA"
+            ],
             "rating": 3.6,
             "attendancePercentage": 93.5,
             "employeeSatisfaction": "Low",
@@ -3419,7 +3777,10 @@
                 "priorityRanking": 1
               }
             ],
-            "skills": ["Go", "gRPC"],
+            "skills": [
+              "Go",
+              "gRPC"
+            ],
             "rating": 4.5,
             "attendancePercentage": 94.5,
             "employeeSatisfaction": "Low",
@@ -3446,7 +3807,10 @@
                 "priorityRanking": 1
               }
             ],
-            "skills": ["Figma", "Adobe XD"],
+            "skills": [
+              "Figma",
+              "Adobe XD"
+            ],
             "rating": 3.6,
             "attendancePercentage": 85.9,
             "employeeSatisfaction": "High",
@@ -3479,7 +3843,10 @@
                 "priorityRanking": 3
               }
             ],
-            "skills": ["Python", "TensorFlow"],
+            "skills": [
+              "Python",
+              "TensorFlow"
+            ],
             "rating": 3.9,
             "attendancePercentage": 86.7,
             "employeeSatisfaction": "Low",
@@ -3506,7 +3873,10 @@
                 "priorityRanking": 1
               }
             ],
-            "skills": ["SQL", "Kibana"],
+            "skills": [
+              "SQL",
+              "Kibana"
+            ],
             "rating": 4.2,
             "attendancePercentage": 92.1,
             "employeeSatisfaction": "Medium",
@@ -3533,7 +3903,10 @@
                 "priorityRanking": 7
               }
             ],
-            "skills": ["Roadmapping", "Analytics"],
+            "skills": [
+              "Roadmapping",
+              "Analytics"
+            ],
             "rating": 4,
             "attendancePercentage": 93.9,
             "employeeSatisfaction": "Medium",
@@ -3560,7 +3933,10 @@
                 "priorityRanking": 2
               }
             ],
-            "skills": ["Appium", "TestNG"],
+            "skills": [
+              "Appium",
+              "TestNG"
+            ],
             "rating": 3.5,
             "attendancePercentage": 86,
             "employeeSatisfaction": "Low",
@@ -3593,7 +3969,10 @@
                 "priorityRanking": 1
               }
             ],
-            "skills": ["Zendesk", "JIRA"],
+            "skills": [
+              "Zendesk",
+              "JIRA"
+            ],
             "rating": 4.7,
             "attendancePercentage": 96.5,
             "employeeSatisfaction": "Medium",
@@ -3620,7 +3999,10 @@
                 "priorityRanking": 8
               }
             ],
-            "skills": ["HRMS", "Compliance"],
+            "skills": [
+              "HRMS",
+              "Compliance"
+            ],
             "rating": 4.8,
             "attendancePercentage": 96.2,
             "employeeSatisfaction": "High",
@@ -3653,7 +4035,10 @@
                 "priorityRanking": 3
               }
             ],
-            "skills": ["Talent Acquisition", "Excel"],
+            "skills": [
+              "Talent Acquisition",
+              "Excel"
+            ],
             "rating": 4.3,
             "attendancePercentage": 93.8,
             "employeeSatisfaction": "Low",
@@ -3680,7 +4065,10 @@
                 "priorityRanking": 7
               }
             ],
-            "skills": ["Figma", "Adobe XD"],
+            "skills": [
+              "Figma",
+              "Adobe XD"
+            ],
             "rating": 3.6,
             "attendancePercentage": 90.7,
             "employeeSatisfaction": "Low",
@@ -3713,7 +4101,10 @@
                 "priorityRanking": 2
               }
             ],
-            "skills": ["Appium", "TestNG"],
+            "skills": [
+              "Appium",
+              "TestNG"
+            ],
             "rating": 4.1,
             "attendancePercentage": 88.8,
             "employeeSatisfaction": "High",
@@ -3740,7 +4131,10 @@
                 "priorityRanking": 6
               }
             ],
-            "skills": ["Illustrator", "Photoshop"],
+            "skills": [
+              "Illustrator",
+              "Photoshop"
+            ],
             "rating": 3.8,
             "attendancePercentage": 91.2,
             "employeeSatisfaction": "Low",
@@ -3767,7 +4161,10 @@
                 "priorityRanking": 1
               }
             ],
-            "skills": ["Roadmapping", "Analytics"],
+            "skills": [
+              "Roadmapping",
+              "Analytics"
+            ],
             "rating": 4.8,
             "attendancePercentage": 92.5,
             "employeeSatisfaction": "Low",
@@ -3800,7 +4197,10 @@
                 "priorityRanking": 1
               }
             ],
-            "skills": ["SQL", "Data Analysis"],
+            "skills": [
+              "SQL",
+              "Data Analysis"
+            ],
             "rating": 4.2,
             "attendancePercentage": 95.4,
             "employeeSatisfaction": "Low",
@@ -3827,7 +4227,10 @@
                 "priorityRanking": 1
               }
             ],
-            "skills": ["Zeplin", "Principle"],
+            "skills": [
+              "Zeplin",
+              "Principle"
+            ],
             "rating": 4.2,
             "attendancePercentage": 88.1,
             "employeeSatisfaction": "Medium",
@@ -3854,7 +4257,10 @@
                 "priorityRanking": 3
               }
             ],
-            "skills": ["Figma", "User Research"],
+            "skills": [
+              "Figma",
+              "User Research"
+            ],
             "rating": 4.3,
             "attendancePercentage": 90.4,
             "employeeSatisfaction": "High",
@@ -3887,7 +4293,10 @@
                 "priorityRanking": 1
               }
             ],
-            "skills": ["Sketch", "InVision"],
+            "skills": [
+              "Sketch",
+              "InVision"
+            ],
             "rating": 3.8,
             "attendancePercentage": 90.7,
             "employeeSatisfaction": "High",
@@ -3914,7 +4323,10 @@
                 "priorityRanking": 10
               }
             ],
-            "skills": ["SQL", "Data Analysis"],
+            "skills": [
+              "SQL",
+              "Data Analysis"
+            ],
             "rating": 4.8,
             "attendancePercentage": 87.4,
             "employeeSatisfaction": "Medium",
@@ -3941,7 +4353,10 @@
                 "priorityRanking": 1
               }
             ],
-            "skills": ["Postman", "API Testing"],
+            "skills": [
+              "Postman",
+              "API Testing"
+            ],
             "rating": 3.6,
             "attendancePercentage": 97.4,
             "employeeSatisfaction": "High",
@@ -3974,7 +4389,10 @@
                 "priorityRanking": 12
               }
             ],
-            "skills": ["Illustrator", "Photoshop"],
+            "skills": [
+              "Illustrator",
+              "Photoshop"
+            ],
             "rating": 4.4,
             "attendancePercentage": 94.7,
             "employeeSatisfaction": "High",
@@ -4007,7 +4425,11 @@
                 "priorityRanking": 1
               }
             ],
-            "skills": ["Docker", "Kubernetes", "AWS"],
+            "skills": [
+              "Docker",
+              "Kubernetes",
+              "AWS"
+            ],
             "rating": 4.5,
             "attendancePercentage": 88.9,
             "employeeSatisfaction": "Low",
@@ -4034,7 +4456,10 @@
                 "priorityRanking": 10
               }
             ],
-            "skills": ["React", "Redux"],
+            "skills": [
+              "React",
+              "Redux"
+            ],
             "rating": 3.7,
             "attendancePercentage": 87.3,
             "employeeSatisfaction": "Low",
@@ -4061,7 +4486,10 @@
                 "priorityRanking": 3
               }
             ],
-            "skills": ["Jira", "Confluence"],
+            "skills": [
+              "Jira",
+              "Confluence"
+            ],
             "rating": 3.5,
             "attendancePercentage": 96.1,
             "employeeSatisfaction": "High",
@@ -4094,7 +4522,10 @@
                 "priorityRanking": 4
               }
             ],
-            "skills": ["Jira", "Confluence"],
+            "skills": [
+              "Jira",
+              "Confluence"
+            ],
             "rating": 4.2,
             "attendancePercentage": 94.3,
             "employeeSatisfaction": "Medium",
@@ -4121,7 +4552,10 @@
                 "priorityRanking": 4
               }
             ],
-            "skills": ["CRM Tools", "Excel"],
+            "skills": [
+              "CRM Tools",
+              "Excel"
+            ],
             "rating": 4.6,
             "attendancePercentage": 88.5,
             "employeeSatisfaction": "Medium",
@@ -4148,7 +4582,10 @@
                 "priorityRanking": 12
               }
             ],
-            "skills": ["SQL", "Data Analysis"],
+            "skills": [
+              "SQL",
+              "Data Analysis"
+            ],
             "rating": 4,
             "attendancePercentage": 88.9,
             "employeeSatisfaction": "Low",
@@ -4175,7 +4612,10 @@
                 "priorityRanking": 1
               }
             ],
-            "skills": ["Figma", "Adobe XD"],
+            "skills": [
+              "Figma",
+              "Adobe XD"
+            ],
             "rating": 4.9,
             "attendancePercentage": 91.2,
             "employeeSatisfaction": "High",
@@ -4208,7 +4648,10 @@
                 "priorityRanking": 11
               }
             ],
-            "skills": ["Illustrator", "Photoshop"],
+            "skills": [
+              "Illustrator",
+              "Photoshop"
+            ],
             "rating": 4.9,
             "attendancePercentage": 88.9,
             "employeeSatisfaction": "Low",
@@ -4241,7 +4684,10 @@
                 "priorityRanking": 11
               }
             ],
-            "skills": ["Figma", "User Research"],
+            "skills": [
+              "Figma",
+              "User Research"
+            ],
             "rating": 3.5,
             "attendancePercentage": 90.9,
             "employeeSatisfaction": "Low",
@@ -4268,7 +4714,10 @@
                 "priorityRanking": 5
               }
             ],
-            "skills": ["Appium", "TestNG"],
+            "skills": [
+              "Appium",
+              "TestNG"
+            ],
             "rating": 3.7,
             "attendancePercentage": 88.5,
             "employeeSatisfaction": "High",
@@ -4295,7 +4744,10 @@
                 "priorityRanking": 12
               }
             ],
-            "skills": ["Postman", "API Testing"],
+            "skills": [
+              "Postman",
+              "API Testing"
+            ],
             "rating": 3.6,
             "attendancePercentage": 85.5,
             "employeeSatisfaction": "Medium",
@@ -4322,7 +4774,10 @@
                 "priorityRanking": 1
               }
             ],
-            "skills": ["HRMS", "Compliance"],
+            "skills": [
+              "HRMS",
+              "Compliance"
+            ],
             "rating": 3.8,
             "attendancePercentage": 92.6,
             "employeeSatisfaction": "Low",
@@ -4349,7 +4804,10 @@
                 "priorityRanking": 1
               }
             ],
-            "skills": ["Appium", "TestNG"],
+            "skills": [
+              "Appium",
+              "TestNG"
+            ],
             "rating": 3.6,
             "attendancePercentage": 86.1,
             "employeeSatisfaction": "Medium",
@@ -4376,7 +4834,10 @@
                 "priorityRanking": 2
               }
             ],
-            "skills": ["CRM Tools", "Excel"],
+            "skills": [
+              "CRM Tools",
+              "Excel"
+            ],
             "rating": 3.9,
             "attendancePercentage": 86.7,
             "employeeSatisfaction": "Medium",
@@ -4403,7 +4864,10 @@
                 "priorityRanking": 5
               }
             ],
-            "skills": ["SQL", "Data Analysis"],
+            "skills": [
+              "SQL",
+              "Data Analysis"
+            ],
             "rating": 4.9,
             "attendancePercentage": 93.4,
             "employeeSatisfaction": "High",
@@ -4436,7 +4900,10 @@
                 "priorityRanking": 6
               }
             ],
-            "skills": ["Illustrator", "Photoshop"],
+            "skills": [
+              "Illustrator",
+              "Photoshop"
+            ],
             "rating": 3.9,
             "attendancePercentage": 95.3,
             "employeeSatisfaction": "Medium",
@@ -4463,7 +4930,10 @@
                 "priorityRanking": 8
               }
             ],
-            "skills": ["Illustrator", "Photoshop"],
+            "skills": [
+              "Illustrator",
+              "Photoshop"
+            ],
             "rating": 4.9,
             "attendancePercentage": 96.3,
             "employeeSatisfaction": "Low",
@@ -4490,7 +4960,10 @@
                 "priorityRanking": 7
               }
             ],
-            "skills": ["Jira", "Confluence"],
+            "skills": [
+              "Jira",
+              "Confluence"
+            ],
             "rating": 4.8,
             "attendancePercentage": 90.7,
             "employeeSatisfaction": "Low",
@@ -4523,7 +4996,10 @@
                 "priorityRanking": 1
               }
             ],
-            "skills": ["Figma", "Adobe XD"],
+            "skills": [
+              "Figma",
+              "Adobe XD"
+            ],
             "rating": 4.4,
             "attendancePercentage": 96.5,
             "employeeSatisfaction": "Medium",
@@ -4550,7 +5026,10 @@
                 "priorityRanking": 12
               }
             ],
-            "skills": ["Selenium", "Cypress"],
+            "skills": [
+              "Selenium",
+              "Cypress"
+            ],
             "rating": 4.5,
             "attendancePercentage": 96.7,
             "employeeSatisfaction": "High",
@@ -4577,7 +5056,10 @@
                 "priorityRanking": 9
               }
             ],
-            "skills": ["Jira", "Confluence"],
+            "skills": [
+              "Jira",
+              "Confluence"
+            ],
             "rating": 4.5,
             "attendancePercentage": 91.5,
             "employeeSatisfaction": "Low",
@@ -4604,7 +5086,10 @@
                 "priorityRanking": 2
               }
             ],
-            "skills": ["Figma", "Adobe XD"],
+            "skills": [
+              "Figma",
+              "Adobe XD"
+            ],
             "rating": 3.9,
             "attendancePercentage": 96,
             "employeeSatisfaction": "High",
@@ -4631,7 +5116,10 @@
                 "priorityRanking": 6
               }
             ],
-            "skills": ["Zeplin", "Principle"],
+            "skills": [
+              "Zeplin",
+              "Principle"
+            ],
             "rating": 4.6,
             "attendancePercentage": 95.8,
             "employeeSatisfaction": "Medium",
@@ -4664,7 +5152,10 @@
                 "priorityRanking": 11
               }
             ],
-            "skills": ["Postman", "API Testing"],
+            "skills": [
+              "Postman",
+              "API Testing"
+            ],
             "rating": 4.4,
             "attendancePercentage": 94.5,
             "employeeSatisfaction": "High",
@@ -4691,7 +5182,10 @@
                 "priorityRanking": 9
               }
             ],
-            "skills": ["HRMS", "Compliance"],
+            "skills": [
+              "HRMS",
+              "Compliance"
+            ],
             "rating": 4.2,
             "attendancePercentage": 86,
             "employeeSatisfaction": "High",
@@ -4718,7 +5212,10 @@
                 "priorityRanking": 1
               }
             ],
-            "skills": ["Zendesk", "JIRA"],
+            "skills": [
+              "Zendesk",
+              "JIRA"
+            ],
             "rating": 4.5,
             "attendancePercentage": 91.1,
             "employeeSatisfaction": "Low",
@@ -4751,7 +5248,10 @@
                 "priorityRanking": 4
               }
             ],
-            "skills": ["Java", "Microservices"],
+            "skills": [
+              "Java",
+              "Microservices"
+            ],
             "rating": 3.9,
             "attendancePercentage": 92,
             "employeeSatisfaction": "Medium",
@@ -4778,7 +5278,10 @@
                 "priorityRanking": 5
               }
             ],
-            "skills": ["SQL", "Kibana"],
+            "skills": [
+              "SQL",
+              "Kibana"
+            ],
             "rating": 4.2,
             "attendancePercentage": 88.1,
             "employeeSatisfaction": "Medium",
@@ -4805,7 +5308,10 @@
                 "priorityRanking": 11
               }
             ],
-            "skills": ["Roadmapping", "Analytics"],
+            "skills": [
+              "Roadmapping",
+              "Analytics"
+            ],
             "rating": 4.7,
             "attendancePercentage": 87.7,
             "employeeSatisfaction": "Low",
@@ -4838,7 +5344,10 @@
                 "priorityRanking": 3
               }
             ],
-            "skills": ["Python", "TensorFlow"],
+            "skills": [
+              "Python",
+              "TensorFlow"
+            ],
             "rating": 4.8,
             "attendancePercentage": 86.7,
             "employeeSatisfaction": "Medium",
@@ -4865,7 +5374,10 @@
                 "priorityRanking": 8
               }
             ],
-            "skills": ["Java", "Microservices"],
+            "skills": [
+              "Java",
+              "Microservices"
+            ],
             "rating": 4.3,
             "attendancePercentage": 97.3,
             "employeeSatisfaction": "High",
@@ -4898,7 +5410,10 @@
                 "priorityRanking": 1
               }
             ],
-            "skills": ["Angular", "RxJS"],
+            "skills": [
+              "Angular",
+              "RxJS"
+            ],
             "rating": 4,
             "attendancePercentage": 86.9,
             "employeeSatisfaction": "High",
@@ -4925,7 +5440,10 @@
                 "priorityRanking": 10
               }
             ],
-            "skills": ["HRMS", "Compliance"],
+            "skills": [
+              "HRMS",
+              "Compliance"
+            ],
             "rating": 4,
             "attendancePercentage": 90.9,
             "employeeSatisfaction": "Medium",
@@ -4952,7 +5470,10 @@
                 "priorityRanking": 12
               }
             ],
-            "skills": ["Java", "Spring Boot"],
+            "skills": [
+              "Java",
+              "Spring Boot"
+            ],
             "rating": 4.9,
             "attendancePercentage": 92.3,
             "employeeSatisfaction": "Low",
@@ -4979,7 +5500,10 @@
                 "priorityRanking": 11
               }
             ],
-            "skills": ["Figma", "User Research"],
+            "skills": [
+              "Figma",
+              "User Research"
+            ],
             "rating": 4.1,
             "attendancePercentage": 94.9,
             "employeeSatisfaction": "Low",
@@ -5006,7 +5530,10 @@
                 "priorityRanking": 3
               }
             ],
-            "skills": ["Zendesk", "JIRA"],
+            "skills": [
+              "Zendesk",
+              "JIRA"
+            ],
             "rating": 4.3,
             "attendancePercentage": 90.2,
             "employeeSatisfaction": "High",
@@ -5033,7 +5560,10 @@
                 "priorityRanking": 1
               }
             ],
-            "skills": ["Linux", "Bash"],
+            "skills": [
+              "Linux",
+              "Bash"
+            ],
             "rating": 3.6,
             "attendancePercentage": 86.1,
             "employeeSatisfaction": "Medium",
@@ -5060,7 +5590,10 @@
                 "priorityRanking": 1
               }
             ],
-            "skills": ["Postman", "API Testing"],
+            "skills": [
+              "Postman",
+              "API Testing"
+            ],
             "rating": 3.8,
             "attendancePercentage": 97.8,
             "employeeSatisfaction": "High",
@@ -5093,7 +5626,10 @@
                 "priorityRanking": 8
               }
             ],
-            "skills": ["Sketch", "InVision"],
+            "skills": [
+              "Sketch",
+              "InVision"
+            ],
             "rating": 4.3,
             "attendancePercentage": 93.7,
             "employeeSatisfaction": "Medium",
@@ -5120,7 +5656,10 @@
                 "priorityRanking": 3
               }
             ],
-            "skills": ["Sketch", "InVision"],
+            "skills": [
+              "Sketch",
+              "InVision"
+            ],
             "rating": 3.8,
             "attendancePercentage": 97.3,
             "employeeSatisfaction": "Medium",
@@ -5147,7 +5686,10 @@
                 "priorityRanking": 6
               }
             ],
-            "skills": ["HRMS", "Compliance"],
+            "skills": [
+              "HRMS",
+              "Compliance"
+            ],
             "rating": 4.7,
             "attendancePercentage": 86,
             "employeeSatisfaction": "Low",
@@ -5174,7 +5716,10 @@
                 "priorityRanking": 6
               }
             ],
-            "skills": ["Figma", "User Research"],
+            "skills": [
+              "Figma",
+              "User Research"
+            ],
             "rating": 4.9,
             "attendancePercentage": 93.2,
             "employeeSatisfaction": "Medium",
@@ -5207,7 +5752,10 @@
                 "priorityRanking": 8
               }
             ],
-            "skills": ["Zeplin", "Principle"],
+            "skills": [
+              "Zeplin",
+              "Principle"
+            ],
             "rating": 3.6,
             "attendancePercentage": 91.6,
             "employeeSatisfaction": "Medium",
@@ -5234,7 +5782,10 @@
                 "priorityRanking": 5
               }
             ],
-            "skills": ["Python", "TensorFlow"],
+            "skills": [
+              "Python",
+              "TensorFlow"
+            ],
             "rating": 4.4,
             "attendancePercentage": 91.5,
             "employeeSatisfaction": "High",
@@ -5261,7 +5812,10 @@
                 "priorityRanking": 6
               }
             ],
-            "skills": ["Python", "TensorFlow"],
+            "skills": [
+              "Python",
+              "TensorFlow"
+            ],
             "rating": 4.1,
             "attendancePercentage": 89.4,
             "employeeSatisfaction": "Low",
@@ -5294,7 +5848,10 @@
                 "priorityRanking": 3
               }
             ],
-            "skills": ["Python", "TensorFlow"],
+            "skills": [
+              "Python",
+              "TensorFlow"
+            ],
             "rating": 4.4,
             "attendancePercentage": 97.2,
             "employeeSatisfaction": "Medium",
@@ -5321,7 +5878,10 @@
                 "priorityRanking": 6
               }
             ],
-            "skills": ["CRM Tools", "Excel"],
+            "skills": [
+              "CRM Tools",
+              "Excel"
+            ],
             "rating": 3.8,
             "attendancePercentage": 98,
             "employeeSatisfaction": "High",
@@ -5348,7 +5908,10 @@
                 "priorityRanking": 3
               }
             ],
-            "skills": ["Talent Acquisition", "Excel"],
+            "skills": [
+              "Talent Acquisition",
+              "Excel"
+            ],
             "rating": 4,
             "attendancePercentage": 94.4,
             "employeeSatisfaction": "Medium",
@@ -5375,7 +5938,10 @@
                 "priorityRanking": 3
               }
             ],
-            "skills": ["Illustrator", "Photoshop"],
+            "skills": [
+              "Illustrator",
+              "Photoshop"
+            ],
             "rating": 4.3,
             "attendancePercentage": 97.6,
             "employeeSatisfaction": "High",
@@ -5402,7 +5968,10 @@
                 "priorityRanking": 10
               }
             ],
-            "skills": ["Java", "Spring Boot"],
+            "skills": [
+              "Java",
+              "Spring Boot"
+            ],
             "rating": 3.6,
             "attendancePercentage": 96.8,
             "employeeSatisfaction": "Medium",
@@ -5429,7 +5998,10 @@
                 "priorityRanking": 1
               }
             ],
-            "skills": ["React", "Redux"],
+            "skills": [
+              "React",
+              "Redux"
+            ],
             "rating": 3.7,
             "attendancePercentage": 88.7,
             "employeeSatisfaction": "Medium",
@@ -5462,7 +6034,10 @@
                 "priorityRanking": 3
               }
             ],
-            "skills": ["Postman", "API Testing"],
+            "skills": [
+              "Postman",
+              "API Testing"
+            ],
             "rating": 3.9,
             "attendancePercentage": 86.6,
             "employeeSatisfaction": "High",
@@ -5495,7 +6070,10 @@
                 "priorityRanking": 8
               }
             ],
-            "skills": ["Postman", "API Testing"],
+            "skills": [
+              "Postman",
+              "API Testing"
+            ],
             "rating": 4,
             "attendancePercentage": 92.4,
             "employeeSatisfaction": "High",
@@ -5528,7 +6106,10 @@
                 "priorityRanking": 5
               }
             ],
-            "skills": ["Postman", "API Testing"],
+            "skills": [
+              "Postman",
+              "API Testing"
+            ],
             "rating": 4.7,
             "attendancePercentage": 89.5,
             "employeeSatisfaction": "Low",
@@ -5555,7 +6136,10 @@
                 "priorityRanking": 11
               }
             ],
-            "skills": ["Selenium", "Cypress"],
+            "skills": [
+              "Selenium",
+              "Cypress"
+            ],
             "rating": 4.7,
             "attendancePercentage": 90.9,
             "employeeSatisfaction": "Medium",
@@ -5582,7 +6166,10 @@
                 "priorityRanking": 3
               }
             ],
-            "skills": ["Selenium", "Cypress"],
+            "skills": [
+              "Selenium",
+              "Cypress"
+            ],
             "rating": 4,
             "attendancePercentage": 86.6,
             "employeeSatisfaction": "Medium",
@@ -5615,7 +6202,10 @@
                 "priorityRanking": 3
               }
             ],
-            "skills": ["HRMS", "Compliance"],
+            "skills": [
+              "HRMS",
+              "Compliance"
+            ],
             "rating": 4.4,
             "attendancePercentage": 95.7,
             "employeeSatisfaction": "Low",
@@ -5648,7 +6238,10 @@
                 "priorityRanking": 1
               }
             ],
-            "skills": ["Appium", "TestNG"],
+            "skills": [
+              "Appium",
+              "TestNG"
+            ],
             "rating": 5,
             "attendancePercentage": 97.3,
             "employeeSatisfaction": "High",
@@ -5681,7 +6274,10 @@
                 "priorityRanking": 1
               }
             ],
-            "skills": ["Roadmapping", "Analytics"],
+            "skills": [
+              "Roadmapping",
+              "Analytics"
+            ],
             "rating": 3.7,
             "attendancePercentage": 90.8,
             "employeeSatisfaction": "Medium",
@@ -5708,7 +6304,10 @@
                 "priorityRanking": 5
               }
             ],
-            "skills": ["Appium", "TestNG"],
+            "skills": [
+              "Appium",
+              "TestNG"
+            ],
             "rating": 3.7,
             "attendancePercentage": 95.1,
             "employeeSatisfaction": "Low",
@@ -5735,7 +6334,10 @@
                 "priorityRanking": 6
               }
             ],
-            "skills": ["Figma", "Adobe XD"],
+            "skills": [
+              "Figma",
+              "Adobe XD"
+            ],
             "rating": 4,
             "attendancePercentage": 85.8,
             "employeeSatisfaction": "Low",
@@ -5762,7 +6364,10 @@
                 "priorityRanking": 6
               }
             ],
-            "skills": ["React", "Redux"],
+            "skills": [
+              "React",
+              "Redux"
+            ],
             "rating": 4.7,
             "attendancePercentage": 92.2,
             "employeeSatisfaction": "Low",
@@ -5795,7 +6400,10 @@
                 "priorityRanking": 2
               }
             ],
-            "skills": ["Angular", "RxJS"],
+            "skills": [
+              "Angular",
+              "RxJS"
+            ],
             "rating": 4.8,
             "attendancePercentage": 95.1,
             "employeeSatisfaction": "Low",
@@ -5828,7 +6436,10 @@
                 "priorityRanking": 1
               }
             ],
-            "skills": ["CRM Tools", "Excel"],
+            "skills": [
+              "CRM Tools",
+              "Excel"
+            ],
             "rating": 3.9,
             "attendancePercentage": 93.3,
             "employeeSatisfaction": "Low",
@@ -5861,7 +6472,10 @@
                 "priorityRanking": 2
               }
             ],
-            "skills": ["Selenium", "Cypress"],
+            "skills": [
+              "Selenium",
+              "Cypress"
+            ],
             "rating": 3.6,
             "attendancePercentage": 97.3,
             "employeeSatisfaction": "Low",
@@ -5894,7 +6508,10 @@
                 "priorityRanking": 8
               }
             ],
-            "skills": ["Zeplin", "Principle"],
+            "skills": [
+              "Zeplin",
+              "Principle"
+            ],
             "rating": 4.2,
             "attendancePercentage": 94,
             "employeeSatisfaction": "High",
@@ -5927,7 +6544,10 @@
                 "priorityRanking": 1
               }
             ],
-            "skills": ["Linux", "Bash"],
+            "skills": [
+              "Linux",
+              "Bash"
+            ],
             "rating": 3.9,
             "attendancePercentage": 88.2,
             "employeeSatisfaction": "High",
@@ -6472,7 +7092,11 @@
           "attendancePercentage": 95.7,
           "employeeSatisfaction": "Low",
           "onNoticePeriod": true,
-          "reviewReason": ["Low Rating", "On Notice Period", "Low Satisfaction"]
+          "reviewReason": [
+            "Low Rating",
+            "On Notice Period",
+            "Low Satisfaction"
+          ]
         },
         {
           "id": 16,
@@ -6483,7 +7107,9 @@
           "attendancePercentage": 88.7,
           "employeeSatisfaction": "Medium",
           "onNoticePeriod": false,
-          "reviewReason": ["Low Rating"]
+          "reviewReason": [
+            "Low Rating"
+          ]
         },
         {
           "id": 9,
@@ -6494,7 +7120,9 @@
           "attendancePercentage": 89.4,
           "employeeSatisfaction": "Medium",
           "onNoticePeriod": false,
-          "reviewReason": ["Low Rating"]
+          "reviewReason": [
+            "Low Rating"
+          ]
         },
         {
           "id": 20,
@@ -6505,7 +7133,10 @@
           "attendancePercentage": 89.8,
           "employeeSatisfaction": "Medium",
           "onNoticePeriod": true,
-          "reviewReason": ["Low Rating", "On Notice Period"]
+          "reviewReason": [
+            "Low Rating",
+            "On Notice Period"
+          ]
         },
         {
           "id": 4,
@@ -6516,7 +7147,9 @@
           "attendancePercentage": 88.2,
           "employeeSatisfaction": "Medium",
           "onNoticePeriod": false,
-          "reviewReason": ["Low Attendance"]
+          "reviewReason": [
+            "Low Attendance"
+          ]
         },
         {
           "id": 15,
@@ -6527,7 +7160,9 @@
           "attendancePercentage": 94.1,
           "employeeSatisfaction": "High",
           "onNoticePeriod": true,
-          "reviewReason": ["On Notice Period"]
+          "reviewReason": [
+            "On Notice Period"
+          ]
         }
       ]
     }

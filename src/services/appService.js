@@ -20,7 +20,12 @@ const PaginationSchema = z
   .catchall(z.string());
 
 const paginatedEmployeeList = (req) => {
-  const response = getList(req);
+  let response;
+  try {
+    response = getList(req);
+  } catch (error) {
+    throw error;
+  }
   return {
     success: true,
     ...response,

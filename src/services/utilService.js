@@ -84,7 +84,7 @@ const getList = function (req) {
       break;
     case 'topProjects':
       // console.log('in topPorject tableType>>>>', tableType, req.query);
-      result = filterList(getTopProjects(employeeList[0].employees), map);
+      result = filterList(getTopProjects(employeeList[0].employees), map, true);
       totalItems = result.length;
       totalPages = Math.ceil(totalItems / limit);
       result = paginateList(
@@ -115,10 +115,13 @@ const getList = function (req) {
       };
       break;
   }
+  // } catch (error) {
+  //   throw error;
+  // }
   return response;
 };
 
-const filterList = function (list, queryList) {
+const filterList = function (list, queryList, isTopProjects) {
   console.log('queryList>>>', queryList);
   const filteredArray = [];
   let flag = 1;
@@ -126,27 +129,27 @@ const filterList = function (list, queryList) {
   for (const item of list) {
     flag = 1;
     for (let [key, value] of queryList) {
-      // console.log('value>>>>', value);
       if (value.length === 0) continue;
-      // if (searchfilterableFields.has(key)) {
-      const path = searchfilterableFields.get(key).split('$');
-      const values = extract(item, path);
-      // console.log('values>>>', values);
-      if (Array.isArray(values)) {
-        const match = value.filter((it) => values.includes(it));
-        if (match.length === 0) {
-          flag = 0;
-          break;
-        }
-      } else {
-        if (!value.includes(values)) {
-          flag = 0;
-          break;
+      if (searchfilterableFields.has(key)) {
+        let path = searchfilterableFields.get(key).split('$');
+        path = isTopProjects ? [path[path.length - 1]] : path;
+        const values = extract(item, path);
+        console.log('values>>>', values, '  path>>>', path);
+        if (Array.isArray(values)) {
+          const match = value.filter((it) => values.includes(it));
+          if (match.length === 0) {
+            flag = 0;
+            break;
+          }
+        } else {
+          if (!value.includes(values)) {
+            flag = 0;
+            break;
+          }
         }
       }
-      // }
     }
-    // console.log('flag>>>', flag, '  item>>>>', item);
+    // console.log('filteredArray>>>', filteredArray);
     flag && filteredArray.push(item);
   }
   return filteredArray;
@@ -352,7 +355,7 @@ const fetchFiltersList = function (req) {
     const fieldName = path[path.length - 1];
 
     const values = extract(data, path);
-    console.log('values>>>', values);
+    // console.log('values>>>', values);
     valuesMap.set(fieldName, [...new Set(values)]);
   }
   const response = {
@@ -363,17 +366,21 @@ const fetchFiltersList = function (req) {
 
 const getTopProjects = function (data) {
   let topProjectsArray = [];
-  if (data && data?.length > 0) {
-    data.forEach((element) => {
-      element.projects?.forEach((item) => {
-        if (
-          Number(item.priorityRanking) >= 1 &&
-          Number(item.priorityRanking) <= 5
-        ) {
-          topProjectsArray.push({ ...item, name: element?.manager });
-        }
+  try {
+    if (data && data?.length > 0) {
+      data.forEach((element) => {
+        element.projects?.forEach((item) => {
+          if (
+            Number(item.priorityRanking) >= 1 &&
+            Number(item.priorityRanking) <= 5
+          ) {
+            topProjectsArray.push({ ...item, name: element?.manager });
+          }
+        });
       });
-    });
+    }
+  } catch (error) {
+    throw new Error(error);
   }
   return topProjectsArray;
 };

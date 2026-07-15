@@ -12,7 +12,7 @@ const searchfilterableFields = new Map(
     'employeeSatisfaction',
     'currentDesignation',
     'previousDesignation',
-  ].map((item) => [item.split('.').slice(item.split('.').length - 1)[0], item])
+  ].map((item) => [item.split('$').slice(item.split('$').length - 1)[0], item])
 );
 const filterableFields = [
   'department',
@@ -29,7 +29,7 @@ const filterableFieldsTopProjects = [
   'projects$projectName',
   // 'projects$priorityRanking',
   'projects$riskStatus',
-  'projects$status',
+  // 'projects$status',
 ];
 const filterableFieldsTopPerformers = ['department', 'designation'];
 
