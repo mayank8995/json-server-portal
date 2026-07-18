@@ -1,30 +1,29 @@
-const express = require("express");
-const cors = require("cors");
+const express = require('express');
+const cors = require('cors');
 
 const app = express();
 app.use(express.json());
 
-const appRoutes = require("./src/routes/appRoutes");
-
+const appRoutes = require('./src/routes/appRoutes');
 
 const corsOptions = {
-  // origin: "https://advance-dashboard.onrender.com",
-  origin: "http://localhost:5173",
+  origin: 'https://advance-dashboard.onrender.com',
+  // origin: "http://localhost:5173",
   credentials: true,
-  methods: ["GET", "HEAD", "PUT", "PATCH", "POST", "DELETE", "OPTIONS"],
+  methods: ['GET', 'HEAD', 'PUT', 'PATCH', 'POST', 'DELETE', 'OPTIONS'],
   allowedHeaders: [
-    "Content-Type",
-    "Authorization",
-    "X-Requested-With",
-    "Accept",
-    "Access-Control-Allow-Origin",
+    'Content-Type',
+    'Authorization',
+    'X-Requested-With',
+    'Accept',
+    'Access-Control-Allow-Origin',
   ],
 };
 
 app.use(cors(corsOptions));
-app.options("*", cors(corsOptions));
+app.options('*', cors(corsOptions));
 
-app.use("/", appRoutes);
+app.use('/', appRoutes);
 
 const PORT = process.env.PORT || 3000;
 
