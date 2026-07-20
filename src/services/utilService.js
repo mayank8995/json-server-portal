@@ -374,7 +374,11 @@ const getTopProjects = function (data) {
             Number(item.priorityRanking) >= 1 &&
             Number(item.priorityRanking) <= 5
           ) {
-            topProjectsArray.push({ ...item, name: element?.manager });
+            topProjectsArray.push({
+              ...item,
+              id: `${element?.id}-${item?.projectName}-${item?.status}`,
+              name: element?.manager,
+            });
           }
         });
       });
