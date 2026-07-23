@@ -58,14 +58,14 @@ const getList = function (req) {
   let totalPages;
   switch (tableType) {
     case 'employees':
-      result = filterList(employeeList[0].employees, map);
+      result = sortList(
+        searchList(filterList(employeeList[0].employees, map), search),
+        sortBy,
+        order
+      );
       totalItems = result.length;
       totalPages = Math.ceil(totalItems / limit);
-      result = paginateList(
-        sortList(searchList(result, search), sortBy, order),
-        page,
-        limit
-      );
+      result = paginateList(result, page, limit);
       // console.log(" result>>>",result)
       response = {
         employees: result,
@@ -84,14 +84,17 @@ const getList = function (req) {
       break;
     case 'topProjects':
       // console.log('in topPorject tableType>>>>', tableType, req.query);
-      result = filterList(getTopProjects(employeeList[0].employees), map, true);
+      result = sortList(
+        searchList(
+          filterList(getTopProjects(employeeList[0].employees), map, true),
+          search
+        ),
+        sortBy,
+        order
+      );
       totalItems = result.length;
       totalPages = Math.ceil(totalItems / limit);
-      result = paginateList(
-        sortList(searchList(result, search), sortBy, order),
-        page,
-        limit
-      );
+      result = paginateList(result, page, limit);
 
       // result = paginateList(result, page, limit);
       response = {
@@ -211,14 +214,17 @@ const performanceCardsTable = function (performanceCards, queryObj, map) {
 
   switch (tableType) {
     case 'topPerformers':
-      result = filterList(performanceCards['topPerformers'].employees, map);
+      result = sortList(
+        searchList(
+          filterList(performanceCards['topPerformers'].employees, map),
+          search
+        ),
+        sortBy,
+        order
+      );
       totalItems = result.length;
       totalPages = Math.ceil(totalItems / limit);
-      result = paginateList(
-        sortList(searchList(result, search), sortBy, order),
-        page,
-        limit
-      );
+      result = paginateList(result, page, limit);
       response = {
         ...performanceCards['topPerformers'],
         employees: result,
@@ -235,14 +241,17 @@ const performanceCardsTable = function (performanceCards, queryObj, map) {
       };
       break;
     case 'promotedThisYear':
-      result = filterList(performanceCards['promotedThisYear'].employees, map);
+      result = sortList(
+        searchList(
+          filterList(performanceCards['promotedThisYear'].employees, map),
+          search
+        ),
+        sortBy,
+        order
+      );
       totalItems = result.length;
       totalPages = Math.ceil(totalItems / limit);
-      result = paginateList(
-        sortList(searchList(result, search), sortBy, order),
-        page,
-        limit
-      );
+      result = paginateList(result, page, limit);
       response = {
         ...performanceCards['promotedThisYear'],
         employees: result,
@@ -259,14 +268,17 @@ const performanceCardsTable = function (performanceCards, queryObj, map) {
       };
       break;
     case 'requiringReview':
-      result = filterList(performanceCards['requiringReview'].employees, map);
+      result = sortList(
+        searchList(
+          filterList(performanceCards['requiringReview'].employees, map),
+          search
+        ),
+        sortBy,
+        order
+      );
       totalItems = result.length;
       totalPages = Math.ceil(totalItems / limit);
-      result = paginateList(
-        sortList(searchList(result, search), sortBy, order),
-        page,
-        limit
-      );
+      result = paginateList(result, page, limit);
       response = {
         ...performanceCards['requiringReview'],
         employees: result,
