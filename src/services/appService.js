@@ -45,7 +45,11 @@ const fetchEmployeeList = () => db.get('employeeList').value();
 const fetchAnalytics = () => db.get('analytics').value();
 const fetchPerformanceCards = () => db.get('performanceCards').value();
 
-const fetchProfile = () => db.get('profile').value();
+const fetchProfile = ({ id }) => {
+  const profileArray = db.get('profile');
+  const foundProfile = profileArray.find((profile) => profile.id === id);
+  return foundProfile;
+};
 
 const login = ({ email, password }) => {
   const user = db.get('users').find({ email, password }).value();
@@ -70,8 +74,10 @@ const addProfile = ({
   wmode,
   location,
   image,
+  id,
 }) => {
   const newProfile = {
+    id,
     name,
     phone,
     email,
@@ -83,12 +89,16 @@ const addProfile = ({
     location,
     image,
   };
-  db.set('profile', newProfile).write();
+  db.get('profile').push(newProfile).write();
   return { message: 'Profile added successfully' };
 };
 
 const editProfile = (payload) => {
-  db.get('profile').assign(payload).write();
+  const profileArray = db.get('profile');
+  const foundProfile = profileArray.find(
+    (profile) => profile.id === payload.id
+  );
+  foundProfile.assign(payload).write();
   return { message: 'Profile edited successfully' };
 };
 

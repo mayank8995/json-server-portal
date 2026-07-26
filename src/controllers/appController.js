@@ -14,6 +14,7 @@ const getPaginatedEmployees = (req, res) => {
   try {
     const response = service.paginatedEmployeeList(req);
     res.status(200).json(response);
+    // res.status(500).json({});
   } catch (error) {
     res.status(400).json({ success: false, message: error.message });
   }
@@ -49,7 +50,7 @@ const getPerformanceCards = (req, res) => {
 };
 const getProfile = (req, res) => {
   try {
-    const response = service.fetchProfile();
+    const response = service.fetchProfile(req.query);
     res.status(200).json(response);
   } catch (error) {
     res
@@ -84,7 +85,7 @@ const editProfile = (req, res) => {
 const signup = (req, res) => {
   try {
     const response = service.signup(req.body);
-    res.status(200).json(response);
+    res.status(201).json(response);
   } catch (error) {
     res.status(409).json({ success: false, message: error.message });
   }
