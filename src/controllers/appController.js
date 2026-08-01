@@ -91,6 +91,15 @@ const signup = (req, res) => {
   }
 };
 
+const getEmployeeDetails = (req, res) => {
+  try {
+    const response = service.fetchEmployeeDetails(req);
+    res.status(200).json(response);
+  } catch (error) {
+    res.status(400).json({ success: false, message: error.message });
+  }
+};
+
 module.exports = {
   getEmployees,
   getPaginatedEmployees,
@@ -102,4 +111,5 @@ module.exports = {
   editProfile,
   signup,
   getFilters,
+  getEmployeeDetails,
 };

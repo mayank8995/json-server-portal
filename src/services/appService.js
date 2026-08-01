@@ -127,6 +127,15 @@ const signup = ({ name, email, password, designation, department, empId }) => {
   };
 };
 
+const fetchEmployeeDetails = (req) => {
+  const { id } = req.query;
+  const employee = db
+    .get('employeeList')
+    .value()
+    .employeeList[0].employees.find((emp) => emp.id === Number(id));
+  return employee;
+};
+
 module.exports = {
   fetchEmployeeList,
   paginatedEmployeeList,
@@ -138,4 +147,5 @@ module.exports = {
   editProfile,
   signup,
   fetchFilters,
+  fetchEmployeeDetails,
 };

@@ -11,4 +11,6 @@ router.post('/login', controller.login);
 router.post('/profile', controller.addProfile);
 router.patch('/profile', controller.editProfile);
 router.post('/signup', controller.signup);
+router.get('/getEmployeeDetails', controller.getEmployeeDetails);
+
 module.exports = router;
