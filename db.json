@@ -117,7 +117,7 @@
             "rating": 4.5,
             "attendancePercentage": 95,
             "employeeSatisfaction": "High",
-            "onNoticePeriod": true
+            "onNoticePeriod": false
           },
           {
             "id": 5,
@@ -144,7 +144,7 @@
             "rating": 3.9,
             "attendancePercentage": 97.2,
             "employeeSatisfaction": "Medium",
-            "onNoticePeriod": true
+            "onNoticePeriod": false
           },
           {
             "id": 6,
@@ -270,7 +270,7 @@
             "rating": 5,
             "attendancePercentage": 96.2,
             "employeeSatisfaction": "High",
-            "onNoticePeriod": false
+            "onNoticePeriod": true
           },
           {
             "id": 10,
@@ -456,7 +456,7 @@
             "rating": 3.7,
             "attendancePercentage": 97.2,
             "employeeSatisfaction": "Low",
-            "onNoticePeriod": true
+            "onNoticePeriod": false
           },
           {
             "id": 16,
@@ -483,7 +483,7 @@
             "rating": 4.1,
             "attendancePercentage": 96.2,
             "employeeSatisfaction": "Medium",
-            "onNoticePeriod": false
+            "onNoticePeriod": true
           },
           {
             "id": 17,
@@ -6477,7 +6477,7 @@
           "rating": 4.5,
           "attendancePercentage": 95,
           "employeeSatisfaction": "High",
-          "onNoticePeriod": true,
+          "onNoticePeriod": false,
           "reviewReason": ["Low Attendance"]
         },
         {
@@ -6488,8 +6488,8 @@
           "rating": 3.9,
           "attendancePercentage": 97.2,
           "employeeSatisfaction": "Medium",
-          "onNoticePeriod": true,
-          "reviewReason": ["Low Rating", "On Notice Period", "Low Satisfaction"]
+          "onNoticePeriod": false,
+          "reviewReason": ["Low Rating", "Low Satisfaction"]
         },
         {
           "id": 9,
@@ -6499,7 +6499,7 @@
           "rating": 5,
           "attendancePercentage": 96.2,
           "employeeSatisfaction": "High",
-          "onNoticePeriod": false,
+          "onNoticePeriod": true,
           "reviewReason": ["On Notice Period"]
         },
         {
@@ -6510,8 +6510,8 @@
           "rating": 3.7,
           "attendancePercentage": 97.2,
           "employeeSatisfaction": "Low",
-          "onNoticePeriod": true,
-          "reviewReason": ["Low Rating"]
+          "onNoticePeriod": false,
+          "reviewReason": ["Low Rating", "Low Attendance"]
         },
         {
           "id": 16,
@@ -6521,7 +6521,7 @@
           "rating": 4.1,
           "attendancePercentage": 96.2,
           "employeeSatisfaction": "Medium",
-          "onNoticePeriod": false,
+          "onNoticePeriod": true,
           "reviewReason": ["On Notice Period"]
         },
         {
@@ -6533,7 +6533,7 @@
           "attendancePercentage": 92.6,
           "employeeSatisfaction": "Low",
           "onNoticePeriod": false,
-          "reviewReason": ["Low Rating", "On Notice Period"]
+          "reviewReason": ["Low Rating"]
         }
       ]
     }
