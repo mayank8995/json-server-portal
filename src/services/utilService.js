@@ -44,15 +44,12 @@ const getList = function (req) {
     if (value) map.set(key, value.split(','));
     else map.set(key, []);
   }
-  console.log('queryList>>', queryList, map);
-  const {
-    page,
-    limit,
-    search = '',
-    order = 'asc',
-    sortBy = 'id',
-    tableType = 'employees',
-  } = queryObj;
+  const page = Number(queryObj?.page) || 1;
+  const limit = Number(queryObj?.limit) || 10;
+  const search = queryObj?.search || '';
+  const order = queryObj?.order || 'asc';
+  const sortBy = queryObj?.sortBy || 'id';
+  const tableType = queryObj?.tableType || 'employees';
   const { employeeList } = db.get('employeeList').value();
   let totalItems;
   let totalPages;
@@ -125,7 +122,7 @@ const getList = function (req) {
 };
 
 const filterList = function (list, queryList, isTopProjects) {
-  console.log('queryList>>>', queryList);
+  // console.log('queryList>>>', queryList);
   const filteredArray = [];
   let flag = 1;
   if (queryList.size === 0) return list;
@@ -137,7 +134,7 @@ const filterList = function (list, queryList, isTopProjects) {
         let path = searchfilterableFields.get(key).split('$');
         path = isTopProjects ? [path[path.length - 1]] : path;
         const values = extract(item, path);
-        console.log('values>>>', values, '  path>>>', path);
+        // console.log('values>>>', values, '  path>>>', path);
         if (Array.isArray(values)) {
           const match = value.filter((it) => values.includes(it));
           if (match.length === 0) {
