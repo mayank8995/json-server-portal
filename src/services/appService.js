@@ -55,8 +55,10 @@ const fetchProfile = ({ id }) => {
 const login = async ({ email, password }) => {
   // evaluate password
   const user = db.get('users').find({ email }).value();
+  if (!user) {
+    throw new Error('Invalid Credentials');
+  }
   const match = await bcrypt.compare(password, user.password);
-  console.log('match>>>', match, password, user.password);
 
   if (!match) {
     throw new Error('Invalid Credentials');
@@ -122,7 +124,7 @@ const signup = async ({
 
   //encrypt the password
   const hashedPwd = await bcrypt.hash(password, 10);
-  console.log('hashedPwd>>>', hashedPwd, password);
+
   //store the new user
   const newUser = {
     id: Date.now().toString(),
