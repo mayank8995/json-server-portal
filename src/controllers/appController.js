@@ -58,9 +58,9 @@ const getProfile = (req, res) => {
       .json({ success: false, message: 'Error in fetching user profile' });
   }
 };
-const login = (req, res) => {
+const login = async (req, res) => {
   try {
-    const response = service.login(req.body);
+    const response = await service.login(req.body);
     res.status(200).json(response);
   } catch (error) {
     res.status(401).json({ success: false, message: error.message });
@@ -82,9 +82,9 @@ const editProfile = (req, res) => {
     res.status(400).json({ success: false, message: error.message });
   }
 };
-const signup = (req, res) => {
+const signup = async (req, res) => {
   try {
-    const response = service.signup(req.body);
+    const response = await service.signup(req.body);
     res.status(201).json(response);
   } catch (error) {
     res.status(409).json({ success: false, message: error.message });

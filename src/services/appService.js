@@ -1,6 +1,7 @@
 const db = require('../config/db');
 const { z } = require('zod');
 const { getList, fetchFiltersList } = require('./utilService');
+const bcrypt = require('bcrypt');
 
 const PaginationSchema = z
   .object({
@@ -51,9 +52,13 @@ const fetchProfile = ({ id }) => {
   return foundProfile;
 };
 
-const login = ({ email, password }) => {
-  const user = db.get('users').find({ email, password }).value();
-  if (!user) {
+const login = async ({ email, password }) => {
+  // evaluate password
+  const user = db.get('users').find({ email }).value();
+  const match = await bcrypt.compare(password, user.password);
+  console.log('match>>>', match, password, user.password);
+
+  if (!match) {
     throw new Error('Invalid Credentials');
   }
   return {
@@ -102,24 +107,33 @@ const editProfile = (payload) => {
   return { message: 'Profile edited successfully' };
 };
 
-const signup = ({ name, email, password, designation, department, empId }) => {
-  const existingUser = db.get('users').find({ email }).value();
-  if (existingUser) {
+const signup = async ({
+  name,
+  email,
+  password,
+  designation,
+  department,
+  empId,
+}) => {
+  const duplicate = db.get('users').find({ email }).value();
+  if (duplicate) {
     throw new Error('Email already registered');
   }
 
+  //encrypt the password
+  const hashedPwd = await bcrypt.hash(password, 10);
+  console.log('hashedPwd>>>', hashedPwd, password);
+  //store the new user
   const newUser = {
     id: Date.now().toString(),
     name,
     email,
-    password,
+    password: hashedPwd,
     designation,
     department,
     empId,
   };
-
   db.get('users').push(newUser).write();
-
   return {
     token: `fake-jwt-${newUser.id}-${Date.now()}`,
     user: { id: newUser.id, name: newUser.name, email: newUser.email },
