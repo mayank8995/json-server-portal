@@ -2,7 +2,9 @@ const db = require('../config/db');
 const { z } = require('zod');
 const { getList, fetchFiltersList } = require('./utilService');
 const bcrypt = require('bcrypt');
-
+const jwt = require('jsonwebtoken');
+require('dotenv').config();
+/** used this in node terminal  - require('crypto').randomBytes(64).toString('hex') for generating access and refresh token */
 const PaginationSchema = z
   .object({
     page: z.coerce
@@ -63,9 +65,27 @@ const login = async ({ email, password }) => {
   if (!match) {
     throw new Error('Invalid Credentials');
   }
+  const accessToken = jwt.sign(
+    {
+      email: user.email,
+    },
+    process.env.ACCESS_TOKEN_SECRET,
+    { expiresIn: '30M' }
+  );
+  const refreshToken = jwt.sign(
+    {
+      email: user.email,
+    },
+    process.env.REFRESH_TOKEN_SECRET,
+    { expiresIn: '1d' }
+  );
+  const currentUser = { ...user, refreshToken };
+  await db.get('users').find({ email: user.email }).assign(currentUser).write();
+
   return {
-    token: `fake-jwt-${user.id}-${Date.now()}`,
-    user: { id: user.id, email: user.email, name: user.name },
+    accessToken,
+    refreshToken,
+    user: { id: user.id, name: user.name },
     message: 'Logged in successfully',
   };
 };
@@ -138,7 +158,7 @@ const signup = async ({
   db.get('users').push(newUser).write();
   return {
     token: `fake-jwt-${newUser.id}-${Date.now()}`,
-    user: { id: newUser.id, name: newUser.name, email: newUser.email },
+    user: { id: newUser.id, name: newUser.name },
     message: 'Sign up successful',
   };
 };

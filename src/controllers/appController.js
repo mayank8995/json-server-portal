@@ -61,7 +61,16 @@ const getProfile = (req, res) => {
 const login = async (req, res) => {
   try {
     const response = await service.login(req.body);
-    res.status(200).json(response);
+    const updatedResponse = {
+      token: response?.accessToken,
+      user: response?.user,
+      message: response?.message,
+    };
+    res.cookie('jwt', response?.refreshToken, {
+      httpOnly: true,
+      maxAge: 24 * 60 * 60 * 1000,
+    });
+    res.status(200).json(updatedResponse);
   } catch (error) {
     res.status(401).json({ success: false, message: error.message });
   }

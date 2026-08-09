@@ -7207,7 +7207,8 @@
       "password": "$2b$10$n6CzwR.J.iJ4mS/zWiX1zepSyH2PDOcPFzDS6C53QO7QNpNEJU5R6",
       "designation": "Sr. Software Engineer",
       "department": "Engineering",
-      "empId": "B/2345"
+      "empId": "B/2345",
+      "refreshToken": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6InRlc3RAYWQuY29tIiwiaWF0IjoxNzg2MjgyNDc0LCJleHAiOjE3ODYzNjg4NzR9.l7fK_kjlSqqJnfeAkRwbkrikdSEiO0PZSP3WkZbpAzY"
     }
   ],
   "$schema": "./node_modules/json-server/schema.json"
