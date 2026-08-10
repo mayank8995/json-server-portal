@@ -1,4 +1,5 @@
 const service = require('../services/appService');
+const db = require('../config/db');
 
 const getEmployees = (req, res) => {
   try {
@@ -61,6 +62,65 @@ const getProfile = (req, res) => {
 const login = async (req, res) => {
   try {
     const response = await service.login(req.body);
+    const updatedResponse = {
+      token: response?.accessToken,
+      user: response?.user,
+      message: response?.message,
+    };
+    res.cookie('jwt', response?.refreshToken, {
+      httpOnly: true,
+      sameSite: 'None',
+      secure: true,
+      maxAge: 24 * 60 * 60 * 1000,
+    });
+    res.status(200).json(updatedResponse);
+  } catch (error) {
+    res.status(401).json({ success: false, message: error.message });
+  }
+};
+
+const refreshToken = (req, res) => {
+  try {
+    const cookies = req.cookies;
+    if (!cookies?.jwt) {
+      throw new Error('Forbidden');
+    }
+    const refreshToken = cookies.jwt;
+    const user = db.get('users').find({ refreshToken: refreshToken }).value();
+
+    if (!user) {
+      throw new Error('Unauthorized');
+    }
+    jwt.verify(
+      refreshToken,
+      process.env.REFRESH_TOKEN_SECRET,
+      (err, decoded) => {
+        if (err || user.email !== decoded.email) {
+          throw new Error('Unauthorized');
+        }
+        const accessToken = jwt.sign(
+          {
+            email: decoded.email,
+          },
+          process.env.ACCESS_TOKEN_SECRET,
+          { expiresIn: '30m' }
+        );
+        res.status(200).json({ token: accessToken });
+      }
+    );
+    // const response = service.handleRefreshToken(req);
+    // console.log('response?.accessToken???>>>', response?.accessToken);
+    // const updatedResponse = {
+    //   token: response?.accessToken,
+    // };
+  } catch (error) {
+    res.status(401).json({ success: false, message: error.message });
+  }
+};
+
+const logout = async (req, res) => {
+  try {
+    const response = await service.logout(req, res);
     res.status(200).json(response);
   } catch (error) {
     res.status(401).json({ success: false, message: error.message });
@@ -112,4 +172,6 @@ module.exports = {
   signup,
   getFilters,
   getEmployeeDetails,
+  refreshToken,
+  logout,
 };
