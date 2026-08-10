@@ -90,35 +90,6 @@ const login = async ({ email, password }) => {
   };
 };
 
-const handleRefreshToken = (req) => {
-  const cookies = req.cookies;
-  if (!cookies?.jwt) {
-    throw new Error('Forbidden');
-  }
-  const refreshToken = cookies.jwt;
-  const user = db.get('users').find({ refreshToken: refreshToken }).value();
-
-  if (!user) {
-    throw new Error('Unauthorized');
-  }
-  jwt.verify(refreshToken, process.env.REFRESH_TOKEN_SECRET, (err, decoded) => {
-    if (err || user.email !== decoded.email) {
-      throw new Error('Unauthorized');
-    }
-    const accessToken = jwt.sign(
-      {
-        email: decoded.email,
-      },
-      process.env.ACCESS_TOKEN_SECRET,
-      { expiresIn: '30m' }
-    );
-    return {
-      accessToken,
-    };
-  });
-  return {};
-};
-
 const logout = async (req, res) => {
   const cookies = req.cookies;
   const refreshToken = cookies.jwt;
@@ -231,6 +202,5 @@ module.exports = {
   signup,
   fetchFilters,
   fetchEmployeeDetails,
-  handleRefreshToken,
   logout,
 };
