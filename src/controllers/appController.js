@@ -68,9 +68,29 @@ const login = async (req, res) => {
     };
     res.cookie('jwt', response?.refreshToken, {
       httpOnly: true,
+      sameSite: 'None',
+      secure: true,
       maxAge: 24 * 60 * 60 * 1000,
     });
     res.status(200).json(updatedResponse);
+  } catch (error) {
+    res.status(401).json({ success: false, message: error.message });
+  }
+};
+
+const refreshToken = (req, res) => {
+  try {
+    const response = service.handleRefreshToken(req);
+    res.status(200).json(response);
+  } catch (error) {
+    res.status(401).json({ success: false, message: error.message });
+  }
+};
+
+const logout = async (req, res) => {
+  try {
+    const response = await service.logout(req, res);
+    res.status(200).json(response);
   } catch (error) {
     res.status(401).json({ success: false, message: error.message });
   }
@@ -121,4 +141,6 @@ module.exports = {
   signup,
   getFilters,
   getEmployeeDetails,
+  refreshToken,
+  logout,
 };

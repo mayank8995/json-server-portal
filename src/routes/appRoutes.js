@@ -1,16 +1,21 @@
 const router = require('express').Router();
 const controller = require('../controllers/appController');
-
-router.get('/employeeList', controller.getEmployees);
-router.get('/paginatedEmployeeList', controller.getPaginatedEmployees);
-router.get('/analytics', controller.getAnalytics);
-router.get('/performanceCards', controller.getPerformanceCards);
-router.get('/profile', controller.getProfile);
-router.get('/getFilterList', controller.getFilters);
+const { verifyJWT } = require('../middleware/verifyJWT');
+// router.get('/employeeList',verifyJWT, controller.getEmployees);
+router.get(
+  '/paginatedEmployeeList',
+  verifyJWT,
+  controller.getPaginatedEmployees
+);
+router.get('/analytics', verifyJWT, controller.getAnalytics);
+router.get('/performanceCards', verifyJWT, controller.getPerformanceCards);
+router.get('/profile', verifyJWT, controller.getProfile);
+router.get('/getFilterList', verifyJWT, controller.getFilters);
 router.post('/login', controller.login);
-router.post('/profile', controller.addProfile);
-router.patch('/profile', controller.editProfile);
+router.post('/logout', controller.logout);
+router.post('/profile', verifyJWT, controller.addProfile);
+router.patch('/profile', verifyJWT, controller.editProfile);
 router.post('/signup', controller.signup);
-router.get('/getEmployeeDetails', controller.getEmployeeDetails);
+router.get('/getEmployeeDetails', verifyJWT, controller.getEmployeeDetails);
 
 module.exports = router;
