@@ -159,6 +159,9 @@ const getEmployeeDetails = (req, res) => {
     res.status(400).json({ success: false, message: error.message });
   }
 };
+const checkServerHealth = (req, res) => {
+  res.status(200).json({ status: 'ok' });
+};
 
 module.exports = {
   getEmployees,
@@ -174,4 +177,5 @@ module.exports = {
   getEmployeeDetails,
   refreshToken,
   logout,
+  checkServerHealth,
 };

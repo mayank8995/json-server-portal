@@ -18,6 +18,7 @@ router.post('/profile', verifyJWT, controller.addProfile);
 router.patch('/profile', verifyJWT, controller.editProfile);
 router.post('/signup', controller.signup);
 router.get('/getEmployeeDetails', verifyJWT, controller.getEmployeeDetails);
+router.get('/health', controller.checkServerHealth);
 
 /** w/o JWT verification */
 // router.get(
